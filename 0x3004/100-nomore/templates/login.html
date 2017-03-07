@@ -1,0 +1,24 @@
+<!doctype html>
+<title>NoMore</title>
+<html>
+<body>
+<form name="login" action='/login' method='POST' onsubmit='x();'>
+	Username: <input type='text' name='username'><br /><br />
+	Password: <input type='password' name='password' /> OTP: <input type='text' name='otp' size='5'><br /><br />
+	<input type='hidden' name='auth'>
+	<input type='submit' value='Login'>
+</form>
+
+<script>
+function x(){
+	var login_form = document.forms["login"];
+	var auth = JSON.stringify({'password':login_form.password.value,'otp':login_form.otp.value});
+	login_form.removeChild(document.forms["login"]["otp"]);
+	login_form.removeChild(document.forms["login"]["password"]);
+	login_form.auth.value = auth;
+	login_form.submit();
+}
+</script>
+</body>
+</html>
+<!-- "No, it's not SQL" injection... -->

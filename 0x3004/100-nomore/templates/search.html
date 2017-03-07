@@ -1,0 +1,7 @@
+<!doctype html>
+<title>ADMINCP!</title>
+{% if login %}
+<h1>Hello {{ login['username'] }}!</h1>
+{% else %}
+<h1>Login Failed!</h1>
+{% endif %}

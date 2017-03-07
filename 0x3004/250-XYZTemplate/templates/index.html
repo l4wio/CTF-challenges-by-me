@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+dfsafstml lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>XYZ Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/lumen/bootstrap.min.css" rel="stylesheet">
+	
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="./">XYZ Template</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+          {% if username %}
+            <li><a href='./feedback'>Feedback</a></li>
+          {% endif %}
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            {% if username %}
+            <li><a><strong><i>Hello {{ username }}!</i></strong></a></li>
+            <li><a href="./logout" >Logout</a></li>
+          {% endif %}
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <br /><br />
+      
+
+      {% if not error %}
+       {% if not username %}
+      <div class="page-header">
+        <h1>Sign in</h1>
+      </div>
+        <form class="form-horizontal" role="form" action='./login' method='POST'>
+          <div class="form-group">
+            <label for="username" class="col-sm-2 control-label">Username</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-3">
+              <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+            </div>
+          </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Sign in</button>
+              </div>
+            </div>
+        </form>
+        </div>
+        {% else %}
+        <br />
+        {% if not feedback %}  
+          <form class="form-horizontal" role="form" action='./make_template' method='POST'>
+          <div class="form-group">
+            <label for="html" class="col-sm-2 control-label"><button class="btn btn-success btn-lg">HTML</button></label>
+            <div class="col-sm-6">
+              <textarea cols=3 rows=5 id="html" name="html" class="form-control" ><%=title.header()%>
+Hello <%=hello.you%> !
+I'm <%=hello.me%> :-). How is it going ?
+--
+<%=footer%></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password" class="col-sm-2 control-label"><button class="btn btn-primary btn-lg">Parameter</button></label>
+            <div class="col-sm-6">
+              <textarea cols=3 rows=8 id="param" name="param" class="form-control">{
+  "title":"DEMO",
+  "hello":{
+    "you":"guest",
+    "me":"ML"
+  },
+  "footer":"If you would like to purchase FULL version, contact me ;)."
+}</textarea>
+            </div>
+          </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-danger">Go!</button>
+              </div>
+            </div>
+        </form>
+        {% else %}
+
+          <form class="form-horizontal" role="form" action='./feedback' method='POST'>
+          <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-4">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="debugurl" class="col-sm-2 control-label">Debug URL</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="debugurl" name="debugurl" placeholder="Debug URL (e.g: http://example.com/debug/05fbf68fba612fa7f1a2e1e4035b1d57 )">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message" class="col-sm-2 control-label">Message</label>
+            <div class="col-sm-6">
+              <textarea cols=3 rows=5 id="message" name="message" class="form-control" placeholder="Message ❤"></textarea>
+              <br />
+              <p>Let me know when something went wrong. Thanks :-).</p>
+              <strong>P/S: Please make sure that your Debug URL is correct, do not try to trick me ;).</strong>
+            </div>
+          </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-danger">Send</button>
+              </div>
+            </div>
+        </form>
+        {% endif %}
+        {% endif %}
+        {% else %}
+          <h1>Error :-(</h1>
+          </div>
+          <div class="row">
+            <h2 style="font-family: Arial;">{{ error }}</h2>
+          </div>
+
+        {% endif %}
+  </body>
+</html>

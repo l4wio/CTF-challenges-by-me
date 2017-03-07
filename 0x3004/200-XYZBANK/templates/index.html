@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>XYZ Bank</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/flatly/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="./">XYZ Bank</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+           {% if  username %}
+            <li><a href="./info">Information</a></li>
+            {% endif %}
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            {% if username %}
+            <li><a href="./logout" >Logout</a></li>
+          {% endif %}
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <br /><br />
+      <div class="page-header">
+
+      {% if not error %}
+       {% if not username %}
+        <h1>Sign in</h1>
+      </div>
+        <form class="form-horizontal" role="form" action='./login' method='POST'>
+          <div class="form-group">
+            <label for="username" class="col-sm-2 control-label">Username</label>
+            <div class="col-sm-3">
+              <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-3">
+              <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="pin" class="col-sm-2 control-label">PIN</label>
+            <div class="col-sm-3">
+              <input type="password" class="form-control" id="pin" name="pin" placeholder="PIN: XXXX (digits only)">
+            </div>
+          </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Sign in</button>
+              </div>
+            </div>
+        </form>
+        </div>
+        {% else %}
+        </div>
+          <p><button class="btn btn-success btn-lg">Account: {{ username }}</button></p>
+          <p><button class="btn btn-warning btn-lg">PIN: {{ pin }}</button></p>
+          <p><button class="btn btn-warning btn-lg">Balance: {{ balance }} VND</button></p>
+          <p><button class="btn btn-danger btn-lg">Flag is: {{ flag }}</button></p>
+          <!-- Login as "admin" -->
+          
+        {% endif %}
+        {% else %}
+          <h1>Error :-(</h1>
+          </div>
+          <div class="row">
+            <button class="btn btn-md btn-danger"><h2 style="font-family: Arial;">{{ error }}</h2></button>
+          </div>
+
+        {% endif %}
+    <!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- For test: guest/guest/1234 -->
+  </body>
+</html>
