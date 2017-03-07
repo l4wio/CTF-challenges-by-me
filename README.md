@@ -10,3 +10,5 @@ Mình đang tìm lại và sẽ update thêm các challenges khác.
 
 These are CTF-style challenges I've made. Hope you enjoyed.
 
+![LOL excuse me](http://i.imgur.com/kDkDHxr.jpg)
+
