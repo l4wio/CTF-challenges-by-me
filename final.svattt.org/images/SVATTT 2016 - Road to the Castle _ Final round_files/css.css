@@ -1,0 +1,339 @@
+@font-face {
+  font-family: 'Mirage Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mirage Gothic'), local('MirageGothic'), url(font/MirageGothic.woff) format('woff');
+}
+html, body, div, span, object, iframe,  p, blockquote, pre, em, img, strong, dl, dt, dd, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+body {
+    /* global text settings */
+    color: #2E2E2E;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    background-color: #F1D6A9;
+}
+
+.body {
+  position: relative;
+  background: transparent url("images/body-content-bg.jpg") 50% 0 repeat-y;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    min-height: 100%;
+}
+@media only screen and (min-width: 40em) {
+  .body {
+    padding-top: 16px;
+    padding-top: 1rem;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .body {
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 72.5em) {
+  .body {
+    padding-top: 0;
+    margin-bottom: -130px;
+  }
+}
+.body-bot {
+  position: relative;
+  min-height: 500px;
+  background: url("images/home/divider-small.jpg") bottom center repeat-x;
+  padding-bottom: 22px;
+  max-width: 1000px;
+  margin: auto;
+}
+@media only screen and (min-width: 40em) {
+  .body-bot {
+    padding-bottom: 40px;
+    background-image: url("images/content-bottom-line.png");
+  }
+}
+.page-body {
+  margin: 0 auto;
+}
+.full-content-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.full-content-wrapper.screenshot-section {
+  padding-bottom: 22px;
+  margin-bottom: -22px;
+}
+.content-section {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.raised-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 1500px;
+  margin: auto;
+  position: relative;
+}
+.raised-section:before,
+.raised-section:after {
+  content: "";
+  background-position: 50% 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  height: 33px;
+}
+@media only screen and (min-width: 40em) {
+  .raised-section:before,
+  .raised-section:after {
+    height: 68px;
+  }
+}
+.raised-section:before {
+  background-image: url("images/divider-top-small.jpg");
+}
+@media only screen and (min-width: 40em) {
+  .raised-section:before {
+    background-image: url("images/card-background-top.png");
+  }
+}
+.raised-section:after {
+  background-image: url("images/divider-bottom-small.jpg");
+}
+@media only screen and (min-width: 40em) {
+  .raised-section:after {
+    background-image: url("images/card-background-bottom.png");
+  }
+}
+.raised-section:before {
+  top: 0;
+}
+.raised-section:after {
+  bottom: 0;
+}
+.screenshot-section {
+    position: relative;
+}
+.page-body {
+    margin: 0 auto;
+}
+.home-text {
+    text-align: center;
+}
+.heading--small, .bracket .cyc_title {
+    color: #233A6E;
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1.25;
+}
+.heading--border--spacing {
+    border-bottom: 1px solid #D4BA8C;
+    line-height: 1;
+    padding-bottom: .25em;
+    margin: 0 16px 16px;
+    margin: 0 1rem 1rem;
+    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
+}
+.screen {
+    max-width: 720px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.full-content-wrapper.screenshot-section {
+  padding-bottom: 22px;
+  margin-bottom: -22px;
+}
+
+.content-section {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1160px;
+}
+.content-section--text {
+  position: relative;
+  max-width: 800px;
+}
+
+.screen {
+  max-width: 720px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 60em) {
+  .screen {
+    z-index: 2;
+    padding-bottom: 0;
+    margin: auto;
+  }
+}
+
+.heading--title {
+  font-family: 'Mirage Gothic';
+  max-width: 720px;
+  max-width: 45rem;
+  text-align: center;
+}
+@media only screen and (min-width: 40em) {
+  .heading--title {
+    font-size: 80px;
+    text-align: center;
+    color: #2e2e2e;
+    height: 40px;
+    padding-top: 25%;
+    padding-bottom: 50%;
+    text-shadow: 0 0 10px #2e2e2e,
+                    0 0 8px #2e2e2e;
+    top: .25em;
+    margin-bottom: 0;
+    border-bottom: none;
+    max-width: none;
+    text-transform: uppercase;
+
+  }
+}
+
+.logo-title{
+  width:100px;
+  height: 100px;
+}
+
+.map-box {
+  font-family: 'Mirage Gothic';
+  text-align: center;
+}
+@media only screen and (min-width: 40em) {
+  .map-box {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 2px #000,
+                    0 0 2px #2e2e2e;
+    margin-bottom: 0;
+    border-bottom: none;
+    max-width: none;
+    text-transform: uppercase;
+    padding-bottom: 0;
+  }
+}
+
+
+div.polaroid {
+    font-family: 'Mirage Gothic';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    margin: auto;
+    margin-top: 64px;
+    margin-top: 4rem;
+
+    text-align: center;
+    width: 70%;
+
+}
+
+div.container {
+  padding: 10px;
+}
+
+.gold{
+  content:url(images/gold.png);
+  width: 20px;
+  height: 20px;
+}
+.gold-col{
+  content:url(images/gold.png);
+  width: 10px;
+  height: 10px;
+}
+.wood{
+  content:url(images/wood.png);
+  width: 20px;
+  height: 20px;
+}
+.wood-col{
+  content:url(images/wood.png);
+  width: 10px;
+  height: 10px;
+}
+.creep{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+}
+.icon-col{
+  width:  25px;
+  height: 19px;
+  margin: 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+hr {
+  background: url("images/content-separator2.png") center center no-repeat;
+  border: none;
+  height: 8px;
+  width: 100%;
+}
+
+li {
+  list-style-type: square;
+  margin: auto;
+  top: 0; bottom:0; left: 0; right:0;
+}
+li ul {
+  margin: 0;
+}
+li ul li {
+  list-style-type: circle;
+  margin: 0;
+}
+li h3 {
+  margin: 0;
+}
+
+#wrapper1{
+  width:940px;
+  padding:10px;
+  margin:0 auto;
+  overflow:hidden;
+}
+
+
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+/*------------------------------------*\
+  LISTS
+\*------------------------------------*/
+ul#triple{
+  width:760px;
+  margin-bottom:20px;
+  overflow:hidden;
+}
+ul#triple li{
+  line-height:2.5em;
+  border-bottom:0.1px solid #2e2e2e;
+  float:left;
+  display:inline;
+}
+#triple li  { width:33.333%; }
+
+content-title {
+
+}
