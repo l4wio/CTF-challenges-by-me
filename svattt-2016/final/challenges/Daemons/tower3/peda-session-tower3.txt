@@ -1,0 +1,3 @@
+break *0x08048df2
+watch *(int*)0xffffc3c0
+

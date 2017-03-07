@@ -1,0 +1,1 @@
+## Reverse engineering (tập trung vào kĩ năng dịch ngược mã nguồn phần mềm, cách unpack các packer, crypter bảo vệ phần mềm)
