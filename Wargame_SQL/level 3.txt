@@ -1,0 +1,148 @@
+﻿
+
+_hi ^^
+
+Hjx dạo này hơi bận nên ko way tut cho bà con sớm đc :) Thông cảm nhá ^^
+
+Trước khi exploit ta ra coi yêu cầu :D
+
+
+Trang hanhtrangsinhvien.net này cũng hay :D ... Share mấy cái thú vị lém ;))
+
+Hình như của member HCE cũ :D
+
+bật "Heal the world" cho nó có cảm hứng :(
+
+++ @Level 3@ --> http://compajewelry.com/[WarGame]-Bypass/@level3@/
+-----MD5 PASSWORD
+-----FILTER CÁC TỪ: SELECT - UNION -FROM - USER - ASCII
+-----DATABASE ĐỘC LẬP
+-----KHUYẾN CÁO: LÀM VIỆC THEO NHÓM (HOẶC ĐỘC LẬP)
+--------26/6/2009: UPDATE TUT!
+
+DATABASE độc lập vì vậy ta không thể dùng cách như lv 2 âu :D
+
+Cách khác :D ...
+Để tăng fần kịch tính và hấp dẫn nên ML sẽ ko soi code :D
+
+-----FILTER CÁC TỪ: SELECT - UNION -FROM - USER - ASCII
+
+----> filter thế này thì ko blind đc rùi :)
+
+Khó đây :).... Hãy nhớ những gì tớ nói :"> ... động não rồi hãy exploit
+
+Stop video đi rùi động não nhé :D
+
+
+
+___________________________________________________
+
+### Exploit 
+___________________________________________________
+
+Okie bắt đầu thoy :D
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''' LIMIT 0,1' at line 1
+Query Error: SELECT * FROM userlv2 WHERE username = ''' LIMIT 0,1
+
+nhìn là biết database độc lập :)
+
+SELECT * FROM userlv2 ---> DATABASE của lv3 là userlv2 (hjx wên đổi tên)
+
+Bắt đầu thoy :D
+
+Ta hãy suy nghĩ nếu như ko có blind (Bị lọc ASCII) thì có hàm nào giúp ta query pass ra ko ?
+
+:-? ... khó nhỉ :">
+
+Nhưng có thể các bạn đã wên 1 hàm trong MYSQL đó là --> LIKE :D
+
+Ta cùng xem cấu trúc của LIKE
+SELECT *
+FROM Store_Information
+WHERE store_name LIKE '%AN%'
+
+--> cấu trúc lệnh là: SELECT COLUMN FROM TABLE WHERE COLUMNXX LIKE '%AN%'
+Query này giúp ta select ra các rows mà chứa COLUMNXX có giá trị là %AN%
+
+% tượng trưng cho các kí tự đi trước và sau của từ AN
+VD: %AN% -->
+Thì các table có thể query ra sẽ là
+xANa
+manhANluat
+hceANhce
+vvvvvANvvvv
+:D
+
+Các bạn hỉu chứ ?
+
+còn nếu như là: AN%
+
+thì các rows có thể queyr ra là: ANx
+ANb
+ANaaaa
+ANhce
+ANmanhluat
+ANdeptrai
+AN=))
+
+VD thế :D và tương tự %AN là:
+aAN
+hceAN
+vbfAN
+XAN
+:D
+
+thế đeý :)
+
+Vậy giờ ta áp dụng  nó vào query pass ra nhé :D
+
+Giờ ta sẽ check các chữ cái từ a-z và các con óố 0-9
+
+admin' and password LIKE '%
+
+Nên nhớ md5 thường là 32 kí tự và tất cả đều là chữ thường (xui lém thì gặp chữ HOA)
+nên ta có thể loại các trường hợp A-Z (đỡ vã :D)
+giờ kiểm tra nhé :)
+
+
+Failed! ... Password is Wrong --> Nhớ lại video level 2 :)
+
+như thế này là TRUE ..
+vậy tức là 
+password (đã md5) có kí tự àầu tiên là 'f'
+:D
+Típ kí tự thứ 2 :)
+
+admin' and password LIKE 'f9% --> kí tự thứ 2 là '9'
+
+típ :d
+
+=.= .. con số cúi cùng thì đc
+
+admin' and password LIKE 'f90% --> Kí tự thứ 3 là '0'
+
+Okie tới đây thì các bạn đã hiểu cứ thế mà query tới kí tự thứ 32 :) và crack md5 nó :)
+
+
+
+------------- END TUT---------------
+Điều mà rút qua được level 3 này là
+__Đừng bỏ qua các lênh Exploit thường xuyên không dùng :D vì đôi lúc chúng lại hữu dụng :)
+__Vậy nhé :)
+
+ĐÃ có level 4 ... nếu các bạn đã hiểu lv 3 xin cùng cân não với bài toán cúi cùng :)
+
+Level 4 cũng rất thú vị ^^
+:D
+
+
+
+
+
+
+
+
+
+
+
+

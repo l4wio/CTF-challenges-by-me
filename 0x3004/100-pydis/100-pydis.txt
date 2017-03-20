@@ -1,0 +1,90 @@
+Python 2.7.4 (default, Sep 26 2013, 03:20:26) 
+[GCC 4.7.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import dis
+>>> def check_password(part1,part2):
+...
+...
+snip
+...
+...
+>>> dis.dis(check_password)
+ 16           0 LOAD_CONST               1 (12313)
+              3 LOAD_CONST               2 (12304)
+              6 LOAD_CONST               1 (12313)
+              9 LOAD_CONST               3 (12294)
+             12 LOAD_CONST               4 (12342)
+             15 LOAD_CONST               5 (12351)
+             18 LOAD_CONST               6 (12297)
+             21 LOAD_CONST               7 (12318)
+             24 LOAD_CONST               8 (12328)
+             27 LOAD_CONST               9 (12338)
+             30 LOAD_CONST              10 (12288)
+             33 LOAD_CONST               1 (12313)
+             36 LOAD_CONST              11 (12315)
+             39 LOAD_CONST               1 (12313)
+             42 LOAD_CONST              12 (12290)
+             45 LOAD_CONST              13 (12335)
+             48 LOAD_CONST              14 (12317)
+             51 LOAD_CONST              15 (12334)
+             54 LOAD_CONST              16 (12380)
+             57 LOAD_CONST              17 (12407)
+             60 LOAD_CONST              18 (12350)
+             63 BUILD_LIST              21
+             66 STORE_FAST               2 (PASS_ENCODED)
+
+ 18          69 LOAD_GLOBAL              0 (len)
+             72 LOAD_FAST                1 (part2)
+             75 CALL_FUNCTION            1
+             78 LOAD_GLOBAL              0 (len)
+             81 LOAD_FAST                2 (PASS_ENCODED)
+             84 CALL_FUNCTION            1
+             87 COMPARE_OP               0 (<)
+             90 POP_JUMP_IF_FALSE       97
+
+ 19          93 LOAD_CONST              19 ('Wrong :(')
+             96 RETURN_VALUE        
+
+ 21     >>   97 SETUP_LOOP              91 (to 191)
+            100 LOAD_GLOBAL              1 (range)
+            103 LOAD_GLOBAL              0 (len)
+            106 LOAD_FAST                2 (PASS_ENCODED)
+            109 CALL_FUNCTION            1
+            112 LOAD_CONST              20 (1)
+            115 BINARY_SUBTRACT     
+            116 CALL_FUNCTION            1
+            119 GET_ITER            
+        >>  120 FOR_ITER                67 (to 190)
+            123 STORE_FAST               3 (i)
+
+ 22         126 LOAD_FAST                2 (PASS_ENCODED)
+            129 LOAD_FAST                3 (i)
+            132 BINARY_SUBSCR       
+            133 LOAD_GLOBAL              2 (int)
+            136 LOAD_FAST                0 (part1)
+            139 LOAD_CONST              21 (16)
+            142 CALL_FUNCTION            2
+            145 BINARY_XOR          
+            146 LOAD_GLOBAL              3 (ord)
+            149 LOAD_FAST                1 (part2)
+            152 LOAD_FAST                3 (i)
+            155 BINARY_SUBSCR       
+            156 CALL_FUNCTION            1
+            159 LOAD_GLOBAL              3 (ord)
+            162 LOAD_FAST                1 (part2)
+            165 LOAD_FAST                3 (i)
+            168 LOAD_CONST              20 (1)
+            171 BINARY_ADD          
+            172 BINARY_SUBSCR       
+            173 CALL_FUNCTION            1
+            176 BINARY_XOR          
+            177 COMPARE_OP               3 (!=)
+            180 POP_JUMP_IF_FALSE      120
+
+ 23         183 LOAD_CONST              19 ('Wrong :(')
+            186 RETURN_VALUE        
+            187 JUMP_ABSOLUTE          120
+        >>  190 POP_BLOCK           
+
+ 24     >>  191 LOAD_CONST              22 ('Password is correct!')
+            194 RETURN_VALUE        
