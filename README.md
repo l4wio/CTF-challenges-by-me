@@ -16,5 +16,5 @@ Updated 21/03/2017
 [Final round SVATTT 2016 Introduction page](https://l4wio.github.io/CTF-challenges-by-me/final.svattt.org/)
 
 
-![LOL excuse me](http://i.imgur.com/kDkDHxr.jpg)
+[LOL excuse me](http://i.imgur.com/kDkDHxr.jpg)
 
