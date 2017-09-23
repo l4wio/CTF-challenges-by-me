@@ -3,7 +3,9 @@
 ## Web ##
 
 Flag is: flag{md5(password of admin)}
+
 http://123.207.38.111/luckygame/?debug=🕵
+
 http://123.207.38.111/luckygame/?debug=1
 
 ```
