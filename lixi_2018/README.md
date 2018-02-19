@@ -20,7 +20,7 @@ There are serveral solutions:
 ### Abusing backstick:
 * Create a temporary file containing chunks (by using: printf/echo/...)
 * Run the file, to connect localhost:8888 (using python or bash with /dev/tcp/...)
-* See nyan/orange/kaibro/pablo sol.(there is one-line sol)
+* See nyan/orange/kaibro/xassiz sol.(there is one-line sol)
 * shout out to nyan for the full details [writeup](writeup/nyan.pdf).
 
 
