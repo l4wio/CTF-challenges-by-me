@@ -13,10 +13,10 @@ This challenge came by when I was solving a PHP sandbox challenge which has limi
 
 I left backstick, to see amazing tricks from you guys.
 
-All of them can be found at: 
+All of them can be found at: [writeup](writeup)
 
 There are serveral solutions:
-## Run multiple commands which does following steps:
+### Run multiple commands which does following steps:
     * Create a temporary file containing chunks (by using: printf/echo/...)
     * Run the file, to connect localhost:8888 (using python or bash with /dev/tcp/...)
     * See nyan/orange/kaibro/pablo sol.
