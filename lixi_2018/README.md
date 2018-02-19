@@ -1,4 +1,5 @@
-![Hall Of Fame][hof.png]
+![Hall Of Fame](logo)
+[logo]: hof.png
 # URL
 [l4w.pw/🤔/](http://l4w.pw/🤔/)
 
