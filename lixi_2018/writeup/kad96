@@ -1,0 +1,6 @@
+Nickname: kad96
+Writeup:
+- Sau khi check được giá trị của biến nhận là unicode \xe2\x81\xa3 thì ta đã qua được đoạn lừa input.
+- Để bypass chuỗi 4 kí tự liên tiếp, dùng bitwise của PHP (%7fGET&_GE%7f) vậy là có giá trị _GET, thêm 1 chút nữa thì có payload '$a=${%7fGET%26_GE%7f};$a{a}($a{b});' để chạy hàm từ $_GET['a'] với giá trị $_GET['b'].
+- dùng passthru để chạy bash like an angel 😇
+- dùng socket của python để truy vấn đến `nơi ấy` của server và done 🤓
