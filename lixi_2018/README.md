@@ -10,7 +10,7 @@ How to construct command following the rules.
 Trick to run weird command or abusing PHP syntax.
 
 # Solution
-This challenge came by when I was solving a PHP sandbox challenge which has limited characters/blacklist functions/...
+This challenge came by when I was solving a PHP sandbox challenge which has limited characters/blacklist functions/...I believe my solution was unintended, so wanna introduce to you guys.
 
 I left backstick, to see amazing tricks from you guys.
 
