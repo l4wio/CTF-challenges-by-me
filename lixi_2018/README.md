@@ -17,10 +17,10 @@ I left backstick, to see amazing tricks from you guys.
 All of them can be found at: [writeup](writeup)
 
 There are serveral solutions:
-### Run multiple commands which does following steps:
+### Abusing backstick:
 * Create a temporary file containing chunks (by using: printf/echo/...)
 * Run the file, to connect localhost:8888 (using python or bash with /dev/tcp/...)
-* See nyan/orange/kaibro/pablo sol.
+* See nyan/orange/kaibro/pablo sol.(there is one-line sol)
 * shout out to nyan for the full details [writeup](writeup/nyan.pdf).
 
 
