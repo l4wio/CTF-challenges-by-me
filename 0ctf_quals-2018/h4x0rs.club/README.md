@@ -1,4 +1,4 @@
-# h4x0rs.club
+# h4x0rs.club part 2
 
 Upload [exploit.html](exploit.html) and [alert.js](alert.js) to `l4w.io` for example.
 
@@ -25,3 +25,8 @@ Set biography as the following:
 Then report `blah2` user along with `#report`
 
 
+# h4x0rs.club part 3
+
+I really like my idea behind this one. Pwn the binary with full mitigations shipped. 
+
+Hopefully someone can write about it :(
