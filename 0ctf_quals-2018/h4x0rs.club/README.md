@@ -8,7 +8,7 @@ Root cause:
 
 There is DOM-XSS at `client.js` when setting `title` on `badges` function. CSP contains `strict-dynamic`, so you can just simply inject `'><script>...</script>`
 
-And on the backend side, they will send a message to `top` not `parent` . so we can inject our evil iframe in the middle.
+To do it, take a look at the backend side, they will send a message to `top` not `parent` . so we can inject our evil iframe in the middle.
 
 ### blah1
 Set biography as the following:
