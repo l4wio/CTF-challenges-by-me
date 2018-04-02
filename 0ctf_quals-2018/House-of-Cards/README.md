@@ -20,7 +20,7 @@ You have to exploit with 2 server.
 
 Server A to leak the whole stack to file `l4w` by supplying `Size data` = `-1` . Hang it.
 
-Then go to server B, using stack overflow, to spray the string like: 
+Meanwhile, go to server B, using stack overflow, to spray the string like: 
 
 `'/////////{ip_server_A}\0' * 0x1337`
 
