@@ -11,7 +11,7 @@ Because on the backend side, they will send a message to `top` not `parent` . so
 ### blah1
 Set biography as the following:
 ```
-<a href='//l4w.io' id=report-btn>
+<a href='//l4w.io/exploit.html' id=report-btn>
 ```
 
 ### blah2
