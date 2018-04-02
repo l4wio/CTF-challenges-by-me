@@ -16,17 +16,17 @@ You can checkout [angelboy's](https://github.com/scwuaptx/CTF/tree/master/2018-w
 
 It's not about heap at all. 
 
-You have to exploit with 2 server.
+You have to exploit with 2 IP.
 
-Server A to leak the whole stack to file `l4w` by supplying `Size data` = `-1` . Hang it.
+IP A to leak the whole stack to file `l4w` by supplying `Size data` = `-1` . Hang it.
 
-Meanwhile, go to server B, using stack overflow, to spray the string like: 
+Meanwhile, go to IP B, using stack overflow, to spray the string like: 
 
-`'/////////{ip_server_A}\0' * 0x1337`
+`'/////////{ip_A}\0' * 0x1337`
 
 to overwrite env `REMOTE_HOST`
 
-On the current session B, you got the sandbox path as server A directory. From now on, you can read the leaked-stack file `l4w`, then send it to server A.
+On the current session B, you got the sandbox path as IP A directory. From now on, you can read the leaked-stack file `l4w`, then send it to A.
 
 Go back to A, parse the file then you have full stack content including: stack cookie, return address, PIE , libc ... and simply overwrite return address to `system`.
 
