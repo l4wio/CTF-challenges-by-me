@@ -29,3 +29,9 @@ to overwrite env[REMOTE_HOST].
 On the current session B, you got the sandbox path as server A directory. From now on, you can read the leaked-stack file `l4w`, then send it to server A.
 
 Go back to A, parse the file then you have full stack content including: stack cookie, return address, PIE , libc ... and simply overwrite return address to `system`.
+
+## Flag
+```
+flag{b4ck_t0_the_0ldsch0ol}
+When you glambe, you dont play on cards, you play on man.
+```
