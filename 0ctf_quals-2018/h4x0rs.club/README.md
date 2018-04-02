@@ -26,7 +26,7 @@ Set biography as the following:
 
 Then report `blah2` user along with `#report`
 
-### Flag
+## Flag
 `flag{postman_1n_the_middl3}`
 
 # h4x0rs.club part 3
