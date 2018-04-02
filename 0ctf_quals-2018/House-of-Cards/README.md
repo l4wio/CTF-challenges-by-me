@@ -1,5 +1,5 @@
 # House of Cards
----
+
 
 ```
 ————————————————————————————————————————————————————————————
@@ -24,6 +24,8 @@ Then go to server B, using stack overflow, to spray the string like:
 
 `'/////////{ip_server_A}\0' * 0x1337`
 
-to overwrite env[REMOTE_HOST]. so on the current session B, you got the sandbox path as server A directory. From now on, you can read the leaked-stack file `l4w`, then send it to server A.
+to overwrite env[REMOTE_HOST]. 
+
+On the current session B, you got the sandbox path as server A directory. From now on, you can read the leaked-stack file `l4w`, then send it to server A.
 
 Go back to A, parse the file then you have full stack content including: stack cookie, return address, PIE , libc ... and simply overwrite return address to `system`.
