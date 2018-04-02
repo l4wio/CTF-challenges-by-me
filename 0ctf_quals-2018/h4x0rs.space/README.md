@@ -1,4 +1,5 @@
 # h4x0rs.space
+## https://h4x0rs.space/blog/
 
 Since the `document.cookie` of admin is just the half, at the end you have to figure out where is the secret blog id.
 
