@@ -31,6 +31,8 @@ Then report `blah2` user along with `#report`
 
 # h4x0rs.club part 3
 
+You can get the binary by abusing `badges` action with filename: `../../../../../../proc/self/exe`
+
 I really like my idea behind this one. Pwn the binary with full mitigations shipped. 
 
 Hopefully someone can write about it :(
