@@ -12,7 +12,7 @@
 >
 ```
 
-You can checkout [angelboy](https://github.com/scwuaptx/CTF/tree/master/2018-writeup/0ctf/houseofcard)  exploit code.
+You can checkout [angelboy's](https://github.com/scwuaptx/CTF/tree/master/2018-writeup/0ctf/houseofcard) neat exploit code.
 
 It's not about heap at all. 
 
@@ -24,7 +24,7 @@ Meanwhile, go to server B, using stack overflow, to spray the string like:
 
 `'/////////{ip_server_A}\0' * 0x1337`
 
-to overwrite env[REMOTE_HOST]. 
+to overwrite env `REMOTE_HOST`
 
 On the current session B, you got the sandbox path as server A directory. From now on, you can read the leaked-stack file `l4w`, then send it to server A.
 
