@@ -1,6 +1,6 @@
 # h4x0rs.club part 2
 
-## (https://h4x0rs.club/game/)
+## https://h4x0rs.club/game/
 
 Upload [exploit.html](exploit.html) and [alert.js](alert.js) to `l4w.io` for example.
 
