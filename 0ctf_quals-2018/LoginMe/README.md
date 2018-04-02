@@ -10,7 +10,9 @@ username=bbbb
 &|(if.*(").*\sreturn.*\s.*\s.*)|=zzz$2;  this[Object.keys.call`${this}`[3]].charCodeAt`0` > 0x30 ? blah`` : 2 ; $2
 ```
 
-Then blind the each character, if your condition is right, the server will crash, then you got http error response (because of calling `blah` function is not exists), the node server also crash cause throwing expection (the password column will also be re-random again).
+Then blind the each character, if your condition is right, the server will crash, then you got http error response (because of calling non-exists `blah` function)
+
+The node server also crash cause throwing expection (the password column will also be re-random again).
 
 
 
