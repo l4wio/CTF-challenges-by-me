@@ -20,6 +20,8 @@ Set biography as the following:
 <a href='/game/?msg=<iframe name=game_server src=/game/user.php/blah1%23report><iframe>' id=report-btn></a>
 ```
 
+`<iframe>` with a location src is allowed by XSS Auditor. So using open-redirect for 2 various reason.
+
 Then report `blah2` user along with `#report`
 
 
