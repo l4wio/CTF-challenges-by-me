@@ -1,5 +1,20 @@
 # h4x0rs.space
 ## https://h4x0rs.space/blog/
+```
+Flag is placed at /home/backend/backend_flag
+
+h4x0rs.club
+
+backend_www got backup at /var/www/html.tar.gz
+
+Hint: Try to get the binary first, figure out the way.
+
+Notice: html.tar.gz is just a backup, IP of administrator may be changed sometimes. The xinetd config is also provided.
+
+binary is changed a little bit, it makes your life easier:)
+
+Hint 2: api_key helps
+```
 
 Since the `document.cookie` of admin is just the half, at the end you have to figure out where is the secret blog id.
 
