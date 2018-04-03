@@ -21,8 +21,9 @@ Since the `document.cookie` of admin is just the half, at the end you have to fi
 
 Run [solve.py](solve.py) and report the result id to the admin.
 
+Notice: Admin opens incognito window each time (appcache/sw/ will be clean) opening report blog ID, thus we have to setup delay iframe loading to buy time for appcache setup, and XSS him in one-shot.
 
-Root cause:
+## Root cause
 
 Chrome can treat .jpg as .appcache manifest (but with restricted scope). Luckily, `embed.php` is in the scope.
 
