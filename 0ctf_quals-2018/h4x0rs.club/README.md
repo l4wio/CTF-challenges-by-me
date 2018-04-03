@@ -1,6 +1,15 @@
 # h4x0rs.club part 2
 
 ## https://h4x0rs.club/game/
+```
+Get document .cookie of the administartor.
+
+h4x0rs.club
+
+backend_www got backup at /var/www/html.tar.gz
+
+Hint: Get open-redirect first, lead admin to the w0rld!
+```
 
 Upload [exploit.html](exploit.html) and [alert.js](alert.js) to `l4w.io` for example.
 
