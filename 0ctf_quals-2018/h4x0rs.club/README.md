@@ -21,6 +21,8 @@ There is DOM-XSS at `client.js` when setting `title` on `badges` function. CSP c
 
 To do it, take a look at the backend side, they will send a message to `top` not `parent` . so we can inject our evil iframe in the middle.
 
+![evil postmessage](h4x0rs.club.2.png)
+
 ### blah1
 Set biography as the following:
 ```
@@ -36,8 +38,6 @@ Set biography as the following:
 `<iframe>` with a local src is allowed by XSS Auditor. So using open-redirect for 2 various reason.
 
 Then report `blah2` user along with `#report`
-
-![evil postmessage](h4x0rs.club.2.png)
 
 ## Flag
 `flag{postman_1n_the_middl3}`
