@@ -15,8 +15,6 @@ Hint 2: W3C defines everything, but sometimes browser developers decided to impl
 Hint 3: Can you make "500 Internal Server Error" from a post /blog.php/{id} ? Make it fall, the good will come. And btw, you can solve without any automatic tool. Connect all the dots.
 
 Last Hint: CACHE
-
-
 ```
 
 Since the `document.cookie` of admin is just the half, at the end you have to figure out where is the secret blog id.
