@@ -1,19 +1,22 @@
 # h4x0rs.space
 ## https://h4x0rs.space/blog/
 ```
-Flag is placed at /home/backend/backend_flag
+I've made a blog platform let you write your secret. 
+Nobody can know it since I enabled all of modern web security mechanism, is it cool, huh?
 
-h4x0rs.club
+Get document. cookie of the admin.
 
-backend_www got backup at /var/www/html.tar.gz
+h4x0rs.space
 
-Hint: Try to get the binary first, figure out the way.
+Hint: Every bug you found has a reason, and you may want to check some uncommon HTML5 features Also notice that, the admin is using real browser, since I found out Headless is not much real-world. GL
 
-Notice: html.tar.gz is just a backup, IP of administrator may be changed sometimes. The xinetd config is also provided.
+Hint 2: W3C defines everything, but sometimes browser developers decided to implement in their way, get the same browser to admin and test everything on it.
 
-binary is changed a little bit, it makes your life easier:)
+Hint 3: Can you make "500 Internal Server Error" from a post /blog.php/{id} ? Make it fall, the good will come. And btw, you can solve without any automatic tool. Connect all the dots.
 
-Hint 2: api_key helps
+Last Hint: CACHE
+
+
 ```
 
 Since the `document.cookie` of admin is just the half, at the end you have to figure out where is the secret blog id.
