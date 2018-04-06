@@ -34,3 +34,6 @@ OK! You got me... This is your reward: "flag{m0ar_featureS_" Wait, I wonder if y
 
 ### secret blog id
 https://h4x0rs.space/blog/blog.php/15e8f6b2408ea136dd2e62dec47ceabc3b0ec9d1d99eebd740853ae23b6db375
+
+## Other writeups
+https://gist.github.com/masatokinugawa/b55a890c4b051cc6575b010e8c835803
