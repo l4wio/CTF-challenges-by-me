@@ -49,3 +49,7 @@ You can get the binary by abusing `badges` action with filename: `../../../../..
 I really like my idea behind this one. Pwn the binary with full mitigations shipped. 
 
 Hopefully someone can write about it :(
+
+## Other writeups
+https://gist.github.com/paul-axe/869919d4f2ea84dea4bf57e48dda82ed
+https://github.com/lbherrera/writeups/tree/master/0ctf_quals-2018/h4x0rs.club
