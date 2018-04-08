@@ -1,5 +1,8 @@
 # h4x0rs.space
 ## https://h4x0rs.space/blog/
+
+!(index)[index.png]
+
 ```
 I've made a blog platform let you write your secret. 
 Nobody can know it since I enabled all of modern web security mechanism, is it cool, huh?
