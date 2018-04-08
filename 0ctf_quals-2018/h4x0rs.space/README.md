@@ -1,7 +1,7 @@
 # h4x0rs.space
 ## https://h4x0rs.space/blog/
 
-!(index)[index.png]
+![index](index.png)
 
 ```
 I've made a blog platform let you write your secret. 
