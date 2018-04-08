@@ -1,6 +1,9 @@
 # h4x0rs.club part 2
 
 ## https://h4x0rs.club/game/
+
+![index](index.png)
+
 ```
 Get document .cookie of the administartor.
 
