@@ -55,6 +55,7 @@ I'm gonna tell the details below...
 ..updating
 
 ### prisonbreakseason2
+Writeup here: http://gynvael.coldwind.pl/n/python_sandbox_escape
 
 
 ### XYZBANK
