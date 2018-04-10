@@ -34,8 +34,8 @@ Name | Programing language | Type | Rating | Level
 [tower4](#tower4) | Python | Format injection | ⭐⭐⭐⭐ | 💀💀
 [lixi](lixi_2018) | PHP | PHP syntax trick | ⭐⭐⭐ | 💀💀
 [LoginMe](0ctf_quals-2018/LoginMe) | NodeJS | RegExp injection | ⭐⭐⭐ | 💀
-[h4x0rs.club](0ctf_quals-2018/h4x0rs.club) | PHP/JS | iframe in the middle, postMessage to `top` | ⭐⭐⭐⭐ | 💀💀💀
-[h4x0rs.space](0ctf_quals-2018/h4x0rs.space) | PHP/JS | AppCache, ServiceWorker | ⭐⭐⭐⭐ | 💀💀💀
+[h4x0rs.club](0ctf_quals-2018/h4x0rs.club) | PHP/JS | CSP, XSS, iframe in the middle, postMessage to `top` | ⭐⭐⭐⭐ | 💀💀💀
+[h4x0rs.space](0ctf_quals-2018/h4x0rs.space) | PHP/JS | CSP, XSS, AppCache, ServiceWorker | ⭐⭐⭐⭐ | 💀💀💀
 
 
 ## Pwnable 
