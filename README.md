@@ -23,13 +23,15 @@ I'm going to describe my highlight challenges, which I like mostly. Also point o
 ## Web
 Name | Programing language | Type | Rating
 --- | --- | --- | ---
-[prisonbreakseason2](#prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐
+[prisonbreakseason2](#prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐⭐
 [XYZBANK](#XYZBANK) | PHP | MySQL type casting | ⭐⭐
 [XYZTemplate](#XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐
 [cryptowww](#cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐
-[curl_story_part_1](#curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐
-[simplehttp](#simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐
-[tower4](#tower4) | Python | Format injection | ⭐⭐⭐
+[curl_story_part_1](#curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐⭐
+[dota2shop](#dota2shop) | PHP | MySQLi /w session variable | ⭐⭐⭐
+[luckygame](#luckygame) | PHP | MySQLi /w session variable | ⭐⭐⭐⭐
+[simplehttp](#simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐⭐
+[tower4](#tower4) | Python | Format injection | ⭐⭐⭐⭐
 [lixi](lixi_2018) | PHP | PHP syntax trick | ⭐⭐⭐
 
 
