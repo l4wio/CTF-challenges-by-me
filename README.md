@@ -13,9 +13,9 @@ Updated 21/03/2017
 
 [Final round SVATTT 2016 Introduction page](https://l4wio.github.io/CTF-challenges-by-me/final.svattt.org/)
 
+Twitter: @l4wio
 
-[LOL excuse me](http://i.imgur.com/kDkDHxr.jpg)
-
+...Dành cả tuổi thanh xuân để suy nghĩ đề CTF.
 
 # Highlight
 I'm going to describe my highlight challenges, which I like mostly. Also point out the interesting points of them.
