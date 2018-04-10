@@ -1,6 +1,6 @@
 
 # Luckygame
-## Web
+## Web / SQLi / PHP trick
 
 ### Point
 
