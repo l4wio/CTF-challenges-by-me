@@ -23,7 +23,10 @@ I'm going to describe my highlight challenges, which I like mostly. Also point o
 ## Web
 Name | Type | Rating
 --- | --- | ---
-prisonbreakseason2 | Python Jail | *
+prisonbreakseason2 | Python Jail | ⭐⭐⭐⭐
+XYZBANK | MySQL type casting | ⭐⭐⭐
+XYZTemplate | Javascript/XSS | ⭐⭐⭐
+
 
 ## Pwnable 
 ...
