@@ -22,7 +22,7 @@ I'm going to describe my highlight challenges, which I like mostly. Also point o
 
 ## Web
 Name | Programing language | Type | Rating
---- | --- | ---
+--- | --- | --- | ---
 [prisonbreakseason2](#prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐
 [XYZBANK](#XYZBANK) | PHP | MySQL type casting | ⭐⭐
 [XYZTemplate](#XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐
