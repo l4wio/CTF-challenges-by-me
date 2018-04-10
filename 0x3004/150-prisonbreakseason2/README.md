@@ -1,6 +1,5 @@
 # prisonbreakseason2
-## Web
-### Pyjail
+## Web / Pyjail
 
 Do you know that you can assign variable in a Python loop ?
 
