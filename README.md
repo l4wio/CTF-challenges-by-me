@@ -42,6 +42,12 @@ Name | Programing language | Type | Rating | Level
 Name | Type | Rating | Level
 --- | --- | --- | --- |
 [anotherarena](#anotherarena) | Heap on another `main_arena` (threads) | ⭐⭐⭐ | Easy
+[c0ffee](#c0ffee) | Race condition, with 1-byte overwrite, nearly impossible to exploit | ⭐⭐⭐⭐ | Hard
+[pokedex](#pokedex) | Uninitialized memory | ⭐⭐⭐ | Medium
+[rapgenius](#rapgenius) | Heap overflow, `FILE *IO` abusing | ⭐⭐⭐ | Medium
+[castle](#castle) | Combine many of bugs: uninitliazed memory + stack overflow + heap overflow to defeat stack cookie eventually  | ⭐⭐⭐⭐ | Hard
+[House-of-Cards](#0ctf_quals-2018/House-of-Cards) | Old school pwnable /w interesting idea | ⭐⭐⭐⭐ | Medium
+
 
 
 ---
