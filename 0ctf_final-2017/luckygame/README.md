@@ -12,7 +12,7 @@ How about session variable, and leverage it on multi queries ?
 
 Plus, PHP is weird, on comparing integers...
 
-Only 100 lines of code PHP, everything was setup in with logical way (especially, check bet money > 0) 
+Only 100 lines of code PHP, everything was setup in logical way (especially, check bet money > 0) 
 
 ---
 
