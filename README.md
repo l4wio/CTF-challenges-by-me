@@ -29,8 +29,8 @@ Name | Programing language | Type | Rating
 [cryptowww](#cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐
 [curl_story_part_1](#curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐
 [simplehttp](#simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐
-[tower4](#tower4] | Python | Format injection | ⭐⭐⭐
-
+[tower4](#tower4) | Python | Format injection | ⭐⭐⭐
+[lixi](lixi_2018) | PHP | PHP syntax trick | ⭐⭐⭐
 
 
 ## Pwnable 
