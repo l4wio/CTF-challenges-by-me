@@ -23,9 +23,9 @@ I'm going to describe my highlight challenges, which I like mostly. Also point o
 ## Web
 Name | Type | Rating
 --- | --- | ---
-prisonbreakseason2 | Python Jail | ⭐⭐⭐⭐
-XYZBANK | MySQL type casting | ⭐⭐⭐
-XYZTemplate | Javascript/XSS | ⭐⭐⭐
+[prisonbreakseason2](#prisonbreakseason2) | Python Jail | ⭐⭐⭐⭐
+[XYZBANK](#XYZBANK) | MySQL type casting | ⭐⭐⭐
+[XYZTemplate](#XYZTemplate) | Javascript/XSS | ⭐⭐⭐
 
 
 ## Pwnable 
