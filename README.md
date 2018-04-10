@@ -21,14 +21,15 @@ Updated 21/03/2017
 I'm going to describe my highlight challenges, which I like mostly. Also point out the interesting points of them.
 
 ## Web
-Name | Type | Rating
+Name | Programing language | Type | Rating
 --- | --- | ---
-[prisonbreakseason2](#prisonbreakseason2) | Python Jail | ⭐⭐⭐
-[XYZBANK](#XYZBANK) | MySQL type casting | ⭐⭐
-[XYZTemplate](#XYZTemplate) | Javascript/XSS | ⭐⭐
-[cryptowww](#cryptowww) | Hash extension / urldecode trick | ⭐⭐
-[curl_story_part_1](#curl_story_part_1) | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐
-[simplehttp](#simplehttp) | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐
+[prisonbreakseason2](#prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐
+[XYZBANK](#XYZBANK) | PHP | MySQL type casting | ⭐⭐
+[XYZTemplate](#XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐
+[cryptowww](#cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐
+[curl_story_part_1](#curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐
+[simplehttp](#simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐
+[tower4](#tower4] | Python | Format injection | ⭐⭐⭐
 
 
 
