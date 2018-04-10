@@ -2,6 +2,19 @@
 # Luckygame
 ## Web
 
+### Point
+
+Have you wonder how could you can sqli with table/column name filtering ? 
+
+Also there are limited characters.
+
+How about session variable, and leverage it on multi queries ?
+
+Plus, PHP is weird, on comparing integers...
+
+
+---
+
 Flag is: flag{md5(password of admin)}
 
 http://123.207.38.111/luckygame/?debug=🕵
@@ -19,7 +32,7 @@ Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
 root@:~# mysql --version
 mysql  Ver 14.14 Distrib 5.7.19, for Linux (x86_64) using  EditLine wrapper
 ```
-## Writeup
+### Writeup
 https://github.com/l4wio/CTF-challenges-by-me/blob/master/0ctf_final-2017/0ctf_slides.pdf
 
 https://www.bertramc.cn/2017/06/08/32.html
