@@ -23,9 +23,13 @@ I'm going to describe my highlight challenges, which I like mostly. Also point o
 ## Web
 Name | Type | Rating
 --- | --- | ---
-[prisonbreakseason2](#prisonbreakseason2) | Python Jail | ⭐⭐⭐⭐
-[XYZBANK](#XYZBANK) | MySQL type casting | ⭐⭐⭐
-[XYZTemplate](#XYZTemplate) | Javascript/XSS | ⭐⭐⭐
+[prisonbreakseason2](#prisonbreakseason2) | Python Jail | ⭐⭐⭐
+[XYZBANK](#XYZBANK) | MySQL type casting | ⭐⭐
+[XYZTemplate](#XYZTemplate) | Javascript/XSS | ⭐⭐
+[cryptowww](#cryptowww) | Hash extension / urldecode trick | ⭐⭐
+[curl_story_part_1](#curl_story_part_1) | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐
+[simplehttp](#simplehttp) | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐
+
 
 
 ## Pwnable 
