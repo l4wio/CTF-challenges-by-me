@@ -1,6 +1,6 @@
 
-# Luckygame #
-## Web ##
+# Luckygame
+## Web
 
 Flag is: flag{md5(password of admin)}
 
@@ -19,3 +19,9 @@ Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
 root@:~# mysql --version
 mysql  Ver 14.14 Distrib 5.7.19, for Linux (x86_64) using  EditLine wrapper
 ```
+## Writeup
+https://github.com/l4wio/CTF-challenges-by-me/blob/master/0ctf_final-2017/0ctf_slides.pdf
+https://www.bertramc.cn/2017/06/08/32.html
+https://www.melodia.pw/?p=902
+http://www.bendawang.site/2017/06/19/0CTF-TCTF-2017-final-Web-LuckyGame-Writeup/
+https://phuker.github.io/tctf2017-final-web.html
