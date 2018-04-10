@@ -21,18 +21,21 @@ Updated 21/03/2017
 I'm going to describe my highlight challenges, which I like mostly. Also point out the interesting points of them.
 
 ## Web
-Name | Programing language | Type | Rating
---- | --- | --- | ---
-[prisonbreakseason2](#prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐⭐
-[XYZBANK](#XYZBANK) | PHP | MySQL type casting | ⭐⭐
-[XYZTemplate](#XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐
-[cryptowww](#cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐
-[curl_story_part_1](#curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐⭐
-[dota2shop](#dota2shop) | PHP | MySQLi /w session variable | ⭐⭐⭐
-[luckygame](#luckygame) | PHP | MySQLi /w session variable | ⭐⭐⭐⭐
-[simplehttp](#simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐⭐
-[tower4](#tower4) | Python | Format injection | ⭐⭐⭐⭐
-[lixi](lixi_2018) | PHP | PHP syntax trick | ⭐⭐⭐
+Name | Programing language | Type | Rating | Level
+--- | --- | --- | --- | --- |
+[prisonbreakseason2](#prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐⭐ | Hard
+[XYZBANK](#XYZBANK) | PHP | MySQL type casting | ⭐⭐ | Medium 
+[XYZTemplate](#XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐ | Medium 
+[cryptowww](#cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐ | Medium 
+[curl_story_part_1](#curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐⭐ | Medium
+[dota2shop](#dota2shop) | PHP | MySQLi /w session variable | ⭐⭐⭐ | Medium
+[luckygame](#luckygame) | PHP | MySQLi /w session variable | ⭐⭐⭐⭐ | Hard
+[simplehttp](#simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐⭐ | Hard
+[tower4](#tower4) | Python | Format injection | ⭐⭐⭐⭐ | Medium
+[lixi](lixi_2018) | PHP | PHP syntax trick | ⭐⭐⭐ | Medium
+[LoginMe](0ctf_quals-2018/LoginMe) | NodeJS | RegExp injection | ⭐⭐⭐ | Easy
+[h4x0rs.club](0ctf_quals-2018/h4x0rs.club) | PHP/JS | iframe in the middle, postMessage to `top` | ⭐⭐⭐⭐ | Hard
+[h4x0rs.space](0ctf_quals-2018/h4x0rs.space) | PHP/JS | AppCache, ServiceWorker | ⭐⭐⭐⭐ | Hard
 
 
 ## Pwnable 
