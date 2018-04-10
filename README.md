@@ -23,7 +23,7 @@ I'm going to describe my highlight challenges, which I like mostly. Also point o
 ## Web
 Name | Programing language | Type | Rating | Level
 --- | --- | --- | --- | --- |
-[prisonbreakseason2](#prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐⭐ | 💀💀💀
+[prisonbreakseason2](0x3004/150-prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐⭐ | 💀💀💀
 [XYZBANK](#XYZBANK) | PHP | MySQL type casting | ⭐⭐ | 💀💀 
 [XYZTemplate](#XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐ | 💀💀 
 [cryptowww](#cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐ | 💀💀 
@@ -49,22 +49,4 @@ Name | Type | Rating | Level
 [House-of-Cards](#0ctf_quals-2018/House-of-Cards) | Old school pwnable /w interesting idea | ⭐⭐⭐⭐ | 💀💀
 
 
-
----
-I'm gonna tell the details below...
-..updating
-
-### prisonbreakseason2
-Source code: https://github.com/l4wio/CTF-challenges-by-me/tree/master/0x3004/150-prisonbreakseason2
-
-Do you know that you can assign variable in a Python loop ? 
-
-Escaping pyjail with limited characters.
-
-Writeup here: http://gynvael.coldwind.pl/n/python_sandbox_escape
-
----
-### XYZBANK
-
----
-### XYZTemplate
+Updating...
