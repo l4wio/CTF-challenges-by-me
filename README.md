@@ -24,14 +24,14 @@ I'm going to describe my highlight challenges, which I like mostly. Also point o
 Name | Programing language | Type | Rating | Level
 --- | --- | --- | --- | --- |
 [prisonbreakseason2](0x3004/150-prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐⭐ | 💀💀💀
-[XYZBANK](#XYZBANK) | PHP | MySQL type casting | ⭐⭐ | 💀💀 
-[XYZTemplate](#XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐ | 💀💀 
-[cryptowww](#cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐ | 💀💀 
-[curl_story_part_1](#curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐⭐ | 💀💀
-[dota2shop](#dota2shop) | PHP | MySQLi /w session variable | ⭐⭐⭐ | 💀💀
-[luckygame](#luckygame) | PHP | MySQLi /w session variable | ⭐⭐⭐⭐ | 💀💀💀
-[simplehttp](#simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐⭐ | 💀💀💀
-[tower4](#tower4) | Python | Format injection | ⭐⭐⭐⭐ | 💀💀
+[XYZBANK](0x3004/XYZBANK) | PHP | MySQL type casting | ⭐⭐ | 💀💀 
+[XYZTemplate](0x3004/XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐ | 💀💀 
+[cryptowww](0x3004/cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐ | 💀💀 
+[curl_story_part_1](challs.manhluat.org/curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐⭐ | 💀💀
+[dota2shop](challs.manhluat.org/dota2shop) | PHP | MySQLi /w session variable | ⭐⭐⭐ | 💀💀
+[luckygame](0ctf_final-2017/luckygame) | PHP | MySQLi /w session variable | ⭐⭐⭐⭐ | 💀💀💀
+[simplehttp](svattt-2016/quals/challenges/web/simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐⭐ | 💀💀💀
+[tower4](svattt-2016/final/challenges/Daemons/tower4) | Python | Format injection | ⭐⭐⭐⭐ | 💀💀
 [lixi](lixi_2018) | PHP | PHP syntax trick | ⭐⭐⭐ | 💀💀
 [LoginMe](0ctf_quals-2018/LoginMe) | NodeJS | RegExp injection | ⭐⭐⭐ | 💀
 [h4x0rs.club](0ctf_quals-2018/h4x0rs.club) | PHP/JS | CSP, XSS, iframe in the middle, postMessage to `top` | ⭐⭐⭐⭐ | 💀💀💀
@@ -41,12 +41,12 @@ Name | Programing language | Type | Rating | Level
 ## Pwnable 
 Name | Type | Rating | Level
 --- | --- | --- | --- |
-[anotherarena](#anotherarena) | Heap on another `main_arena` (threads) | ⭐⭐⭐ | 💀
-[c0ffee](#c0ffee) | Race condition, with 1-byte overwrite, nearly impossible to exploit | ⭐⭐⭐⭐ | 💀💀💀
-[pokedex](#pokedex) | Uninitialized memory | ⭐⭐⭐ | 💀💀
-[rapgenius](#rapgenius) | Heap overflow, `FILE *IO` abusing | ⭐⭐⭐ | 💀💀
-[castle](#castle) | Combine many of bugs: uninitliazed memory + stack overflow + heap overflow to defeat stack cookie eventually  | ⭐⭐⭐⭐ | 💀💀💀
-[House-of-Cards](#0ctf_quals-2018/House-of-Cards) | Old school pwnable /w interesting idea | ⭐⭐⭐⭐ | 💀💀
+[anotherarena](meepwn-2017/anotherarena) | Heap on another `main_arena` (threads) | ⭐⭐⭐ | 💀
+[c0ffee](meepwn-2017/c0ffee) | Race condition, with 1-byte overwrite, nearly impossible to exploit | ⭐⭐⭐⭐ | 💀💀💀
+[pokedex](svattt-2015/final/pokedex) | Uninitialized memory | ⭐⭐⭐ | 💀💀
+[rapgenius](svattt-2015/final/rapgenius) | Heap overflow, `FILE *IO` abusing | ⭐⭐⭐ | 💀💀
+[castle](svattt-2016/final/challenges/Daemons/castle) | Combine many of bugs: uninitliazed memory + stack overflow + heap overflow to defeat stack cookie eventually  | ⭐⭐⭐⭐ | 💀💀💀
+[House-of-Cards](0ctf_quals-2018/House-of-Cards) | Old school pwnable /w interesting idea | ⭐⭐⭐⭐ | 💀💀
 
 
 Updating...
