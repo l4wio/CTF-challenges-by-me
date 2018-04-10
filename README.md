@@ -21,6 +21,9 @@ Updated 21/03/2017
 I'm going to describe my highlight challenges, which I like mostly. Also point out the interesting points of them.
 
 ## Web
-...
+Name | Type | Rating
+--- | --- | ---
+prisonbreakseason2 | Python Jail | *
+
 ## Pwnable 
 ...
