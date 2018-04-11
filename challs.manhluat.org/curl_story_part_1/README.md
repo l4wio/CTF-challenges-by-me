@@ -1,7 +1,7 @@
 # curl_story_part_1 aka. cURL Lovers
 
 ## Overview
-This challenge is published on ~ Jan.2014 . Long time ago, since SSRF is not well-known like nowadays.
+This challenge is published on ~ Jan.2014 . Long time ago, SSRF is not well-known like nowadays.
 
 I've setup the challenge contains 2 parts:
 1. frontend (index.php) recieves an URL from user.
@@ -9,7 +9,9 @@ I've setup the challenge contains 2 parts:
 
 
 ## Bug
-Was looking for a new idea for a challenge, I found out CLRF in PHP cURL (actually it caused by `libcurl`)
+Was looking for a new idea for a challenge, I found out CLRF in PHP cURL (actually it caused by `libcurl`).
+
+By overwriting HTTP headers, we can set `Authorization-Basic` with abitrary value. and `demo:demo` is skipped. SQLi behind, then extract the flag. 
 
 Few years later, I found this: https://hackerone.com/reports/73242
 
