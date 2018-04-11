@@ -45,7 +45,7 @@ Name | Language | Summary | Rating | Level | Describe yet ?
 ## Pwnable 
 Name | Summary | Rating | Level | Describe yet ?
 --- | --- | --- | --- | --- |
-[anotherarena](meepwn-2017/anotherarena) | Heap on another `main_arena` (threads) | ⭐⭐⭐ | 💀 |
+[anotherarena](meepwn-2017/anotherarena) | Heap on another `main_arena` (threads) | ⭐⭐⭐ | 💀 | ✔️
 [c0ffee](meepwn-2017/c0ffee) | Race condition, with 1-byte overwrite, nearly impossible to exploit | ⭐⭐⭐⭐ | 💀💀💀 |
 [pokedex](svattt-2015/final/pokedex) | Uninitialized memory -> Heap overflow | ⭐⭐⭐ | 💀💀 | ✔️
 [rapgenius](svattt-2015/final/rapgenius) | Uninitialized memory -> Use-After-Free + `_IO_FILE` abusing (`_IO_read_*` && `_IO_write_*`) | ⭐⭐⭐ | 💀💀 | ✔️
