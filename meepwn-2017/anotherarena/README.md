@@ -17,6 +17,8 @@ But since, `main_arena` is placed on same page. we can OOB write backward to ove
 
 Team `eee` successfully exploit it with `dl-resolve` technique...
 
+Funfact: Afterwards, angelboy decided to let pwngdb supports parsing heap on threads XD (https://github.com/scwuaptx/Pwngdb/commit/0fe4c04debff579a74ccb50dc76439e7938800a5)
+
 ## Writeup
 https://bruce30262.github.io/2017/07/16/MeePwn-CTF-2017-anotherarena/
 
