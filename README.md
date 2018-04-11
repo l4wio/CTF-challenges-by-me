@@ -29,7 +29,7 @@ I'm going to describe my highlight challenges, which I like mostly. Also point o
 Name | Language | Summary | Rating | Level | Describe yet ?
 --- | --- | --- | --- | --- | --- |
 [prisonbreakseason2](0x3004/150-prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
-[XYZBANK](0x3004/200-XYZBANK) | PHP | MySQL type casting | ⭐⭐ | 💀💀 |
+[XYZBANK](0x3004/200-XYZBANK) | PHP | MySQL type casting | ⭐⭐ | 💀💀 | ✔️
 [XYZTemplate](0x3004/250-XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐ | 💀💀 |
 [cryptowww](0x3004/cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐ | 💀💀 | 
 [curl_story_part_1](challs.manhluat.org/curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐⭐ | 💀💀 | ✔️ 
