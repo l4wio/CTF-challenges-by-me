@@ -45,7 +45,7 @@ Name | Summary | Rating | Level | Describe yet ?
 [pokedex](svattt-2015/final/pokedex) | Uninitialized memory | ⭐⭐⭐ | 💀💀 |
 [rapgenius](svattt-2015/final/rapgenius) | Heap overflow, `FILE *IO` abusing | ⭐⭐⭐ | 💀💀 | 
 [castle](svattt-2016/final/challenges/Daemons/castle) | Combine many of bugs: uninitliazed memory + stack overflow + heap overflow to defeat stack cookie eventually  | ⭐⭐⭐⭐ | 💀💀💀 | 
-[House-of-Cards](0ctf_quals-2018/House-of-Cards) | Old school pwnable /w interesting idea | ⭐⭐⭐⭐ | 💀💀 | ✔️
+[House-of-Cards](0ctf_quals-2018/House-of-Cards) | Old school pwnable, overwriting `ENV` | ⭐⭐⭐⭐ | 💀💀 | ✔️
 
 
 Updating...
