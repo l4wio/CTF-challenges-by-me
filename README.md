@@ -19,7 +19,7 @@ Twitter: @l4wio
 
 # Highlight
 
-Tips: Like reading book, don't read the last pages first. Let's enjoy them for a day at least before checking writeup/sol. 
+Tips: Like reading book, don't read the last pages first. Let's enjoy them for a day at least before checking writeup/sol. I've put a lot of my work in each one.
 
 I'm going to describe my highlight challenges, which I like mostly. Also point out the interesting points of them.
 
