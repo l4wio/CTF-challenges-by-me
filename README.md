@@ -34,7 +34,7 @@ Name | Language | Summary | Rating | Level | Describe yet ?
 [cryptowww](0x3004/cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐ | 💀💀 | 
 [curl_story_part_1](challs.manhluat.org/curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐⭐ | 💀💀 | ✔️ 
 [luckygame](0ctf_final-2017/luckygame) | PHP | MySQLi /w session variable + php type juggling | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
-[simplehttp](svattt-2016/quals/challenges/web/simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐⭐ | 💀💀💀 | 
+[simplehttp](svattt-2016/quals/challenges/web/simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
 [tower4](svattt-2016/final/challenges/Daemons/tower4) | Python | Format injection | ⭐⭐⭐⭐ | 💀💀 | 
 [lixi](lixi_2018) | PHP | PHP syntax trick | ⭐⭐⭐ | 💀💀 | ✔️
 [LoginMe](0ctf_quals-2018/LoginMe) | NodeJS | RegExp injection, MongoDB | ⭐⭐⭐ | 💀 | ✔️
