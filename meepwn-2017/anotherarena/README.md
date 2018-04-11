@@ -1,4 +1,4 @@
-# anotherareana
+# anotherarena
 
 ## Overview
 
@@ -14,6 +14,8 @@ I've setup this challenge as the following:
 If these bugs were setup on main thread, it's probably impossible to exploit (even no leaking).
  
 But since, `main_arena` is placed on same page. we can OOB write backward to overwrite `main_arena`, and make `fast_bin` allocates on `FLAG` buffer.
+
+Team `eee` successfully exploit it with `dl-resolve` technique...
 
 ## Writeup
 https://bruce30262.github.io/2017/07/16/MeePwn-CTF-2017-anotherarena/
