@@ -18,7 +18,9 @@ Twitter: @l4wio
 ...Dành cả tuổi thanh xuân để suy nghĩ đề CTF.
 
 # Highlight
-### Tips: Like reading book, don't read the last pages first. Let's enjoy them at least a day before checking writeup/sol. 
+
+Tips: Like reading book, don't read the last pages first. Let's enjoy them for a day at least before checking writeup/sol. 
+
 I'm going to describe my highlight challenges, which I like mostly. Also point out the interesting points of them.
 
 
