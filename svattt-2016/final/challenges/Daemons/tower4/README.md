@@ -34,6 +34,8 @@ What if we let username as `{e2}`, and let `email` be `admin`
 
 We can bypass the check if there is any of existence username already.
 
+By setup like this, I turned this into sort of format/template injection.
+
 
 ## Solution
 * https://github.com/testanull/CTF/blob/master/Tower%204.md
