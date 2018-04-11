@@ -18,6 +18,8 @@ https://github.com/l4wio/CTF-challenges-by-me/blob/master/svattt-2015/final/poke
 
 We say `Yes`, then on the second one, we make an invalid size to trigger.
 
+From now on, we can easily overflow on `data` heap (because it's re-using buffer `data` of the previous pokémon - the first time we adding pokémon).
+
 Then simply, overwrite the path of pokémon ascii to read the flag.
 
 ## Solution
