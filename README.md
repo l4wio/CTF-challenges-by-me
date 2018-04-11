@@ -47,7 +47,7 @@ Name | Summary | Rating | Level | Describe yet ?
 --- | --- | --- | --- | --- |
 [anotherarena](meepwn-2017/anotherarena) | Heap on another `main_arena` (threads) | ⭐⭐⭐ | 💀 |
 [c0ffee](meepwn-2017/c0ffee) | Race condition, with 1-byte overwrite, nearly impossible to exploit | ⭐⭐⭐⭐ | 💀💀💀 |
-[pokedex](svattt-2015/final/pokedex) | Uninitialized memory | ⭐⭐⭐ | 💀💀 |
+[pokedex](svattt-2015/final/pokedex) | Uninitialized memory -> Heap overflow | ⭐⭐⭐ | 💀💀 | ✔️
 [rapgenius](svattt-2015/final/rapgenius) | Heap overflow, `FILE *IO` abusing | ⭐⭐⭐ | 💀💀 | 
 [castle](svattt-2016/final/challenges/Daemons/castle) | Combine many of bugs: uninitliazed memory + stack overflow + heap overflow to defeat stack cookie eventually  | ⭐⭐⭐⭐ | 💀💀💀 | 
 [House-of-Cards](0ctf_quals-2018/House-of-Cards) | Old school pwnable, overwriting `ENV` | ⭐⭐⭐⭐ | 💀💀 | ✔️
