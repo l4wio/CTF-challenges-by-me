@@ -27,8 +27,7 @@ Name | Language | Summary | Rating | Level | Describe yet ?
 [XYZBANK](0x3004/200-XYZBANK) | PHP | MySQL type casting | ⭐⭐ | 💀💀 |
 [XYZTemplate](0x3004/250-XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐ | 💀💀 |
 [cryptowww](0x3004/cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐ | 💀💀 | 
-[curl_story_part_1](challs.manhluat.org/curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐⭐ | 💀💀 | 
-[dota2shop](challs.manhluat.org/dota2shop) | PHP | MySQLi /w session variable | ⭐⭐⭐ | 💀💀 | 
+[curl_story_part_1](challs.manhluat.org/curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐⭐ | 💀💀 |  
 [luckygame](0ctf_final-2017/luckygame) | PHP | MySQLi /w session variable + php type juggling | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
 [simplehttp](svattt-2016/quals/challenges/web/simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐⭐ | 💀💀💀 | 
 [tower4](svattt-2016/final/challenges/Daemons/tower4) | Python | Format injection | ⭐⭐⭐⭐ | 💀💀 | 
