@@ -26,3 +26,5 @@ https://apidock.com/ruby/Kernel/open
 ```
 If the command following the “|” is a single minus sign, Ruby forks, and this subprocess is connected to the parent. In the subprocess, the open call returns nil.
 ```
+
+Turns into RCE.
