@@ -26,6 +26,20 @@ Run [solve.py](solve.py) and report the result id to the admin.
 
 Notice: Admin opens incognito window each time (appcache/sw/ will be clean) opening report blog ID, thus we have to setup delay iframe loading to buy time for appcache setup, and XSS him in one-shot.
 
+## Bug
+You should read this [writeup](https://gist.github.com/masatokinugawa/b55a890c4b051cc6575b010e8c835803)
+### We can upload .SVG file
+By uploading .SVG file, we can easily execute javascript command, but the admin won't take a look at any links other than `/blog.php/...valid id...`.
+
+### XSS in embed.php
+We can perform XSS attack on `embed.php`, but we can not trigger it from the path `/blog/blog.php/...id...`. Get used to AppCache, then you will know that we can define `FALLBACK` in appcache manifest, and trigger 500 error to leads the browser to our `.svg` evil file.
+
+### XSSI at `pad.php?callback=....`
+
+We can easily find out there is XSSi at `pad.php`, but `callback` parameter is filterd and can not be longer than 8 characters. 
+
+To bypass it, create a blog post with title like: ```;...javascript...//`
+
 ## Root cause
 
 Chrome can treat .jpg as .appcache manifest (but with restricted scope). Luckily, `embed.php` is in the scope.
