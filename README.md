@@ -38,7 +38,7 @@ Name | Language | Summary | Rating | Level | Describe yet ?
 [tower4](svattt-2016/final/challenges/Daemons/tower4) | Python | Format injection | ⭐⭐⭐⭐ | 💀💀 | ✔️
 [lixi](lixi_2018) | PHP | PHP syntax trick | ⭐⭐⭐ | 💀💀 | ✔️
 [LoginMe](0ctf_quals-2018/LoginMe) | NodeJS | RegExp injection, MongoDB | ⭐⭐⭐ | 💀 | ✔️
-[h4x0rs.club](0ctf_quals-2018/h4x0rs.club) | PHP/JS | CSP, XSS, iframe in the middle, postMessage to `top` | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
+[h4x0rs.club](0ctf_quals-2018/h4x0rs.club) | PHP/JS | CSP `strict-dynamic`, XSS, iframe in the middle, postMessage to `top` | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
 [h4x0rs.space](0ctf_quals-2018/h4x0rs.space) | PHP/JS | CSP, Persistent XSS, AppCache, ServiceWorker | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
 
 
