@@ -49,9 +49,6 @@ Then report `blah2` user along with `#report`
 
 You can get the binary by abusing `badges` action with filename: `../../../../../../proc/self/exe`
 
-I really like my idea behind this one. Pwn the binary with full mitigations shipped. 
-
-Hopefully someone can write about it :(
 
 ## Other writeups
 https://gist.github.com/paul-axe/869919d4f2ea84dea4bf57e48dda82ed
