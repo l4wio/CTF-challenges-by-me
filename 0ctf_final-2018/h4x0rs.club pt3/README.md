@@ -8,4 +8,7 @@ You can find solution inside [the slide](https://github.com/l4wio/CTF-challenges
 
 Binary and php's bridge can be downloaded in this folder.
 
+Live at: [http://206.189.235.246/intro.txt](http://206.189.235.246/intro.txt)
+
+
 I will upload my exploit code soon. meanwhile, let's enjoy it.
