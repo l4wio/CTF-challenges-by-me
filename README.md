@@ -51,6 +51,7 @@ Name | Summary | Rating | Level | Describe yet ?
 [rapgenius](svattt-2015/final/rapgenius) | Uninitialized memory -> Use-After-Free + `_IO_FILE` abusing (`_IO_read_*` && `_IO_write_*`) | ⭐⭐⭐ | 💀💀 | ✔️
 [castle](svattt-2016/final/challenges/Daemons/castle) | Combine many of bugs: uninitliazed memory + stack overflow + heap overflow to defeat stack cookie eventually  | ⭐⭐⭐⭐ | 💀💀💀 | 
 [House-of-Cards](0ctf_quals-2018/House-of-Cards) | Old school pwnable, overwriting `ENV` | ⭐⭐⭐⭐ | 💀💀 | ✔️
+[h4x0rs.club pt3](0ctf_final-2018/h4x0rs.club%20pt3) | Old school pwnable, Fake MySQL server, MySQL LOCAL INFILE | ⭐⭐⭐⭐⭐ | 💀💀💀 | ✔️
 
 
 Updating...
