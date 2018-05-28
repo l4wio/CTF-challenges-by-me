@@ -1,0 +1,8 @@
+[mysql]
+host=127.0.0.1
+user=game_backend
+pass=535e1627735bc0b29b0b7c6b397933b23f859e4329222e0a20259260cd30ed2a
+dbname=game_database
+
+[backup]
+key=testtest
