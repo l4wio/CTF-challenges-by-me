@@ -31,7 +31,7 @@ Name | Language | Summary | Rating | Level | Describe yet ?
 [prisonbreakseason2](0x3004/150-prisonbreakseason2) | Python | Python Jail | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
 [XYZBANK](0x3004/200-XYZBANK) | PHP | MySQL type casting | ⭐⭐ | 💀💀 | ✔️
 [XYZTemplate](0x3004/250-XYZTemplate) | PHP/Javascript | Javascript/XSS | ⭐⭐ | 💀💀 |
-[cryptowww](0x3004/cryptowww) | PHP | Hash extension / urldecode trick | ⭐⭐ | 💀💀 | ✔️
+[cryptowww](0x3004/cryptowww) | PHP | Hash extension / urldecode trick, HTTP Parameter Pollution | ⭐⭐ | 💀💀 | ✔️
 [curl_story_part_1](challs.manhluat.org/curl_story_part_1) | PHP | SSRF /w CRLF Injection (it was 0day)  | ⭐⭐⭐⭐ | 💀💀 | ✔️ 
 [luckygame](0ctf_final-2017/luckygame) | PHP | MySQLi /w session variable + php type juggling | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
 [simplehttp](svattt-2016/quals/challenges/web/simplehttp) | Ruby | Ruby RCE /w `WEBrick::Log.new` | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
