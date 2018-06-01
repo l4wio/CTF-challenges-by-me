@@ -9,10 +9,14 @@ How to construct command following the rules.
 
 Trick to run weird command or abusing PHP syntax.
 
+I already removed `curl` `wget `telnet`.
+
 # Solution
 This challenge came by when I was solving a PHP sandbox challenge which has limited characters/blacklist functions/...I believe my solution was unintended, so wanna introduce to you guys.
 
 I left backstick, to see amazing tricks from you guys.
+
+You should notice there is [INVISIBLE SEPARATOR](https://www.fileformat.info/info/unicode/char/2063/index.htm) at [9th line](https://github.com/l4wio/CTF-challenges-by-me/blob/master/lixi_2018/index.php#L9)
 
 All of them can be found at: [writeup](writeup)
 
