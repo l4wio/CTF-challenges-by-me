@@ -40,6 +40,7 @@ Name | Language | Summary | Rating | Level | Describe yet ?
 [LoginMe](0ctf_quals-2018/LoginMe) | NodeJS | RegExp injection, MongoDB | ⭐⭐⭐ | 💀 | ✔️
 [h4x0rs.club](0ctf_quals-2018/h4x0rs.club) | PHP/JS | CSP `strict-dynamic`, XSS, iframe in the middle, postMessage to `top` | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
 [h4x0rs.space](0ctf_quals-2018/h4x0rs.space) | PHP/JS | CSP, Persistent XSS, AppCache, ServiceWorker | ⭐⭐⭐⭐ | 💀💀💀 | ✔️
+[h4x0rs.date](0ctf_final-2018/0ctf_tctf_2018_slides.pdf) | PHP/JS | CSP, cache, `<meta>` Referrer override | ⭐⭐⭐ | 💀💀 | ✔️
 
 
 ## Pwnable 
