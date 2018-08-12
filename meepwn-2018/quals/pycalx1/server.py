@@ -51,7 +51,7 @@ if 'value1' in arguments and 'value2' in arguments and 'op' in arguments:
             sys.exit(0)
         return val
 
-    op = get_op(get_value(arguments['op'].value))
+    op = get_op(arguments['op'].value)
     value1 = get_value(arguments['value1'].value)
     value2 = get_value(arguments['value2'].value)
 
