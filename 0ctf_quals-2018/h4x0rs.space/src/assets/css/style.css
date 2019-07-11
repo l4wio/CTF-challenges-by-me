@@ -1,0 +1,85 @@
+
+
+textarea {
+  font-family: monospace;
+  height: 10em;
+}
+input[type='text']
+{
+	font-family: monospace;
+}
+.inputfile {
+  height:30px;
+}
+/*h1,h2,h3{
+  font-family: "Bubblegum Sans", sans-serif;
+}*/
+/*input[class^='button']{
+  font-family: 'Poppins', sans-serif ;
+}*/
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p, .output {
+  color: #3c3c3c;
+}
+
+#title {text-align: center}
+
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+.inputfile + label {
+    /*max-width: 80%;*/
+    font-family: var(--body-font) , sans-serif;
+    /* 20px */
+    font-weight: 100;
+    font-size: 0.8em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    color: #fff;
+    background-color: #3c3c3c;
+    		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 4px;
+		border: 0;
+}
+.inputfile + label:hover {
+    background-color: #ffb100;
+    cursor: pointer; /* "hand" cursor */
+}
+
+#feature_image {
+}
