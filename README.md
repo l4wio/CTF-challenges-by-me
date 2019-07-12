@@ -1,21 +1,6 @@
 # CTF-challenges-by-me
 
-Repo này với mục đích lưu trữ lại những challenges do mình đã tạo ra trong các kì CTF (SVATTT|0x3004|...) cũng như những lần ngẫu hứng.
-
-Mình đang tìm lại và sẽ update thêm các challenges khác.
-
-✌
-
-These are CTF-style challenges I've made. Hope you enjoyed.
-
-Updated 21/03/2017
-
-
-[Final round SVATTT 2016 Introduction page](https://l4wio.github.io/CTF-challenges-by-me/final.svattt.org/)
-
-Twitter: @l4wio
-
-...Dành cả tuổi thanh xuân để suy nghĩ đề CTF.
+These are CTF-style challenges I've made. Hope you enjoyed ✌
 
 # Highlight
 
@@ -54,5 +39,8 @@ Name | Summary | Rating | Level | Describe yet ?
 [House-of-Cards](0ctf_quals-2018/House-of-Cards) | Old school pwnable, overwriting `ENV` | ⭐⭐⭐⭐ | 💀💀 | ✔️
 [h4x0rs.club pt3](0ctf_final-2018/h4x0rs.club%20pt3) | Old school pwnable, Fake MySQL server, MySQL LOCAL INFILE | ⭐⭐⭐⭐⭐ | 💀💀💀 | ✔️
 
-
+### Footer
+[Final round SVATTT 2016 Introduction page](https://l4wio.github.io/CTF-challenges-by-me/final.svattt.org/)
+Twitter: @l4wio
+...Dành cả tuổi thanh xuân để suy nghĩ đề CTF.
 Updating...
